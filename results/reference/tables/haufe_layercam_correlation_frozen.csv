@@ -1,0 +1,7 @@
+left_map,right_map,pearson_r,spearman_rho,num_shared_voxels,descriptive_only
+haufe_rating1,layercam_groupmean_rating1,-0.009733798640091008,-0.07000534335239737,222441,True
+haufe_rating1,layercam_groupmean_rating4,0.0011979180394593972,-0.035148362405285336,222441,True
+haufe_rating4,layercam_groupmean_rating1,0.009733798640091008,0.07000534335239737,222441,True
+haufe_rating4,layercam_groupmean_rating4,-0.0011979180394593972,0.035148362405285336,222441,True
+haufe_rating1,haufe_rating4,-0.9999999999999998,-0.9999999999999999,222441,True
+layercam_groupmean_rating1,layercam_groupmean_rating4,0.7108305285473123,0.7210735587644822,222441,True

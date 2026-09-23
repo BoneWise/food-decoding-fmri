@@ -1,0 +1,81 @@
+{
+  "experiment_id": "rq3_cam_voxel20_global_mean_replacement_20260729",
+  "workspace_root": "{repo}",
+  "numerical_workspace_code_files": [
+    "src/foodpref/config.py",
+    "src/foodpref/cv.py",
+    "src/foodpref/dataset.py",
+    "src/foodpref/engine.py",
+    "analyses/layercam/gradcam_report.py",
+    "analyses/layercam/gradcam_subject_tfce.py",
+    "src/foodpref/model.py",
+    "src/foodpref/train.py",
+    "src/foodpref/utils.py"
+  ],
+  "cnn_run_dir": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5",
+  "k06_input_dir": "{data}/derived/merged/k06_seed42",
+  "beta_index_csv": "{data}/derived/merged/k06_seed42/beta_index.csv",
+  "models_root": "{data}/derived/merged/k06_seed42/models",
+  "brain_mask_root": "{data}/derived/cache/masks",
+  "path_prefix_from": "",
+  "path_prefix_to": "{data}/derived",
+  "atlas_root": "{atlas}",
+  "checkpoint_name": "final.pt",
+  "existing_oof_predictions": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/heldout_trial_predictions.csv",
+  "expected": {
+    "num_folds": 10,
+    "num_subjects": 30,
+    "num_samples": 1147,
+    "num_rating_1": 559,
+    "num_rating_4": 588,
+    "input_shape": [
+      97,
+      115,
+      97
+    ],
+    "common_mask_voxels": 222479,
+    "beta_index_sha256": "b7fcbbed77efa4379cc1894adf44a4e0b7872bfd31ad7be2dc689b2848ff136a"
+  },
+  "cam": {
+    "top_fraction": 0.2,
+    "correct_training_inputs_only": true,
+    "participant_equal_weight": true,
+    "class_equal_weight": true,
+    "class_map_normalization": "divide_each_class_map_by_its_common_brain_mean_before_equal_weight_joint_map",
+    "batch_size": 4
+  },
+  "replacement": {
+    "training_fold_only": true,
+    "definition": "one scalar pooled whole-brain mean over FMRIBetaDataset-processed training inputs, restricted to each input's own participant brain mask",
+    "aggregation": "pooled_voxel_mean_without_coordinatewise_map",
+    "target_assignment": "every selected test voxel receives the exact same fold scalar",
+    "renormalize_after_replacement": false
+  },
+  "random_control": {
+    "num_replicates": 100,
+    "sampling": "uniform_without_replacement_inside_common_brain_mask",
+    "match": "exact_voxel_count",
+    "seed": 20260729,
+    "inference_chunk_size": 16
+  },
+  "inference": {
+    "batch_size": 4,
+    "device": "cpu",
+    "probability_threshold": 0.5
+  },
+  "statistics": {
+    "primary_metric": "balanced_accuracy",
+    "secondary_metric": "roc_auc",
+    "num_sign_flips": 100000,
+    "num_bootstrap": 100000,
+    "seed": 20260729,
+    "alpha": 0.05,
+    "multiplicity": "holm_across_four_primary_contrasts",
+    "primary_contrasts": [
+      "random_top20_minus_cam_top20",
+      "full_minus_value",
+      "full_minus_visual",
+      "full_minus_union"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": {
+    "grouping": "within subject and rating, across sessions/runs",
+    "averaging": "non-overlapping random groups; incomplete trailing group discarded",
+    "excluded_subjects": [
+      "sub-016"
+    ]
+  },
+  "arguments": {
+    "beta_index_csv": "data/derived/beta_index.csv",
+    "models_root": "data/derived/models",
+    "brain_mask_root": "data/derived/cache/masks",
+    "output_root": "data/derived/merged",
+    "ks": "1,3,6",
+    "seed": 42,
+    "exclude_subjects": "sub-016"
+  }
+}

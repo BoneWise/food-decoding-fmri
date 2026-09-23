@@ -1,0 +1,45 @@
+{
+  "experiment_id": "rq3_svm_haufe_k01_20260729",
+  "analysis": "foldwise_haufe_pattern_transform_for_existing_matched_k01_cross_subject_linear_svm",
+  "purpose": "Descriptive spatial interpretation of the existing cross-participant k=1 LinearSVC; no new decoding model or performance claim.",
+  "source": {
+    "source_run_dir": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds",
+    "run_config": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds/run_config.json",
+    "feature_manifest": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds/feature_manifest.json",
+    "cv_summary": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds/cv_summary.json",
+    "sample_index": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds/sample_index.csv",
+    "oof_predictions": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds/oof_predictions.csv",
+    "feature_matrix": "{runs}/20260719_matched_cross_subject_svm_k01_cnnfolds/features_cnn_zscore_commonmask.npy",
+    "feature_mask": "{data}/derived/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+    "fold_assignments": "{runs}/20260503_190547_fmri_rating14_mergedk01_seed42_fixed5/fold_assignments.json",
+    "original_svm_script": "{repo}/src/foodpref/matched_svm.py"
+  },
+  "frozen_model": {
+    "name": "LinearSVC",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": true,
+    "max_iter": 50000,
+    "tol": 0.0001,
+    "seed": 42,
+    "positive_class": "rating_4",
+    "negative_class": "rating_1"
+  },
+  "input_definition": {
+    "preprocessing": "cnn_samplewise_brainmask_zscore_then_commonmask_flatten",
+    "expected_num_samples": 7038,
+    "expected_num_subjects": 30,
+    "expected_num_features": 222441,
+    "expected_num_folds": 10
+  },
+  "haufe_transform": {
+    "formula": "a_f = Cov(X_train, s_f) / Var(s_f), where s_f = X_train w_f + b_f",
+    "covariance_population": "empirical training-fold covariance; covariance and decision-score variance use the same normalization, which cancels in the ratio",
+    "training_only": true,
+    "uses_test_samples": false,
+    "explicit_full_covariance": false,
+    "positive_direction": "higher rating-4 SVM decision score",
+    "aggregation": "unweighted descriptive mean across the ten overlapping training-fold pattern maps",
+    "inference_boundary": "Fold maps have overlapping training participants and are not independent observations; no voxelwise inferential statistic is calculated."
+  }
+}

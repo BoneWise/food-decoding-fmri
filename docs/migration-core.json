@@ -1,0 +1,180 @@
+{
+  "files": [
+    {
+      "source": "config.py",
+      "destination": "src/foodpref/config.py",
+      "source_sha256": "d030c3baa2872ed3e68cfd0e8459de4b0a9c9fac5f03dea75cac4d5d69e3ec64",
+      "destination_sha256": "2753f896522c1604807b39cdd8189ee99b85cb75fb62ea1fdd2f479e2d3ecb82"
+    },
+    {
+      "source": "dataset.py",
+      "destination": "src/foodpref/dataset.py",
+      "source_sha256": "8f800f613ed39fb866790e2072a028da248e450dbbeb6dffc5c66e40e2daa1a5",
+      "destination_sha256": "8d13ebdaf5f3872551feccf6505b509438f30ebd003b08931de109cc1148680f"
+    },
+    {
+      "source": "cv.py",
+      "destination": "src/foodpref/cv.py",
+      "source_sha256": "cd7f3dd989aab7e1b6f0cdc4ed48ee333f23a9b2dc76b95ae4ee59286ea21b0e",
+      "destination_sha256": "60f15153478f5ca003825c7e09436e41f298c9e371ff5862f5dcd103de88bf7a"
+    },
+    {
+      "source": "engine.py",
+      "destination": "src/foodpref/engine.py",
+      "source_sha256": "6af396daf7b133084fa1ec53e4cbd3abd98b84e6e1b4204e0083cb9861347a8f",
+      "destination_sha256": "b7b843a44d297d2e9b8933229e73cbc062bde4de4b32776e7fd2c74cfcd01b01"
+    },
+    {
+      "source": "model.py",
+      "destination": "src/foodpref/model.py",
+      "source_sha256": "982d4dcede2610a67fb6a64b2f0dc2ec7e09559fc9d57635e2c70611b2e4a4df",
+      "destination_sha256": "982d4dcede2610a67fb6a64b2f0dc2ec7e09559fc9d57635e2c70611b2e4a4df"
+    },
+    {
+      "source": "train.py",
+      "destination": "src/foodpref/train.py",
+      "source_sha256": "f568e58e2055832de4cceb27b3a62e0145308fa84b47a41173be00ee10c4485e",
+      "destination_sha256": "a5b124077aa0e003d21d1b71a247212b2c28175c3678d6af8c7f1dcd1f794285"
+    },
+    {
+      "source": "utils.py",
+      "destination": "src/foodpref/utils.py",
+      "source_sha256": "2cb74e6cf983cbe9ff6ef750e0f1347103ef82c7c1e27730590dfed44c1b85fa",
+      "destination_sha256": "2cb74e6cf983cbe9ff6ef750e0f1347103ef82c7c1e27730590dfed44c1b85fa"
+    },
+    {
+      "source": "make_within_subject_merged_betas.py",
+      "destination": "src/foodpref/merge_betas.py",
+      "source_sha256": "9920860b667c5f60a4a84aaf08682ea8b111024352dd6c334d24232310895853",
+      "destination_sha256": "ae1f5d5cbc140573608878422bc942d5d838f2c8eb393990b8ab9a4253207f2a"
+    },
+    {
+      "source": "run_matched_cross_subject_svm.py",
+      "destination": "src/foodpref/matched_svm.py",
+      "source_sha256": "248683ebfb67f6e1ed2cd9ed520db08ba66042e8c6afb0c91f5c439be97426fe",
+      "destination_sha256": "b577119c44d25bddacdb2424ceb42412dac346a9ff61915e46d4899e67916db9"
+    },
+    {
+      "source": "runs/20260503_190547_fmri_rating14_mergedk01_seed42_fixed5/fold_assignments.json",
+      "destination": "configs/decoding/fold_assignments_k01.json",
+      "source_sha256": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0",
+      "destination_sha256": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0"
+    },
+    {
+      "source": "runs/20260503_194056_fmri_rating14_mergedk03_seed42_fixed5/fold_assignments.json",
+      "destination": "configs/decoding/fold_assignments_k03.json",
+      "source_sha256": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0",
+      "destination_sha256": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0"
+    },
+    {
+      "source": "runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_assignments.json",
+      "destination": "configs/decoding/fold_assignments_k06.json",
+      "source_sha256": "f572af22e5231219a62bd8a28fb2ef11d388900632c6aa3b88637be7cba0f68c",
+      "destination_sha256": "f572af22e5231219a62bd8a28fb2ef11d388900632c6aa3b88637be7cba0f68c"
+    },
+    {
+      "source": "legacy_lsa_output/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+      "destination": "results/reference/decoding/masks/svm_common_mask.nii.gz",
+      "source_sha256": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5",
+      "destination_sha256": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5",
+      "transformation": "byte-for-byte copy, no NIfTI edits"
+    }
+  ],
+  "notes": [
+    "Relative package imports; portable default paths; JSON/CLI configuration added.",
+    "Frozen run settings read from original run_config.json; folds copied byte-for-byte.",
+    "CNN final-epoch training, minibatch balancing, subject fold construction, normalization, model architecture, merging order, and SVM statistics preserved.",
+    "Added frozen-fold loading and validation to CNN; shared with SVM.",
+    "Scientific numerical code not retrained or rerun.",
+    "Copied root requirements retain source declarations; this is not a fully pinned training environment, and a validation lock should be generated from the fresh environment.",
+    "CNN source training summary uses population SD of folds; use reference per-participant statistics for manuscript values.",
+    "k1 source SVM used a reconstructed exact-CNN index; portable paths assume the user supplies the matching archived sample identities.",
+    "SVM optional cnn_predictions unset in portable configs, affects comparison reporting only. Source k6 path pointed to its matching held-out CNN predictions.",
+    "Data paths unified: single-trial data/derived; participant masks data/derived/cache/masks; merged data/derived/merged/kXX_seed42. SVM uses separately verified archived 222441-voxel mask distributed under results/reference/decoding/masks; Layer-CAM common mask has 38 additional voxels and is not interchangeable."
+  ],
+  "tests": {
+    "command": ".venv/bin/python -m pytest tests/test_core_protocol.py -q",
+    "result": "14 passed",
+    "cli_help": [
+      "foodpref.train",
+      "foodpref.matched_svm",
+      "foodpref.merge_betas"
+    ],
+    "personal_path_scan": "No matches in owned code/configs/source requirements."
+  },
+  "new_files": [
+    "src/foodpref/matched_svm.py",
+    "src/foodpref/config.py",
+    "src/foodpref/__init__.py",
+    "src/foodpref/merge_betas.py",
+    "src/foodpref/model.py",
+    "src/foodpref/dataset.py",
+    "src/foodpref/engine.py",
+    "src/foodpref/cli.py",
+    "src/foodpref/utils.py",
+    "src/foodpref/train.py",
+    "src/foodpref/cv.py",
+    "configs/decoding/cnn_k03.json",
+    "configs/decoding/svm_k03.json",
+    "configs/decoding/fold_assignments_k03.json",
+    "configs/decoding/README.md",
+    "configs/decoding/svm_k01.json",
+    "configs/decoding/merge_betas.json",
+    "configs/decoding/cnn_k06.json",
+    "configs/decoding/fold_assignments_k01.json",
+    "configs/decoding/fold_assignments_k06.json",
+    "configs/decoding/cnn_k01.json",
+    "configs/decoding/svm_k06.json",
+    "environments/core-source-requirements.txt",
+    "tests/test_core_protocol.py",
+    "pyproject.toml"
+  ],
+  "generated_file_hashes": {
+    "src/foodpref/matched_svm.py": "b577119c44d25bddacdb2424ceb42412dac346a9ff61915e46d4899e67916db9",
+    "src/foodpref/config.py": "2753f896522c1604807b39cdd8189ee99b85cb75fb62ea1fdd2f479e2d3ecb82",
+    "src/foodpref/__init__.py": "2d5f7eebf89f4a5b53e2bcef27c1592b997971abb28d94c0d3427487f1065642",
+    "src/foodpref/merge_betas.py": "ae1f5d5cbc140573608878422bc942d5d838f2c8eb393990b8ab9a4253207f2a",
+    "src/foodpref/model.py": "982d4dcede2610a67fb6a64b2f0dc2ec7e09559fc9d57635e2c70611b2e4a4df",
+    "src/foodpref/dataset.py": "8d13ebdaf5f3872551feccf6505b509438f30ebd003b08931de109cc1148680f",
+    "src/foodpref/engine.py": "b7b843a44d297d2e9b8933229e73cbc062bde4de4b32776e7fd2c74cfcd01b01",
+    "src/foodpref/cli.py": "96fa3b0b8741f66920a0314adc10993d7b27600d5600e7b578b98e931bfc9d70",
+    "src/foodpref/utils.py": "2cb74e6cf983cbe9ff6ef750e0f1347103ef82c7c1e27730590dfed44c1b85fa",
+    "src/foodpref/train.py": "a5b124077aa0e003d21d1b71a247212b2c28175c3678d6af8c7f1dcd1f794285",
+    "src/foodpref/cv.py": "60f15153478f5ca003825c7e09436e41f298c9e371ff5862f5dcd103de88bf7a",
+    "configs/decoding/cnn_k03.json": "baf152c8a2780390890f24fd3fb258c8e4174cf2a9241d39e50db72ef21728b6",
+    "configs/decoding/svm_k03.json": "3941d834cbeba91e66b2f545f14365b80dc445aa88e0afc3be79f048f43be497",
+    "configs/decoding/fold_assignments_k03.json": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0",
+    "configs/decoding/README.md": "811880e23333315dc3e960592572dd20eeb2cf5cfd658ae91004ee85b2a3b722",
+    "configs/decoding/svm_k01.json": "cc84ae612af66f81b42b207cfd75dd088b4a024774436b83f1d571bf372f3cf2",
+    "configs/decoding/merge_betas.json": "1ffd9d4bb9738c195b4b86739b30749aa99f3abf4e50a47f559e42806032165f",
+    "configs/decoding/cnn_k06.json": "8c73501295da994310ca36751a59242b8e813e425d23f009782029edf4b200a1",
+    "configs/decoding/fold_assignments_k01.json": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0",
+    "configs/decoding/fold_assignments_k06.json": "f572af22e5231219a62bd8a28fb2ef11d388900632c6aa3b88637be7cba0f68c",
+    "configs/decoding/cnn_k01.json": "54e086257cb38b9ca11f795dee72df7151e0ec217bc088624ed9f1b5d8de78be",
+    "configs/decoding/svm_k06.json": "f57dfc4b1ab4cd9384f1482cc0d9d16a0a7a0ba2a0cbbbb08f85955a45d385ec",
+    "environments/core-source-requirements.txt": "b6a5727bc84c9f12c3047aae8157fa32f84ef72e7abdaf94205dcafd5a38b7ca",
+    "tests/test_core_protocol.py": "475d4a1899fef34bd34d994cd323279576f3f7fd92ba44d6547eff018e849d20"
+  },
+  "svm_mask_audit": {
+    "matches_feature_manifests": {
+      "1": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5",
+      "3": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5",
+      "6": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5"
+    },
+    "source_voxels": 222441,
+    "layercam_reference_voxels": 222479,
+    "same_shape": true,
+    "same_affine": true,
+    "same_binary_array": false,
+    "differing_voxels": 38,
+    "mask_file": "results/reference/decoding/masks/svm_common_mask.nii.gz"
+  },
+  "post_integration_updates": [
+    {
+      "path": "pyproject.toml",
+      "previous_sha256": null,
+      "final_sha256": "5d54119d053678e95baaf3e8dabd6265d886b768e77ebfaad575155ee6d367ef",
+      "change": "Declare directly imported joblib dependency."
+    }
+  ]
+}

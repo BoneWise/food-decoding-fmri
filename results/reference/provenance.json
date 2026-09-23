@@ -1,0 +1,1229 @@
+{
+  "schema_version": 1,
+  "source_root_alias": "ccn-workflow/evidence",
+  "note": "All sources are previously saved results. Absolute machine paths are portable source-relative provenance references, not download URLs. Source references do not imply that raw data/checkpoints are distributed. Original hashes refer to originals before sanitization. No models or image analyses were rerun.",
+  "files": [
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/participant_metrics_k136.csv",
+      "destination": "results/reference/decoding/cnn/participant_metrics_k136.csv",
+      "original_sha256": "7f4da622230889eca90ea3983b7263c5d8d1653be4bf62c394d575d38932753e",
+      "distributed_sha256": "5cc09366f532a7d03ce122560bb5f0ddb00c845c048f1390a2737124d07416eb",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/fold_metrics_k136.csv",
+      "destination": "results/reference/decoding/cnn/fold_metrics_k136.csv",
+      "original_sha256": "51fe3dfe140d3c75f183c986e64085dda594ebeabb8911b2417b08d0f8346225",
+      "distributed_sha256": "b5fcd508100f349130e1d7753c22013f4c8f8db22bb5629a971805f90200f40a",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/cnn_svm_paired_stats_k136.csv",
+      "destination": "results/reference/decoding/cnn/cnn_svm_paired_stats_k136.csv",
+      "original_sha256": "92defdf132bf4123d38aafb361cfd64c53fa3765797f2cb0736a7ee5bb2dd63d",
+      "distributed_sha256": "9089b94080643e9e484715b65b26b167b2cb6807676b5e3759f2581651abb708",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/pooled_metrics_k136.csv",
+      "destination": "results/reference/decoding/cnn/pooled_metrics_k136.csv",
+      "original_sha256": "44c84ea7c7eea0698c062060e480edc9222b866e9150c513f63d7c6dd3a08aff",
+      "distributed_sha256": "edb425705045fab99bb7a9031fdd8a1f58617dbd74cca9531db1d1ca38c71942",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/oof_predictions_k136.csv",
+      "destination": "results/reference/decoding/cnn/oof_predictions_k136.csv",
+      "original_sha256": "a0250890970d4bcf90b940229f160a71f1fe53c8dfb8a397c9148d2f8bff1b91",
+      "distributed_sha256": "5b9d0749f49c066318cf251db20fd5038a547b0555914e37fcbe44558b44d70d",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/cnn_svm_participant_comparison_k136.csv",
+      "destination": "results/reference/decoding/cnn/cnn_svm_participant_comparison_k136.csv",
+      "original_sha256": "24055f196d7e071501e7fd3359a4c1c119d8f2fd1ab79aa29495bf668120c1a4",
+      "distributed_sha256": "53b7c0092befd9b724dad7bb47ec7022783fcfde6c86ccfdfe66b9d5d5b65dff",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/fold_reinference_audit_k136.csv",
+      "destination": "results/reference/decoding/cnn/fold_reinference_audit_k136.csv",
+      "original_sha256": "14fc664ee1c050cbd2eee039469a31a6f52e1079d2cbc9a69dc59ba135ad5eb7",
+      "distributed_sha256": "c8bd1be19fd3475637eb1abd4dd960ea3a9a9e5d2ff59e6e8eb078ae003fe0cd",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/cnn_oof/analysis_summary.json",
+      "destination": "results/reference/decoding/cnn/analysis_summary.json",
+      "original_sha256": "1df0a7b4c6d2a91787b51f1d18885732abff7d986ad4b824a647567d8f132b25",
+      "distributed_sha256": "8ed00b72a09ee4fa76f95e106b519ff70ef7cd494e6d7cfe878934f87e718ec6",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260717_matched_cross_subject_svm_k06_cnnfolds/subject_metrics.csv",
+      "destination": "results/reference/decoding/svm/k06/subject_metrics.csv",
+      "original_sha256": "191c41a96e45b4b5a39f8e3fdbdfac96c3454fc77097901e106db56c05710a94",
+      "distributed_sha256": "191c41a96e45b4b5a39f8e3fdbdfac96c3454fc77097901e106db56c05710a94",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260717_matched_cross_subject_svm_k06_cnnfolds/oof_predictions.csv",
+      "destination": "results/reference/decoding/svm/k06/oof_predictions.csv",
+      "original_sha256": "5f7e1df3bbd36e97731497171d217951ffddcf72e76a1d3274da9877fd349ec4",
+      "distributed_sha256": "428160597ba123f431e7a7acfc607cda3a22e1862d32446b44a2f95eb0e1c0cc",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260717_matched_cross_subject_svm_k06_cnnfolds/feature_manifest.json",
+      "destination": "results/reference/decoding/svm/k06/feature_manifest.json",
+      "original_sha256": "54baf464d819f465c20922602db9a0f7ec6a7ab24bfdad40191851cf5df60d55",
+      "distributed_sha256": "41dd1d13c970b6daa565fa281c168fe07312b353aa570e95a8d0db1b294a27a5",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260717_matched_cross_subject_svm_k06_cnnfolds/run_config.json",
+      "destination": "results/reference/decoding/svm/k06/run_config.json",
+      "original_sha256": "758bfab3fb00d828871f2608af4cb7b6e2f8322fd525e7a43947f2e0bcd69bab",
+      "distributed_sha256": "064cd39c47366bac52a9a4365e1c523a629725a3c3db2704be1fee19834c1c73",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260717_matched_cross_subject_svm_k06_cnnfolds/cv_summary.json",
+      "destination": "results/reference/decoding/svm/k06/cv_summary.json",
+      "original_sha256": "f970dbbf69c3e4cd0f18bd11f4b8c9ae6c1d96281cad58db8792cf077fce3588",
+      "distributed_sha256": "f970dbbf69c3e4cd0f18bd11f4b8c9ae6c1d96281cad58db8792cf077fce3588",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260717_matched_cross_subject_svm_k06_cnnfolds/fold_metrics.csv",
+      "destination": "results/reference/decoding/svm/k06/fold_metrics.csv",
+      "original_sha256": "40f02905dbd50d7275debd53972f8f01834c49d732ebe8059477d58f49656d6c",
+      "distributed_sha256": "40f02905dbd50d7275debd53972f8f01834c49d732ebe8059477d58f49656d6c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k03_cnnfolds/subject_metrics.csv",
+      "destination": "results/reference/decoding/svm/k03/subject_metrics.csv",
+      "original_sha256": "2802b21b69e4207d69502178b361fef1ba29882d8c133d432c3dfa7ccac90d2a",
+      "distributed_sha256": "2802b21b69e4207d69502178b361fef1ba29882d8c133d432c3dfa7ccac90d2a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k03_cnnfolds/oof_predictions.csv",
+      "destination": "results/reference/decoding/svm/k03/oof_predictions.csv",
+      "original_sha256": "81f3f69b40da09f034d5cfc8deb2c562e2b071b2376b4b46f8a6b6be6ebb5d03",
+      "distributed_sha256": "95435c27fd121236c34acea62ecfce534359ca744f2aa70bf9bc2be94f5b691f",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k03_cnnfolds/feature_manifest.json",
+      "destination": "results/reference/decoding/svm/k03/feature_manifest.json",
+      "original_sha256": "8e5e26ddca71a10717ef737b2df1bdfa747069a94fd5759299427cc4dd83631f",
+      "distributed_sha256": "183d1fbba1923393b828b459b091ac5518846fe3ff38fd3301a638ddbcb8e1bf",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k03_cnnfolds/run_config.json",
+      "destination": "results/reference/decoding/svm/k03/run_config.json",
+      "original_sha256": "37c2f429a0e95fb510f3e4edeef697f0890115df88bff0eb9b00d93ad113e383",
+      "distributed_sha256": "18c17c098a55733bb8583cab02e377aeebc656ffe1bf2e2583e6f80c6f79a402",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k03_cnnfolds/cv_summary.json",
+      "destination": "results/reference/decoding/svm/k03/cv_summary.json",
+      "original_sha256": "c7b6f1ee8559737b5a74d3a209ed347f2f21b25a5e2fa83276f75375592cf5fa",
+      "distributed_sha256": "c7b6f1ee8559737b5a74d3a209ed347f2f21b25a5e2fa83276f75375592cf5fa",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k03_cnnfolds/fold_metrics.csv",
+      "destination": "results/reference/decoding/svm/k03/fold_metrics.csv",
+      "original_sha256": "9937e2658a5ad68fb1446ab7d30d213e3d342d52197cead7af7b041d6a3c85a9",
+      "distributed_sha256": "9937e2658a5ad68fb1446ab7d30d213e3d342d52197cead7af7b041d6a3c85a9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k01_cnnfolds/subject_metrics.csv",
+      "destination": "results/reference/decoding/svm/k01/subject_metrics.csv",
+      "original_sha256": "c2a721309256fb8a27f5213562e81497990ee3fb2579125f58f7ad358e3173b7",
+      "distributed_sha256": "c2a721309256fb8a27f5213562e81497990ee3fb2579125f58f7ad358e3173b7",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k01_cnnfolds/oof_predictions.csv",
+      "destination": "results/reference/decoding/svm/k01/oof_predictions.csv",
+      "original_sha256": "fcd3f36df458ce96df1a56dea1fe10000218cb0fff466201cf48640bae00c4ce",
+      "distributed_sha256": "da2a0ccd3203b8d5d0fef91ff9f1acaa71341fc82634b1a7a7fed2bdee4d9921",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k01_cnnfolds/feature_manifest.json",
+      "destination": "results/reference/decoding/svm/k01/feature_manifest.json",
+      "original_sha256": "78a70d00c06a5110972a42538e10001f02e3a41dbabc079cc784ec2412137d7d",
+      "distributed_sha256": "4b54f9705e107c8375a1e2b622b210fb6df7b1d92dd9906a973b56cf41ea25b5",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k01_cnnfolds/run_config.json",
+      "destination": "results/reference/decoding/svm/k01/run_config.json",
+      "original_sha256": "68bcde2ec98aedc1b9e2cf986fbd6ee7a233190a4e201a62ac4f8750371f5cfc",
+      "distributed_sha256": "fd07ea877ef20642ea5f29a2b0ea4b4870bff1718bd0a2db756e7ef0bac54f5a",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k01_cnnfolds/cv_summary.json",
+      "destination": "results/reference/decoding/svm/k01/cv_summary.json",
+      "original_sha256": "62816638ca0080ff2e8a5f0c4bddf69c81e56262c0b1abe88ad294afd0badbfe",
+      "distributed_sha256": "62816638ca0080ff2e8a5f0c4bddf69c81e56262c0b1abe88ad294afd0badbfe",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/decoding/svm/20260719_matched_cross_subject_svm_k01_cnnfolds/fold_metrics.csv",
+      "destination": "results/reference/decoding/svm/k01/fold_metrics.csv",
+      "original_sha256": "f8ee896269953c6878cc8e05dc0d0ffd3b42e967811d8bd4a896aaafdd9e600c",
+      "distributed_sha256": "f8ee896269953c6878cc8e05dc0d0ffd3b42e967811d8bd4a896aaafdd9e600c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/regions/group_first/rating_1_roi_subject_stats.csv",
+      "destination": "results/reference/layercam/source/rating_1_roi_subject_stats.csv",
+      "original_sha256": "7530102f30b47671251524470b07395844dfaa1c53a58b359eaa9513ea8fa96c",
+      "distributed_sha256": "7530102f30b47671251524470b07395844dfaa1c53a58b359eaa9513ea8fa96c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/regions/group_first/common_brain_mask.nii.gz",
+      "destination": "results/reference/layercam/maps/common_brain_mask.nii.gz",
+      "original_sha256": "7e622ad885fc1db4c43100c3f398955e3847d906b0b90f251dee01f057675e89",
+      "distributed_sha256": "7e622ad885fc1db4c43100c3f398955e3847d906b0b90f251dee01f057675e89",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/regions/group_first/rating_4_group_mean_layercam.nii.gz",
+      "destination": "results/reference/layercam/maps/rating_4_group_mean_layercam.nii.gz",
+      "original_sha256": "8d34f654d61d42787c3e0965fbc74fe923f1fd2e884641d8ba9fd92a34020763",
+      "distributed_sha256": "8d34f654d61d42787c3e0965fbc74fe923f1fd2e884641d8ba9fd92a34020763",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/regions/group_first/rating_1_group_mean_layercam.nii.gz",
+      "destination": "results/reference/layercam/maps/rating_1_group_mean_layercam.nii.gz",
+      "original_sha256": "54f71882c89991091160170d8cde32bf2e029c7546011711be3dcc4364fc5490",
+      "distributed_sha256": "54f71882c89991091160170d8cde32bf2e029c7546011711be3dcc4364fc5490",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/regions/group_first/rating_4_roi_subject_stats.csv",
+      "destination": "results/reference/layercam/source/rating_4_roi_subject_stats.csv",
+      "original_sha256": "e189d467c93c81eaa612931420a460a7022deb99bb1863fc1fc4962c7b730353",
+      "distributed_sha256": "e189d467c93c81eaa612931420a460a7022deb99bb1863fc1fc4962c7b730353",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/regions/group_first/poster_dual_panel_mass_density/high_density_roi_density_ratios.csv",
+      "destination": "results/reference/layercam/source/high_density_roi_density_ratios.csv",
+      "original_sha256": "2bc83a2c1877bbdb4f4b18182261498a39493cc93924203b02897dc507820f42",
+      "distributed_sha256": "ffd212eeb4e57c3a6ce7aeccd94c71d156d430311346b3f6bc1d353f182b5bc9",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/figure-sources/original-regional/layercam_E_five_divisions_values.csv",
+      "destination": "results/reference/layercam/source/archived_macroregion_values.csv",
+      "original_sha256": "c4d189dbc22a0c3805e277a0c0e42469db03836734c09723557a25c45ea5afea",
+      "distributed_sha256": "c4d189dbc22a0c3805e277a0c0e42469db03836734c09723557a25c45ea5afea",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/figure-sources/original-regional/top5_rois_by_division/top5_roi_E_values.csv",
+      "destination": "results/reference/layercam/source/archived_top5_roi_values.csv",
+      "original_sha256": "20606e0d01967f1dc208bed2a0e2d6f1758a17c565910298e5899b44be02c0f0",
+      "distributed_sha256": "20606e0d01967f1dc208bed2a0e2d6f1758a17c565910298e5899b44be02c0f0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/fold_random_replicate_metrics.csv",
+      "destination": "results/reference/input_replacement/tables/fold_random_replicate_metrics.csv",
+      "original_sha256": "f75c8150cfe5fb2d3d4a137bde3a9cab0d1af4da3325249ecdc886b2a8273cb3",
+      "distributed_sha256": "4ef36d9ec31eeac3925bf81f53d99ac0fe34a374e0ce0cf9190a22365973cad8",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/fold_mask_and_cam_summary.csv",
+      "destination": "results/reference/input_replacement/tables/fold_mask_and_cam_summary.csv",
+      "original_sha256": "51b8fceab2d9582d801e274f5cc0fcaba8148530dbaaa2da0a813731eaad7c77",
+      "distributed_sha256": "6d3f0743e39653ad830d06103321e1bb2cc75776d73f38b54b485abd2c1324f6",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/participant_effects.csv",
+      "destination": "results/reference/input_replacement/tables/participant_effects.csv",
+      "original_sha256": "022830dae3675c3bbaa70949770c191d72ac3fd2b2a45ba708e851136e79f0bd",
+      "distributed_sha256": "9fd1104bc6a49b4c1c9a14ed4b349925d1d09dc640134511599b0abd5a47e182",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/sample_random_mean_probability.csv",
+      "destination": "results/reference/input_replacement/tables/sample_random_mean_probability.csv",
+      "original_sha256": "1eb5d8a095b5f9bf033d782cea241796b5249aa768529ee4a4da25586f3c2a49",
+      "distributed_sha256": "b63b38fe41a5643a1d43910171234126f6aa5be962d01e898054ed9c48ca362f",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/group_condition_summary.csv",
+      "destination": "results/reference/input_replacement/tables/group_condition_summary.csv",
+      "original_sha256": "3e3f0c5662edc0aee22411a1d349f69ba0232b61ee8beb9d9cb2bf31c631aa0d",
+      "distributed_sha256": "faf4b73b0a003e0c85b1f6c8e3381dbf3396b5db25920b76aa8d9b1090ebcc97",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/primary_inference.csv",
+      "destination": "results/reference/input_replacement/tables/primary_inference.csv",
+      "original_sha256": "004de215c7c179db20b873c5b799a7d68a5d727ab27ad3f7fb0782c067c1ca82",
+      "distributed_sha256": "76c69be2426f3317f44e1be4461c84c5711234519a91ec18c90e617347ea8f19",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/fold_condition_metrics.csv",
+      "destination": "results/reference/input_replacement/tables/fold_condition_metrics.csv",
+      "original_sha256": "1ebc6e1142e03f79f0b23aeecb2889376a05a0b39c8fe6739f6a7753db012675",
+      "distributed_sha256": "0721da67ef2f1e46913a28f98677cdafc6318589949b1ca103b52f6c1236407b",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/sample_predictions_fixed_conditions.csv",
+      "destination": "results/reference/input_replacement/tables/sample_predictions_fixed_conditions.csv",
+      "original_sha256": "28262247eb779740cd562ed18af98ba10f62ae57c53996692d6cec5fa07756b5",
+      "distributed_sha256": "842a88401c1ca69b468e6bb9cc3523449246e0c167645b238fbb38bd1f91a10e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/participant_random_replicate_metrics.csv",
+      "destination": "results/reference/input_replacement/tables/participant_random_replicate_metrics.csv",
+      "original_sha256": "52c283ca2d0f752eccac80286ce85b713d254b963bc2cdcac0098d335223559f",
+      "distributed_sha256": "e8e54d03b4311cb563eff56b80459ec0a5e70541464730b231c43532adca5944",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/tables/participant_condition_metrics.csv",
+      "destination": "results/reference/input_replacement/tables/participant_condition_metrics.csv",
+      "original_sha256": "94d68828eb55ca4551e142930c23b259e5aaf0231af6645d6211af7d35789102",
+      "distributed_sha256": "c33e99bb76aaa94bf0d1fad20e9d9bf4c103d5b968b476022048cdf7dd0915bc",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/config/roi_definitions.json",
+      "destination": "results/reference/input_replacement/config/roi_definitions.json",
+      "original_sha256": "62ce9be5ced963e2d73cae124c565bad24fc9f017739192897f9d5a2f56248c3",
+      "distributed_sha256": "62ce9be5ced963e2d73cae124c565bad24fc9f017739192897f9d5a2f56248c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/config/experiment.json",
+      "destination": "results/reference/input_replacement/config/experiment.json",
+      "original_sha256": "3747542f0c1a4a4c2d54b04dbb115cd597e721d380184744639c4bcd85c5a2c8",
+      "distributed_sha256": "b5346817e303f9ca7be71505f7fd7e1b742907d37139fe61b7cd8fe8b1b1d5d7",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/results_summary.json",
+      "destination": "results/reference/input_replacement/archived/results_summary.json",
+      "original_sha256": "9892d87185e7f5764d4ef1522b07c965891780c229854d29f4bffbba8f45743d",
+      "distributed_sha256": "cd18ada2739097883a46ff9e2ea0404c55df46ede7b2272bd52df083cf36d575",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/validation/validation_report.json",
+      "destination": "results/reference/input_replacement/archived/validation/validation_report.json",
+      "original_sha256": "67933594fe0c13b122f63a12a646216a9d06c1d116f364c87f234e7ffe8e15c3",
+      "distributed_sha256": "9769c401cc5a6bbc100c87ff13da3ce75514a5529b31099a9dcfbb9f1d7c33ea",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/tables/fold_haufe_summary.csv",
+      "destination": "results/reference/svm_haufe/tables/fold_haufe_summary.csv",
+      "original_sha256": "aeb24dcdd533ad7523b11a2c37bdcc7aedb016be68cd351232347b7f8a908a2a",
+      "distributed_sha256": "aeb24dcdd533ad7523b11a2c37bdcc7aedb016be68cd351232347b7f8a908a2a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/tables/fold_map_similarity.csv",
+      "destination": "results/reference/svm_haufe/tables/fold_map_similarity.csv",
+      "original_sha256": "ecf3c6aeafd81eea0423a5eccd5716d617992739dbf5181ac6c81a5fa9a83115",
+      "distributed_sha256": "ecf3c6aeafd81eea0423a5eccd5716d617992739dbf5181ac6c81a5fa9a83115",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/config/experiment.json",
+      "destination": "results/reference/svm_haufe/config/experiment.json",
+      "original_sha256": "bd8d3cf92c571fdf21f22925e74ce139e1dab41a2b1d582b4ee9f11788947e9c",
+      "distributed_sha256": "eef1b12372166baf67fe8be79c69d65779d4b140062a42b56be13754a820b1be",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/results_summary.json",
+      "destination": "results/reference/svm_haufe/archived/results_summary.json",
+      "original_sha256": "4b322905d84975ea261122c636db162ec237420298b3c6cfcdead496a47bc97e",
+      "distributed_sha256": "0d23b8717306240e450269b1e3a02d6368d211866f57f9947d1754946ed3904b",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/validation/validation_report.json",
+      "destination": "results/reference/svm_haufe/archived/validation/validation_report.json",
+      "original_sha256": "eabc88f4b0ffd547e0e128117ddd143cf4496ef55547d0bf6fd59d591766466c",
+      "distributed_sha256": "eabc88f4b0ffd547e0e128117ddd143cf4496ef55547d0bf6fd59d591766466c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/tables/roi_top20_enrichment_top20.csv",
+      "destination": "results/reference/map_comparison/tables/roi_top20_enrichment_top20.csv",
+      "original_sha256": "bcac23bca5397f60d1791840e6c5be3d93f5de331223911faa064c3bad529e5d",
+      "distributed_sha256": "bcac23bca5397f60d1791840e6c5be3d93f5de331223911faa064c3bad529e5d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/tables/top20_selection_thresholds.csv",
+      "destination": "results/reference/map_comparison/tables/top20_selection_thresholds.csv",
+      "original_sha256": "548fcc5095d365c7bd506b0e2d04026440bbdfe0a1a756b72086b5ea5d92a392",
+      "distributed_sha256": "548fcc5095d365c7bd506b0e2d04026440bbdfe0a1a756b72086b5ea5d92a392",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/tables/top20_overlap_comparison.csv",
+      "destination": "results/reference/map_comparison/tables/top20_overlap_comparison.csv",
+      "original_sha256": "15d65e4ef1548a3d24aec14599a77c8cc2a56223d2183eb76ddf3c0f443ff927",
+      "distributed_sha256": "15d65e4ef1548a3d24aec14599a77c8cc2a56223d2183eb76ddf3c0f443ff927",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/tables/continuous_map_comparison.csv",
+      "destination": "results/reference/map_comparison/tables/continuous_map_comparison.csv",
+      "original_sha256": "76f4797bc869d956d078f4a75114c245d167cb58a25f18570daed327677c5ad6",
+      "distributed_sha256": "76f4797bc869d956d078f4a75114c245d167cb58a25f18570daed327677c5ad6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/tables/roi_top20_coverage_all.csv",
+      "destination": "results/reference/map_comparison/tables/roi_top20_coverage_all.csv",
+      "original_sha256": "666f1872b692eafd47fc6743a054941bb6c76eb8dd574b9736dcdb65faa0debe",
+      "distributed_sha256": "666f1872b692eafd47fc6743a054941bb6c76eb8dd574b9736dcdb65faa0debe",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/config/experiment.json",
+      "destination": "results/reference/map_comparison/config/experiment.json",
+      "original_sha256": "30e4468750c4635d7cc339e553d730e0864db2c003130b0e7b7d503cf251cd6b",
+      "distributed_sha256": "a0157a86cc3d09dfbd9e4fcc7a0370c41576253974b88643fed900594764984e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/results_summary.json",
+      "destination": "results/reference/map_comparison/archived/results_summary.json",
+      "original_sha256": "e74c3b6dcf0aa81799d00d87cfe4ebabc47bb54ae65f0566d787488cbcf70bc2",
+      "distributed_sha256": "288d9c7444ec7370b4e9c954fe65af05a6420b4a6ce898a21008b839e2ee0a10",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/validation/validation_report.json",
+      "destination": "results/reference/map_comparison/archived/validation/validation_report.json",
+      "original_sha256": "93c403b52e7d787cc7fa4e8f8389ffc96b0603c8e555530959251d448ad95cd8",
+      "distributed_sha256": "93c403b52e7d787cc7fa4e8f8389ffc96b0603c8e555530959251d448ad95cd8",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/group_summary.json",
+      "destination": "results/reference/session_holdout/group_summary.json",
+      "original_sha256": "2c214482a57a123626ac09abdbbcda8e6929410e7250539dedd62a7dd4b05c43",
+      "distributed_sha256": "3a782d575e3487e698e129c25c9ef884e61de79da03588fe78f40e505c643cbd",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subject_metrics.csv",
+      "destination": "results/reference/session_holdout/subject_metrics.csv",
+      "original_sha256": "62c3d82291cff2fae9802597b90883b9dd7d8eeb158c285f6e22e436790e687c",
+      "distributed_sha256": "62c3d82291cff2fae9802597b90883b9dd7d8eeb158c285f6e22e436790e687c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/run_config.json",
+      "destination": "results/reference/session_holdout/run_config.json",
+      "original_sha256": "108cd470cd82b31a47e0ddf04c1e870d421a18fbfd1ea971fadcb09b8b00fd64",
+      "distributed_sha256": "6806c48c8f403ebc57ad4ff9546601f6f293e6462f75c48f57e110e142520d0c",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subject_selection.json",
+      "destination": "results/reference/session_holdout/subject_selection.json",
+      "original_sha256": "deba62197c1c89abcc72ddf96ab54968c915864f972e7f55a5104fa154c27f47",
+      "distributed_sha256": "deba62197c1c89abcc72ddf96ab54968c915864f972e7f55a5104fa154c27f47",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-001/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-001/fold_01_predictions.csv",
+      "original_sha256": "41e044adbd02ac09023e5d05c9ee467ed95a53f9c96fcff60ae9da3588a4144c",
+      "distributed_sha256": "3feaafaeb40502c5df6e5a7d244d5a66b2279c4585a06b3509d1e3e68aa89ae3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-001/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-001/fold_02_predictions.csv",
+      "original_sha256": "33b212b164b41c3bbc74349e659b32f1831e91f4557dde055aa7ad7b3de336ac",
+      "distributed_sha256": "c8509159a08dc47304177a1e1522e75b3ee4ca3ea7cbb4a4e07454ebd260e65a",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-001/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-001/fold_03_predictions.csv",
+      "original_sha256": "9182a70ca4ebcf52db78a5f76d1420c489084722bb6aaf39609635fedea29107",
+      "distributed_sha256": "c97853837006c29d39a542cdb497d3e8fb12d742e761e199ef9bda0644767259",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-002/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-002/fold_01_predictions.csv",
+      "original_sha256": "b407bd21a61fbbc271192a55c2b1c570961bd6048e0d8dc53a51209f30de3021",
+      "distributed_sha256": "13747c5bd2cbd3d4d1ff3217325a96d089e3745cdf32a0a17d469bb8278daa5c",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-002/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-002/fold_02_predictions.csv",
+      "original_sha256": "894d46dfdc6f2b204b6dbc51375e03fe29ef954702400a3a3c85e2167d36f67b",
+      "distributed_sha256": "a24645c4a27172c447e4c2be3eaf1668294b592b7fe7372ec995ac33696932bf",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-002/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-002/fold_03_predictions.csv",
+      "original_sha256": "aa3a70644096f8820afa5687d6b0e3f214c1ac8810eb223bfed339d2ad580496",
+      "distributed_sha256": "7435101b2b45a01d7e62e57756ddfdecbaf55016ae6481a5e9dc22d3291aa47d",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-003/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-003/fold_01_predictions.csv",
+      "original_sha256": "b73f2ec207aec5e378e65bbdae014b8345db0c1188f9c9c6996fbdd5f6ae28e9",
+      "distributed_sha256": "8fe6fea7b3d7a30ddb5373ca9018d04022a8ec37ff3377094a4ee67515d70bfa",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-003/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-003/fold_02_predictions.csv",
+      "original_sha256": "58421c8a0f21d99d96b1bee1e15f459d4cb3218b548242bc0158c5897bc58f59",
+      "distributed_sha256": "25a849da10b8d40cbf9cc6b5357a490c9207ca39a6ba2c07db77b78fcaa4a8aa",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-003/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-003/fold_03_predictions.csv",
+      "original_sha256": "15006007c5f588d2f1dacec27bbe5c7b802e8ffe41587c787842498178f4e27c",
+      "distributed_sha256": "30afda774655a6beb6cfe8ed5efa84037cb2667a8637982834dcbfd4243d0d51",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-004/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-004/fold_01_predictions.csv",
+      "original_sha256": "5ed6099e2e253a9b7661a6278eecbc2ad10e73c65d4c3cbccc015c5599603be9",
+      "distributed_sha256": "0d4d61c7c22fafd22e88e3a292dea22ee28b8e34e840c92751cd5f5feffc8e94",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-004/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-004/fold_02_predictions.csv",
+      "original_sha256": "2af254094100433178bd275e3583d2156ab8bf04950e3e070497b03823dc22cc",
+      "distributed_sha256": "6d07a972f4d49c374147323af14db903c73a9c7bf73b24b4aa8d790b66a212fd",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-004/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-004/fold_03_predictions.csv",
+      "original_sha256": "fa98944fe6362748982ef97835cb952be6d1a97bc296c99c0fd0b7342eead5aa",
+      "distributed_sha256": "53833fece481ad8a753afd28e71bc5380aecb32f5d34e87a5b4ae65b92a20511",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-005/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-005/fold_01_predictions.csv",
+      "original_sha256": "1dc3f2011992da89008e34b178307cef8e388d371760a936a07ad755b1b04b14",
+      "distributed_sha256": "90fb38dc350c563c7b1d2c321c8929494259542beddf34299aaf0513642bf623",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-005/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-005/fold_02_predictions.csv",
+      "original_sha256": "2ad37975e4491fa85ad100255181b7fb208491fe00e1d1594b8e915dca986dea",
+      "distributed_sha256": "e6242b75a76d3204afd21cda768121ea0e48a23eb06b4b68d0d91268d304850c",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-005/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-005/fold_03_predictions.csv",
+      "original_sha256": "a6a8116f8a02002f699bf8533a332d58502957332b450c168e55c2ff1f52a1db",
+      "distributed_sha256": "b26ac56c016335658db964b31b898022c58fed29b183cd2d750953a2985f3241",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-006/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-006/fold_01_predictions.csv",
+      "original_sha256": "9a279f19b2f8120a18224d65139d983e05ed870e1604f271e2651d00a87e1111",
+      "distributed_sha256": "dd248f008396b26b32e9d0af09069e4e527e7d46f3e4b8233a52e408dc0d4c15",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-006/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-006/fold_02_predictions.csv",
+      "original_sha256": "b136983e7232fbc32af55b5db05c1f831ca4528f8dde5542f43f51bc0f3944f2",
+      "distributed_sha256": "8ac6b14af13f1970ea7d97b2bfb7b22d123bc5566f0cce54c397f242dbd72ff9",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-006/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-006/fold_03_predictions.csv",
+      "original_sha256": "9f8f75a96a705ce641537feaebf85297ff5c5c8f0c34a4243c98b152e34e8546",
+      "distributed_sha256": "b50dc347908d30560b59c271949dfb6d9b7d2a4179c4b949d065fcb8fa1ee90e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-007/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-007/fold_01_predictions.csv",
+      "original_sha256": "96f84bff68cb0f359d4c7cb5704463bd99ab2077f8b0c3bd54ed3739757f328f",
+      "distributed_sha256": "306f430a73d29cbf26f37f09369bdb4b16732e723d9a98a3ebcafd5cfe523e40",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-007/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-007/fold_02_predictions.csv",
+      "original_sha256": "67f56aa9a2bd95f1cd0762425dceb7534a9e336fc4ee0017c53ab609f8055f0f",
+      "distributed_sha256": "c6a6f591cbdbbeb09a559114510c867a64ceeb02c7174e6f7b0f99d4148b7300",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-007/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-007/fold_03_predictions.csv",
+      "original_sha256": "a74a8c9a7e4b18b31c5cc19e1368025c24f550e776561f217a4a86ceb37b0881",
+      "distributed_sha256": "e3a6c4b3b4ccc69592c8f505014d4964ef9b81bc9a489676f9cdb692826f5a50",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-008/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-008/fold_01_predictions.csv",
+      "original_sha256": "46990a704840d490b0a17fe239a7571808ae0b7f1a99d205597d8952a79c27b9",
+      "distributed_sha256": "483134baf4672e08d092cf75ac8f8655588c7fa37bea1a37e9ade72296566abb",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-008/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-008/fold_02_predictions.csv",
+      "original_sha256": "5079c913a352f0662bbe36ecb240497dc374d612045650774d1dc4c05ec0143b",
+      "distributed_sha256": "9305e770444f57495c153e49ef903586f2cb38c79e4c7766fa16c13676c8b3b0",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-008/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-008/fold_03_predictions.csv",
+      "original_sha256": "0269a2b763cd39d8e402e51c21f798bf324e5fa72ae0510b9d0bf2b6b01342c7",
+      "distributed_sha256": "1902c82853de6ed6cbdaada93da1648e3caf1c5d1f5ce83ea7d7494853a3cab2",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-009/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-009/fold_01_predictions.csv",
+      "original_sha256": "60eaf6188da60d1b289bbab811e2fc6143822423512546f950fcb938135fffa7",
+      "distributed_sha256": "d40072cfffef032da8e659f63aaa7c4980e6cee14afc7c947d5d98a2ddd6a7a8",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-009/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-009/fold_02_predictions.csv",
+      "original_sha256": "4b2c140dc00514f20e9e75d0c61b149feb86305e47df2ee01d44e99bf0a8fc34",
+      "distributed_sha256": "fca0b4a9e3419f0e39fff7eeefbe9e13787c05dcf79b225eb9389edf268e18cf",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-009/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-009/fold_03_predictions.csv",
+      "original_sha256": "7f079bf23a3e976c3b0bbf250355544e5ecf3491930411a6802fa5efed40fe98",
+      "distributed_sha256": "c85b1ee9bccb8d2db2b822cc8fd38c898501ad3cca962800c779c997ce800148",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-010/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-010/fold_01_predictions.csv",
+      "original_sha256": "b3be7a67d37392f05fad9f3f14f4997a3fdc962ca34e929a5ffc078fdc9d74f5",
+      "distributed_sha256": "58f27238f3ab7f047ab05294a41499dedad18b2a9b22788f4a8245486c7f23d4",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-010/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-010/fold_02_predictions.csv",
+      "original_sha256": "f7b3409dffcfe1f2d4e7ff694df502c993067c206667462eb329902d2233ee93",
+      "distributed_sha256": "5bc3e01c778e2809a9379b54cb424af0f7d4fdb8b289fc7d7641c5a195a8e5c1",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-010/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-010/fold_03_predictions.csv",
+      "original_sha256": "6e5cc37a7fde8efc87b197436cdc72ed2e20244334f9a07af30e9d984c48745b",
+      "distributed_sha256": "02c11a064180fac1e8d4a7a1396574e81849214e63e270289e58962e99993194",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-011/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-011/fold_01_predictions.csv",
+      "original_sha256": "09845157c4c34fa66df491661e5f4fb51daf36bad063fde999c725d1c86751a4",
+      "distributed_sha256": "6695d2cc6009a855bfe04cbbe86232a5a933b192608189f1bbba9dd113e93264",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-011/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-011/fold_02_predictions.csv",
+      "original_sha256": "093c6de9edb88c8090474e3cee44937d139b6f7d60c0eaa984c50691eb5f7c7d",
+      "distributed_sha256": "215ea123b12412e1b92c9162d502f580219ea8ad07fe2de3ca4dea38726b208b",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-011/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-011/fold_03_predictions.csv",
+      "original_sha256": "e374516b5298445524b23c5776ec2937c44343cbf8eae9dfb8f831847f342088",
+      "distributed_sha256": "7cf03bfc44b8243f890cae18f2b98d0d3a2ee4c8699b49a02efc5dc79c48a10e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-012/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-012/fold_01_predictions.csv",
+      "original_sha256": "2a8e93dfd44a866957e4cf561e81fad08711a44ee7ea0e99bfd09ab2c3a1b046",
+      "distributed_sha256": "9224ac3803bc00ae663cf19c49815cd1ecba620f38470ffdfca096f6dd0fc8f3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-012/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-012/fold_02_predictions.csv",
+      "original_sha256": "2ff44adb13741c18399e12f33846c9e552dedf7ff246ebebf5fb0c9ffe3d45d7",
+      "distributed_sha256": "8f40ad581e0fd6c670ab66e3fd2e45174ee6e4f3e5881af3fc0f465246751139",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-012/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-012/fold_03_predictions.csv",
+      "original_sha256": "876022c1b18e581d0a0aa827661d5a1f7239a2bd8222fabe395b809aac9be06e",
+      "distributed_sha256": "56926b404084471c0328f7ca1c8c07b6e5e5e44f73872d62a5b0d850b3cdd845",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-013/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-013/fold_01_predictions.csv",
+      "original_sha256": "b417b655dd4661a94ce67eeab52af76908d53abfec39b7a574ff9887f70333f5",
+      "distributed_sha256": "bafae963f988f049ce1d9e1ec2d18f66c0ade33c5e22dd568beca08be8663740",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-013/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-013/fold_02_predictions.csv",
+      "original_sha256": "703e499cc730c389745d100d55dabcefab8d48a1f1b7de8ca96f7b48237b06eb",
+      "distributed_sha256": "896599bbf2bc38a8ecd0422ef080aec40b70fd2e55caea8b9f01e67b437faca9",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-013/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-013/fold_03_predictions.csv",
+      "original_sha256": "33657d91d65345559a8a6881d3512b2656eb657fa0725f4108f181e997242b53",
+      "distributed_sha256": "3b7550bd93ae733170b4ab584f81ec652a3d4225654798e38311948fc6cfd524",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-014/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-014/fold_01_predictions.csv",
+      "original_sha256": "fe00b921d4e4e43e2e11829d7d593ba969d85eea9d213d3fed22efc7d2412fa6",
+      "distributed_sha256": "3fed9cbd03359b3647e87e67e17cc800a58a6787d12e29adc2c794253e96946d",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-014/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-014/fold_02_predictions.csv",
+      "original_sha256": "ca72dec68076422c8c214f8f31a61aded9e09abfaf6bfa505942dfbf242315ba",
+      "distributed_sha256": "2445971fe748547064369fd5291183cb6ffbada9463b2afefb8c2849afc731c5",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-014/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-014/fold_03_predictions.csv",
+      "original_sha256": "f28933ec41f714401993b241f94618a5e52a24039dfeb27497c3b857d82c3f25",
+      "distributed_sha256": "1e1c905f5a3537477de1f1a8599b728d8736dec8ca28c32929250c5bf9151981",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-015/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-015/fold_01_predictions.csv",
+      "original_sha256": "c1662a244498ef7e0dc289bd5f74793c4083b074380417465f2f73f30564dea3",
+      "distributed_sha256": "6419448bd1d9be731a0bf2dcc5ff0046d0e5157b2603cf665e525bf8c11c2e8c",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-015/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-015/fold_02_predictions.csv",
+      "original_sha256": "c9ac429576ebccdd46e227830141f056941e7fb68c430de1fd536b8c3dde37dc",
+      "distributed_sha256": "9980c25602b3050a1aad5344bb9bba7bf4b8224993cda6ef10f74870f71163df",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-015/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-015/fold_03_predictions.csv",
+      "original_sha256": "08c8a3f328a76354717212ebfea2e05c9782fb39b005e1a987765f4750447f27",
+      "distributed_sha256": "512478797dc591bb88a68cee8f63b8c5d2d7597bd4fe5a22fc8148dd9f91eb72",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-017/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-017/fold_01_predictions.csv",
+      "original_sha256": "93d39e788ad29b4b269246e8eb28c260bfb11fab6cf55cd3605c473bdd716fbe",
+      "distributed_sha256": "e77d27117e9451d46a99c309d48b4fca060e9e87e9e2bf2fc3f63a1826e77348",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-017/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-017/fold_02_predictions.csv",
+      "original_sha256": "f24ed9731ef4de95ec3049684686d73334a556e58f71556587c9e741ee5d1d5f",
+      "distributed_sha256": "e46aacb9aed11dfe8d8554d249cd586662de5f8cc7f8538b8a3645bb1f22647f",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-017/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-017/fold_03_predictions.csv",
+      "original_sha256": "656b2faba1c9269bc8f858cfa4fbe4e4feea15750b0d736608a4cdefc5780ab0",
+      "distributed_sha256": "521b71499effddcdfc830f003164adf10241ae4683585c4a414e96a49cd4e324",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-018/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-018/fold_01_predictions.csv",
+      "original_sha256": "6b12292439eead357595cff9ef4ad18b2e07a0e6b64c1b13e2ca75e9837061aa",
+      "distributed_sha256": "1c5074c5a3807521af26eec91d2a8e722ca7d5db6dd02e5e9377bb6eee8f2fcf",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-018/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-018/fold_02_predictions.csv",
+      "original_sha256": "aa17e4a258f2c8e6d0f1528964bd6b526a79856e0b1182f4bde9247ea01f3c0f",
+      "distributed_sha256": "9abcd31c7138da65024e62077f01875822ce890037ddf35a029a38644672cdf3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-018/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-018/fold_03_predictions.csv",
+      "original_sha256": "6f46fb7dfcc9cb2a3a693b9b5800453861bdc51e2b4faacafd5b00b24d634946",
+      "distributed_sha256": "0d1d1965e8e550729e234926a58145c998e542d602191ecfc1dec2f759fa59d3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-019/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-019/fold_01_predictions.csv",
+      "original_sha256": "ec0a84fffcc4ec63356860fb080bf959eb807b76fe82bf7d3402374d7444c433",
+      "distributed_sha256": "cedf6cf57dad9973d5c95fa3fb1cc1eef02598d9c6a2d487aec60c0b1c5aa5cf",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-019/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-019/fold_02_predictions.csv",
+      "original_sha256": "08ed5be93f9120d7134a03581563ef52e000a6c54383cbaf5eacf80a2e289068",
+      "distributed_sha256": "fd704cb1276747059435644e1d9c98bda8edcc9d8d2f250afbeb46f8429f513e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-019/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-019/fold_03_predictions.csv",
+      "original_sha256": "75d8a00c7f47cd4778fe0c080f8d8f1f2060ac2de524b954a4d453c76a31b895",
+      "distributed_sha256": "d78960ea5f857d8db25fd1a2e1a19f1054bb2223591a06e92029d14deffe0e0b",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-020/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-020/fold_01_predictions.csv",
+      "original_sha256": "f32fd1d79a4b580a2c95068f4e40d1006c0c4580b88609d041a7bdf279d189e0",
+      "distributed_sha256": "bf00dba58e3215bfe9f88b278193806e20c096337908f639fbc96f6dee46a7d5",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-020/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-020/fold_02_predictions.csv",
+      "original_sha256": "153dc13e85aa8d7cef80991b8928cb4de225aa197543713228bafc1a78b2a6d7",
+      "distributed_sha256": "911de706a65d3e438d516135b8164e7d03c5ceb2a83315182f651d3bb5f6245e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-020/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-020/fold_03_predictions.csv",
+      "original_sha256": "8939a3d68a5202b4bdcf1bc48e4d65656aa7259c2f95f33c2f833bf49ab4aaf6",
+      "distributed_sha256": "8f933c64cf967ff593e54d18d36531815eb9a5c51db8ed315d86954423613037",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-021/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-021/fold_01_predictions.csv",
+      "original_sha256": "af88aa190afb9f74b1f3c1c4c959b08ba64a30f50e7158f193b9068387ddcaa9",
+      "distributed_sha256": "1598dbabd1e980ef608e7388a889daae0c26f314cf8cf4919f573ffd9dc76b84",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-021/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-021/fold_02_predictions.csv",
+      "original_sha256": "c4997277cdda2b420336557ef6e8d44bfc2313a8129904fd3f1d063967ad1382",
+      "distributed_sha256": "56c25a729f6b650b24021452a2e552edf806041a46299eab4d959c3a0f96083b",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-021/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-021/fold_03_predictions.csv",
+      "original_sha256": "ac94ae369233096b3165fb4c4be8b598a3e083ebe81208b4fdc2bd4100f8a91e",
+      "distributed_sha256": "b27d03640af6742dfd47b8198d657ca9967d034acc03a57d130c611b425c10a7",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-022/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-022/fold_01_predictions.csv",
+      "original_sha256": "3327fd7859f81eb3e9707107c1b79696652389dde7ce00c456ca9b5efdbca5ce",
+      "distributed_sha256": "faa881f31c611f3cd86b5bb5d646fb74a66250ce7af78872fc1d5e319613a96f",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-022/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-022/fold_02_predictions.csv",
+      "original_sha256": "b7fe4a94d2648ef5a25f628fffed9f4154422c2062dac093bc30121b852edf67",
+      "distributed_sha256": "38070126a20e1801dcd212a2e8d09db511dd57ab7cc4bf263eeaca29c401cc68",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-022/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-022/fold_03_predictions.csv",
+      "original_sha256": "495bde7e5966faea4c3a03d52ff8fe8c8dc084df8dcd903676c3ef3ee05620a5",
+      "distributed_sha256": "ebab38deacd516fea775164f8f7ed71867a7326738bb14eb0057e557814d1971",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-023/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-023/fold_01_predictions.csv",
+      "original_sha256": "6f0773093ab6d0b0ada87f941f23f7948a4ae40dced8ee8164f913eae93803c5",
+      "distributed_sha256": "3d399d59e4ee5fc181853362b5aeb53421fbd780de1911ca8f97acdc82d1f886",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-023/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-023/fold_02_predictions.csv",
+      "original_sha256": "f9f9351de74f7af259e38943a149ec530f399183f5e47d69b80938075ca26bfd",
+      "distributed_sha256": "800a99ac8dead20894bf3236196f75b9de5c3dba4da093b4f5cd117a6c48fee3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-023/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-023/fold_03_predictions.csv",
+      "original_sha256": "830e266872c11e53704281341763b66a2235cdfdac45e17101a2e28c2c678a5b",
+      "distributed_sha256": "e5317b80701c6c70206359db8c442bff94b6d475cf03ddf7e6e11e25c94b0dd9",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-024/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-024/fold_01_predictions.csv",
+      "original_sha256": "35c2062fc4867951751f22d6213e2d23ee299a7b7b1b7ef7481ba2eac4524dee",
+      "distributed_sha256": "53e20780d4be037eafc2efb8e4c07b3d461fa66925cf5c41d330c5bde9d82a4f",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-024/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-024/fold_02_predictions.csv",
+      "original_sha256": "7c2f6f5ae3345b39dc4f0e4a6bae8000f73800111d6d57a35977461151e68a2b",
+      "distributed_sha256": "cfaee74f5eef21fffb0a25abbb531342b8addd23ed3afac9e80b4574761f13da",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-024/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-024/fold_03_predictions.csv",
+      "original_sha256": "387dc9f3c35d8e5ad84a7079a9189583a10075798de5e82c83bf6e99db22766f",
+      "distributed_sha256": "5a3418d96fa5639eea055223184c765fdb4508554e1b7b8f129ea006726d72fc",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-025/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-025/fold_01_predictions.csv",
+      "original_sha256": "8079b10638e312ad70601b2ffe61c4e3a0bfaa943bc0c16a5fd0268d2bb6c24a",
+      "distributed_sha256": "058535e2a5d6a87ba21df2063f783e2a944a988ac97661a91a0d088dea34a58e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-025/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-025/fold_02_predictions.csv",
+      "original_sha256": "7060b1212ab82aaa1bcffa9386714a6c6bb5e8466a74d968943392bfc597cbd5",
+      "distributed_sha256": "9ce469b61c7be0087c2f9e9bfbc79a580b8123c9ea2f2a27a016d3f17c6b83bf",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-025/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-025/fold_03_predictions.csv",
+      "original_sha256": "aeef72701611dcbada865297ae611ba101f33a6ee51064571280d487d562e672",
+      "distributed_sha256": "b6e23a6a6e51c5105b1fd8a096c9b7c7b1de4eb078b96d1e7953a1f24f12ade3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-026/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-026/fold_01_predictions.csv",
+      "original_sha256": "9608be1bcd7a1d25696e02b3a16d6bd706d11ad076b2e84261ee9b118cc68c74",
+      "distributed_sha256": "400eab9005f73e29df16e126c14b76a41fdd3b399434a0ef664935a0310a8d74",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-026/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-026/fold_02_predictions.csv",
+      "original_sha256": "71921607c09579505f1e50a585b8a21ccf27f6bf7bb1c6cb883ee7e8df24bf82",
+      "distributed_sha256": "931ab9a0c97a2b92f1017ced168b998efe1f294d3a533ddc34e374be0b73196a",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-026/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-026/fold_03_predictions.csv",
+      "original_sha256": "0b9c478471766c4e9650486c9afd5600008c5c2a6869862344183b9875029183",
+      "distributed_sha256": "dd227b4254787ef00c65fb384e10029e8bc09967b16fe80c2a16028f25aa0a6c",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-027/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-027/fold_01_predictions.csv",
+      "original_sha256": "04d615f01bc34ae325019b31d62281ca8c4d961551bae8f31c17f57f912ca03c",
+      "distributed_sha256": "308c251d3410cc5e602a71ceaa955e10b7cdcb63e5a2056142255832bb0aacef",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-027/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-027/fold_02_predictions.csv",
+      "original_sha256": "33980c89ae6f85b1a7186e9a3ea82c8aa8af3ecea48d7a40743579e4be62f6bb",
+      "distributed_sha256": "18a74eeb58af9e550f010f25be3fc6e2f0400ac183c397367ee8ce703c4e038d",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-027/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-027/fold_03_predictions.csv",
+      "original_sha256": "04111372db8860c4584c0156c62c288b7e4807ea0661093ba9a0b937fc23ffa1",
+      "distributed_sha256": "1a870b9ed4c853861f91913e4d820c4f0341100ed29314c4659abb46c9ca0706",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-028/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-028/fold_01_predictions.csv",
+      "original_sha256": "227087d48f99c4f7b0b39404a859f04d2519f01be303bbc19956ce682c514ec6",
+      "distributed_sha256": "d8c4c6e1de245efb948669904388e5bc0bbb84294d12119697ccc011829ebe18",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-028/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-028/fold_02_predictions.csv",
+      "original_sha256": "69af2818330a7774df8cf69e7a142828296fbd344b6addd777bf8e7081ae589b",
+      "distributed_sha256": "2b691b29650935d03afcba35955a66b3851375ff0fdc2d9f2ca8509b78be9b3e",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-028/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-028/fold_03_predictions.csv",
+      "original_sha256": "b3347f3567dccf8423abc9ee033e0d3a49943835765562636af0a20cacf8d9bd",
+      "distributed_sha256": "6ebf74ecf0fb1f9ddc6f9d5f82560c4d1c227f03f8d19a849ca9daa43e8e1457",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-029/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-029/fold_01_predictions.csv",
+      "original_sha256": "f096f63f0c88937e01573fd60d6ca10413505c131cab418b4ccbce4f3e10ede2",
+      "distributed_sha256": "08f18fcc62ab81e0ef15cfb06f543e6888653bf4ee96ceb453b8eb35f725a581",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-029/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-029/fold_02_predictions.csv",
+      "original_sha256": "a30f70a82e09f98fd34250bedab42f4a4d3c7ba1b1c83eee1b527987a3f33be6",
+      "distributed_sha256": "80d1de16426c451a58c0f7effdd166842489e77b841cc0edcd19ebee75727e59",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-029/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-029/fold_03_predictions.csv",
+      "original_sha256": "537ca5a9639355ac2fb3d9e07e1af02a4ff84fcb4677e5da08ecf487833595ee",
+      "distributed_sha256": "381dd4ee47a738e47608c01439aa499e79fb4716c622574a849fc51eaa6c8059",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-030/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-030/fold_01_predictions.csv",
+      "original_sha256": "7644a4014ddeec096089ad776fef3dc156885a2aa2d11230c92ae27a01630077",
+      "distributed_sha256": "fc50e3f291e211b36127c3cda2ae73fc88ce8196e9d0c461b1a3a8214fc8a84b",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-030/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-030/fold_02_predictions.csv",
+      "original_sha256": "c4af2ae1112d65b439efa6a1c41fa801d440dfb367e53e6036f500005598053b",
+      "distributed_sha256": "0b4413665b6c8c12a7b7b7b9c59c41acc5a56c7a990f75af26ecd51791e14db5",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-030/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-030/fold_03_predictions.csv",
+      "original_sha256": "d16eddd7ddfdfeb08f7075685617716ec0f4453f5d17c57f58c0ed314929bf3a",
+      "distributed_sha256": "b07135c0fe60d8fe713e3a0f75b5e61da8c5c4f1fad1ae36566317781117fbc3",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-031/fold_01_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-031/fold_01_predictions.csv",
+      "original_sha256": "327f50a362b3d5ab0f93aefd0f4280fef2a96c2daddd59d4ea373b5ab9d1db3f",
+      "distributed_sha256": "6909004e7d507df3711e4e6a3b486bd7df5cb0d381f5a2146ac176ca2ae0a901",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-031/fold_02_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-031/fold_02_predictions.csv",
+      "original_sha256": "d2da377770f9e320fcd171d835b273f970affec864b19fe9583d33a77bbf7c46",
+      "distributed_sha256": "b36b6ac76d823beb2e96d99747659383415b047b6e11d5846061512826984ac0",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/subjects/sub-031/fold_03_predictions.csv",
+      "destination": "results/reference/session_holdout/subjects/sub-031/fold_03_predictions.csv",
+      "original_sha256": "59564f0e80e30a79644757f872898130fe192b59b86939fc2a5160942d74be8e",
+      "distributed_sha256": "3131779d0a1cf8bfa9d7b3fc1df5fddcce4d376801232011c9d561d4f96eb224",
+      "transformation": "absolute paths changed to source-relative references; serialization normalized"
+    },
+    {
+      "source": "trial-beta/group_randomise_rating14_no_quality_filter/analysis_summary.json",
+      "destination": "results/reference/background/glm_candidate_summary.json",
+      "original_sha256": "b653ece1b442c6d6fba41415113a8e659efbc437deeb065992410a80aa0f224c",
+      "distributed_sha256": "918a4e3fe8ecd9f2ab7132492556e8ba50e469bc735d0af6dd14534e3ca30b03",
+      "transformation": "absolute machine paths changed to source-relative references",
+      "status": "candidate only; not verified as the paper figure source"
+    },
+    {
+      "source": "sessionwise-beta/mvpa_searchlight_session3fold/20260425_075751_rating4_vs_rating1_libsvmLinearSVC_ses3fold_radius6mm_fastindex/randomise_cluster_p001_5000/balancedAccMinusChance_clusterP001_clusterFWE05_summary.json",
+      "destination": "results/reference/background/searchlight_candidate_summary.json",
+      "original_sha256": "3e528cd8d2b2f7bf8014e65b4cf6a24332dac41f4265a998ea399c2bb21fd8eb",
+      "distributed_sha256": "ae1654b018b92b19fc680fdb41c1cb3ebe4c79b78ed65228ecd6a25b2ee683ef",
+      "transformation": "absolute machine paths changed to source-relative references",
+      "status": "candidate only; not verified as the paper figure source"
+    }
+  ],
+  "derived_files": [
+    {
+      "destination": "results/reference/tables/decoding_folds.csv",
+      "sha256": "da5dad187fa4f114dbd0423850387d1b86254e929f2f82cca8e83e71b0e8c410",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/decoding_paired.csv",
+      "sha256": "5bf1e569bd56585d680de9fdd8e5424f7e8291223bbdf5d25f102647383b7eb1",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/decoding_participants.csv",
+      "sha256": "82285468a881dd37b63fa91f2763f5b6085c09c983b76dfbd7789f807e1bd2f3",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/decoding_performance.csv",
+      "sha256": "8bdd5b7cdceb2dafe919fa76f3034d749bf8e69dee891fad57a46d770497ecb2",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/haufe_layercam_correlation_frozen.csv",
+      "sha256": "76f4797bc869d956d078f4a75114c245d167cb58a25f18570daed327677c5ad6",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/haufe_layercam_overlap_frozen.csv",
+      "sha256": "15d65e4ef1548a3d24aec14599a77c8cc2a56223d2183eb76ddf3c0f443ff927",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/input_replacement_inference_frozen.csv",
+      "sha256": "76c69be2426f3317f44e1be4461c84c5711234519a91ec18c90e617347ea8f19",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/input_replacement_participants.csv",
+      "sha256": "726619160bc9dbe5508a373ee6df2afded87813f354b048901e7fae0c363a077",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/input_replacement_summary.csv",
+      "sha256": "ef0150e9bc3d4e657e9c5d7a17b930bdbf672e57aafd1fc10b14f2326d5a4b40",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/layercam_all_rois.csv",
+      "sha256": "7ac2c0eabbb980d12c43960e5f3184b25c92a4176d8806a2620d45a6b7f2165b",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/layercam_macroregions.csv",
+      "sha256": "8a4b39b0e8a0b3d00bb0b87ad1d04eadfcd7f5ca7c6213f4a54fef8c09a2a81e",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/layercam_top5_rois.csv",
+      "sha256": "ab51b6ea4455329a497809de7df51183f3559b74c49b88aaa1627e6662f4ccbe",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/layercam_whole_brain_means.csv",
+      "sha256": "c5c8b54b65a022614f6603a9a906c52f568f3105ca1f407b038e1cadc25ef0b4",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/reproduction_scope.json",
+      "sha256": "08bbac332012121b47258319d6a13f71f58cb8a76f1ed79ac9afe2079422bec0",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/session_holdout_folds.csv",
+      "sha256": "01d48a7412fd65135a230700e51eee0bf43424887db050b192491570e4c7aa99",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/session_holdout_participants.csv",
+      "sha256": "391a0ca368634406d2adce0595377af4a9fd2b048c3158ac82e4e3d41e8d3b08",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    },
+    {
+      "destination": "results/reference/tables/session_holdout_summary.csv",
+      "sha256": "900f621a61dd8ef0b0a9588e58f8e111e270e9c79f7727b70072b02c7898364c",
+      "generator": "scripts/reproduce_results.py",
+      "generator_sha256": "5c9f6adf6149a6119bccb169c3b5045397d5bf1085a075a1898f7394b3e9daf8",
+      "inputs": "See source files above and docs/results.md; frozen confidence intervals and inferential/spatial tables are explicitly named."
+    }
+  ]
+}

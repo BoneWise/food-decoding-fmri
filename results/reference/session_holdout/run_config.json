@@ -1,0 +1,43 @@
+{
+  "beta_index_csv": "sources/sessionwise-beta/beta_index.csv",
+  "models_root": "sources/sessionwise-beta/models",
+  "brain_mask_root": "sources/sessionwise-beta/cache/masks",
+  "path_prefix_from": "",
+  "path_prefix_to": "",
+  "save_root": "sources/workspace/leave_session_out_mvpa_rating14_20260504/results",
+  "run_name": "rating14_wholebrain_linear_svm_leave_session_out",
+  "feature_mask": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+  "feature_mask_strategy": "auto_searchlight_default_group_mask",
+  "only_subjects": [],
+  "exclude_subjects": [
+    "sub-016"
+  ],
+  "required_num_sessions": 3,
+  "seed": 42,
+  "svm_c": 1.0,
+  "svm_backend": "libsvm_linear",
+  "class_weight": "balanced",
+  "fold_standardize": true,
+  "libsvm_cache_size_mb": 1024.0,
+  "max_iter": 10000,
+  "log_every": 100,
+  "analysis_alignment": {
+    "matches_searchlight": [
+      "session-wise beta inputs by default",
+      "within-subject leave-one-session-out 3-fold CV",
+      "linear SVM with C=1",
+      "balanced class weights by default",
+      "train-fold-only standardization by default"
+    ],
+    "matches_cnn_reporting": [
+      "primary accuracy metric is balanced_accuracy"
+    ],
+    "not_used": [
+      "CNN",
+      "searchlight neighborhoods",
+      "cross-subject CV",
+      "leave-one-run-out CV"
+    ]
+  },
+  "primary_metric": "mean_fold_balanced_accuracy"
+}

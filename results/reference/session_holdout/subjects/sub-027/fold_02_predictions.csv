@@ -1,0 +1,9 @@
+subject_id,session_id,run_id,trial_id,sample_path,rating,target,pred,decision_score
+sub-027,ses-02,run-01,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0001.nii,1,0,0,-0.8875043988227844
+sub-027,ses-02,run-01,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0002.nii,4,1,0,-1.0397895574569702
+sub-027,ses-02,run-02,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0076.nii,1,0,1,1.0269255638122559
+sub-027,ses-02,run-02,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0077.nii,4,1,1,0.27259376645088196
+sub-027,ses-02,run-03,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0135.nii,1,0,0,-0.35739263892173767
+sub-027,ses-02,run-03,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0136.nii,4,1,1,0.07386665046215057
+sub-027,ses-02,run-04,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0273.nii,1,0,1,0.15319761633872986
+sub-027,ses-02,run-04,,sources/sessionwise-beta/models/sub-027/ses-02/beta_0274.nii,4,1,1,0.10089040547609329

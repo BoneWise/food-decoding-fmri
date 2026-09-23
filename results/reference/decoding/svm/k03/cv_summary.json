@@ -1,0 +1,120 @@
+{
+  "analysis": "matched_cross_subject_linear_svm_rating1_vs_rating4",
+  "preprocessing": "cnn_samplewise_brainmask_zscore_then_commonmask_flatten",
+  "classifier": {
+    "name": "LinearSVC",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": true,
+    "max_iter": 50000,
+    "tol": 0.0001
+  },
+  "num_samples": 2326,
+  "num_subjects": 30,
+  "num_folds": 10,
+  "pooled_oof": {
+    "num_examples": 2326,
+    "accuracy": 0.6380051590713671,
+    "balanced_accuracy": 0.6370316993287557,
+    "f1_high": 0.6566068515497553,
+    "precision_high": 0.6393963463065926,
+    "recall_low": 0.5992939099735216,
+    "recall_high": 0.6747694886839899,
+    "confusion_matrix": [
+      [
+        679,
+        454
+      ],
+      [
+        388,
+        805
+      ]
+    ],
+    "auc": 0.6873864829333217
+  },
+  "fold_level": {
+    "accuracy": {
+      "n": 10,
+      "mean": 0.6382829064453974,
+      "std_sample": 0.07802464749817072,
+      "sem": 0.024673559972597788,
+      "min": 0.46534653465346537,
+      "max": 0.7545454545454545
+    },
+    "balanced_accuracy": {
+      "n": 10,
+      "mean": 0.6363530345491347,
+      "std_sample": 0.06461298476672475,
+      "sem": 0.02043241982846135,
+      "min": 0.5218468468468469,
+      "max": 0.7424856467409658
+    },
+    "f1_high": {
+      "n": 10,
+      "mean": 0.6396731706319162,
+      "std_sample": 0.13716776289392063,
+      "sem": 0.04337625522947183,
+      "min": 0.3652173913043478,
+      "max": 0.7938931297709924
+    },
+    "auc": {
+      "n": 10,
+      "mean": 0.6899543077799204,
+      "std_sample": 0.09552132176277088,
+      "sem": 0.030206494188016596,
+      "min": 0.4858858858858859,
+      "max": 0.811887875717663
+    }
+  },
+  "subject_level": {
+    "accuracy": {
+      "n": 30,
+      "mean": 0.6364265088928736,
+      "std_sample": 0.13194842294718778,
+      "sem": 0.024090375891802348,
+      "min": 0.15942028985507245,
+      "max": 0.8
+    },
+    "balanced_accuracy": {
+      "n": 30,
+      "mean": 0.6380403509352741,
+      "std_sample": 0.10328454305406919,
+      "sem": 0.018857091357442405,
+      "min": 0.43653846153846154,
+      "max": 0.8031994047619048
+    },
+    "f1_high": {
+      "n": 30,
+      "mean": 0.6101861934465488,
+      "std_sample": 0.2247587025783824,
+      "sem": 0.04103513713259153,
+      "min": 0.06060606060606061,
+      "max": 0.85
+    },
+    "auc": {
+      "n": 30,
+      "mean": 0.6920872132776247,
+      "std_sample": 0.14766690000166788,
+      "sem": 0.02696016404259105,
+      "min": 0.3192307692307692,
+      "max": 0.895069033530572
+    }
+  },
+  "inference": {
+    "svm_subject_balanced_accuracy_vs_chance": {
+      "chance": 0.5,
+      "alternative": "greater",
+      "t": 7.320341632687332,
+      "df": 29,
+      "p_t_one_sided": 2.302070262056382e-08,
+      "mean_bootstrap_95_ci": [
+        0.6013059679999027,
+        0.6738299055581417
+      ],
+      "p_signflip_one_sided": 9.99990000099999e-06,
+      "num_bootstrap": 100000,
+      "num_signflips": 100000
+    }
+  },
+  "cnn_reference": null
+}

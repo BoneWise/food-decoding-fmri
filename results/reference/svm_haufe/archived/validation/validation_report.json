@@ -1,0 +1,1140 @@
+{
+  "status": "passed",
+  "raw_only": false,
+  "full_source_hash": true,
+  "num_checks": 283,
+  "checks": [
+    {
+      "check": "source manifest exists",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot exists: frozen_run_config.json",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot exists: frozen_feature_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot exists: frozen_cv_summary.json",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot exists: frozen_sample_index.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot exists: frozen_oof_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot exists: frozen_fold_assignments.json",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot hash: run_config",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot hash: feature_manifest",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot hash: cv_summary",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot hash: sample_index",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot hash: oof_predictions",
+      "passed": true
+    },
+    {
+      "check": "frozen snapshot hash: fold_assignments",
+      "passed": true
+    },
+    {
+      "check": "referenced source matrix exists",
+      "passed": true
+    },
+    {
+      "check": "source matrix dimensions",
+      "passed": true
+    },
+    {
+      "check": "source matrix dtype",
+      "passed": true
+    },
+    {
+      "check": "source matrix SHA-256",
+      "passed": true
+    },
+    {
+      "check": "feature mask voxel count",
+      "passed": true
+    },
+    {
+      "check": "fold 01 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 01 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 01 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 01 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 01 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 01 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 01 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 01 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 01 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 01 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 01 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 01 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 01 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 01 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 01 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 01 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 02 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 02 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 02 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 02 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 02 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 02 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 02 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 02 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 02 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 02 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 02 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 02 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 02 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 02 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 02 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 02 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 03 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 03 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 03 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 03 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 03 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 03 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 03 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 03 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 03 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 03 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 03 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 03 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 03 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 03 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 03 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 03 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 04 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 04 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 04 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 04 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 04 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 04 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 04 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 04 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 04 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 04 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 04 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 04 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 04 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 04 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 04 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 04 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 05 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 05 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 05 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 05 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 05 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 05 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 05 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 05 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 05 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 05 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 05 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 05 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 05 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 05 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 05 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 05 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 06 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 06 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 06 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 06 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 06 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 06 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 06 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 06 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 06 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 06 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 06 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 06 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 06 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 06 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 06 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 06 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 07 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 07 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 07 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 07 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 07 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 07 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 07 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 07 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 07 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 07 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 07 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 07 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 07 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 07 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 07 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 07 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 08 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 08 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 08 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 08 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 08 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 08 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 08 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 08 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 08 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 08 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 08 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 08 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 08 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 08 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 08 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 08 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 09 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 09 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 09 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 09 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 09 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 09 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 09 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 09 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 09 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 09 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 09 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 09 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 09 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 09 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 09 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 09 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "fold 10 completion marker",
+      "passed": true
+    },
+    {
+      "check": "fold 10 completed status",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file exists: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file hash: fold_summary",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file exists: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file hash: predictions",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file exists: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file hash: weights",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file exists: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file hash: haufe_vector",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file exists: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 10 file hash: haufe_nifti",
+      "passed": true
+    },
+    {
+      "check": "fold 10 archived prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "fold 10 zero prediction mismatches",
+      "passed": true
+    },
+    {
+      "check": "fold 10 score reproduction tolerance",
+      "passed": true
+    },
+    {
+      "check": "fold 10 Haufe direct-formula check",
+      "passed": true
+    },
+    {
+      "check": "fold 10 manual SVM-score check",
+      "passed": true
+    },
+    {
+      "check": "fold 10 Haufe vector shape",
+      "passed": true
+    },
+    {
+      "check": "fold 10 SVM weight shape",
+      "passed": true
+    },
+    {
+      "check": "fold 10 finite Haufe vector",
+      "passed": true
+    },
+    {
+      "check": "fold 10 finite SVM weights",
+      "passed": true
+    },
+    {
+      "check": "fold 10 NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "fold 10 NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "fold 10 NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "fold 10 rowwise prediction matches",
+      "passed": true
+    },
+    {
+      "check": "group results summary exists",
+      "passed": true
+    },
+    {
+      "check": "group mean vector equals foldwise mean",
+      "passed": true
+    },
+    {
+      "check": "group mean NIfTI exists",
+      "passed": true
+    },
+    {
+      "check": "group mean NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "group mean NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "group mean NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "group standard deviation NIfTI exists",
+      "passed": true
+    },
+    {
+      "check": "group standard deviation NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "group standard deviation NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "group standard deviation NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "group signed consistency NIfTI exists",
+      "passed": true
+    },
+    {
+      "check": "group signed consistency NIfTI shape",
+      "passed": true
+    },
+    {
+      "check": "group signed consistency NIfTI vector mapping",
+      "passed": true
+    },
+    {
+      "check": "group signed consistency NIfTI outside-mask zeros",
+      "passed": true
+    },
+    {
+      "check": "group summary preserves inferential boundary",
+      "passed": true
+    }
+  ]
+}

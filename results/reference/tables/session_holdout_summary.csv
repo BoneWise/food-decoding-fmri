@@ -1,0 +1,2 @@
+n_participants,participant_mean_ba,participant_sd_population,participant_sd_sample,t,p_two_sided,sd_convention
+30,0.624074074074074,0.13033538040555043,0.13256349702530795,5.1264617105690276,1.784782812101997e-05,archived paper summary uses population SD (ddof=0)

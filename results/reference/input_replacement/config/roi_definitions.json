@@ -1,0 +1,34 @@
+{
+  "atlas": "Harvard-Oxford maximum-probability atlas, 25% threshold, 2 mm",
+  "restriction": "intersection with the fixed 222479-voxel common brain mask",
+  "value": {
+    "cortical_labels": [
+      "Frontal Medial Cortex",
+      "Frontal Orbital Cortex"
+    ],
+    "subcortical_labels": [
+      "Left Accumbens",
+      "Right Accumbens"
+    ],
+    "expected_voxels": 4092
+  },
+  "visual": {
+    "cortical_labels": [
+      "Lateral Occipital Cortex, superior division",
+      "Lateral Occipital Cortex, inferior division",
+      "Intracalcarine Cortex",
+      "Cuneal Cortex",
+      "Lingual Gyrus",
+      "Temporal Occipital Fusiform Cortex",
+      "Occipital Fusiform Gyrus",
+      "Supracalcarine Cortex",
+      "Occipital Pole"
+    ],
+    "subcortical_labels": [],
+    "expected_voxels": 27651
+  },
+  "union": {
+    "operation": "logical_or(value, visual)",
+    "expected_voxels": 31743
+  }
+}

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "food-preference-fmri"
+version = "0.1.0"
+description = "fMRI food-preference decoding and regional model evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0,<3", "scipy>=1.14,<2", "pandas>=2.2,<4",
+    "nibabel>=5.2,<6", "scikit-learn>=1.5,<2", "matplotlib>=3.9,<4", "joblib>=1.4,<2"
+]
+
+[project.optional-dependencies]
+train = ["torch>=2.3,<3"]
+spatial = ["nilearn>=0.10,<1", "scikit-image>=0.24,<1", "seaborn>=0.13,<1"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+foodpref-train = "foodpref.train:main"
+foodpref-merge-betas = "foodpref.merge_betas:main"
+foodpref-matched-svm = "foodpref.matched_svm:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,64 @@
+{
+  "included_subject_ids": [
+    "sub-001",
+    "sub-002",
+    "sub-003",
+    "sub-004",
+    "sub-005",
+    "sub-006",
+    "sub-007",
+    "sub-008",
+    "sub-009",
+    "sub-010",
+    "sub-011",
+    "sub-012",
+    "sub-013",
+    "sub-014",
+    "sub-015",
+    "sub-017",
+    "sub-018",
+    "sub-019",
+    "sub-020",
+    "sub-021",
+    "sub-022",
+    "sub-023",
+    "sub-024",
+    "sub-025",
+    "sub-026",
+    "sub-027",
+    "sub-028",
+    "sub-029",
+    "sub-030",
+    "sub-031"
+  ],
+  "excluded_subjects": [
+    {
+      "subject_id": "sub-016",
+      "reason": "manually_excluded",
+      "num_sessions": 3,
+      "session_keys": [
+        "ses-01",
+        "ses-02",
+        "ses-03"
+      ],
+      "num_runs": 10,
+      "run_keys": [
+        "ses-01:run-01",
+        "ses-01:run-02",
+        "ses-01:run-03",
+        "ses-01:run-04",
+        "ses-02:run-01",
+        "ses-02:run-02",
+        "ses-02:run-03",
+        "ses-02:run-04",
+        "ses-03:run-01",
+        "ses-03:run-02"
+      ]
+    }
+  ],
+  "required_num_sessions": 3,
+  "only_subjects": [],
+  "explicitly_excluded_subjects": [
+    "sub-016"
+  ]
+}

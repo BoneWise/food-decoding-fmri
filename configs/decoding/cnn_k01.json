@@ -1,0 +1,36 @@
+{
+  "source_run": "20260503_190547_fmri_rating14_mergedk01_seed42_fixed5",
+  "source_config_sha256": "88fe0d571e8d1c4884918d3af8c24e9fbc49f6154c432bf6851b48d83a3e58a5",
+  "protocol": {
+    "merge_k": 1,
+    "num_subjects": 30,
+    "num_samples": 7038,
+    "num_folds": 10,
+    "checkpoint": "final epoch 5",
+    "input_normalization": "per-sample finite in-brain z-score; outside-mask values zero",
+    "paths": "relative to working directory; configure local data roots"
+  },
+  "arguments": {
+    "batch_size": 16,
+    "epochs": 5,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "num_workers": 4,
+    "seed": 42,
+    "device": "auto",
+    "hidden_dim": 128,
+    "early_stopping_warmup": 2,
+    "early_stopping_patience": 3,
+    "early_stopping_min_delta": 0.001,
+    "beta_index_csv": "data/derived/merged/k01_seed42/beta_index.csv",
+    "models_root": "data/derived/models",
+    "brain_mask_root": "data/derived/cache/masks",
+    "path_prefix_from": "",
+    "path_prefix_to": "",
+    "save_root": "outputs/cnn",
+    "run_name": "fmri_rating14_mergedk01_seed42_fixed5",
+    "only_fold": null,
+    "dropout": 0.5,
+    "fold_assignments": "configs/decoding/fold_assignments_k01.json"
+  }
+}

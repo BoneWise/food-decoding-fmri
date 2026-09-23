@@ -1,0 +1,162 @@
+{
+  "analysis": "matched_cross_subject_linear_svm_rating1_vs_rating4",
+  "preprocessing": "cnn_samplewise_brainmask_zscore_then_commonmask_flatten",
+  "classifier": {
+    "name": "LinearSVC",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": true,
+    "max_iter": 50000,
+    "tol": 0.0001
+  },
+  "num_samples": 1147,
+  "num_subjects": 30,
+  "num_folds": 10,
+  "pooled_oof": {
+    "num_examples": 1147,
+    "accuracy": 0.6652136006974717,
+    "balanced_accuracy": 0.6644700814136031,
+    "f1_high": 0.68,
+    "precision_high": 0.6666666666666666,
+    "recall_low": 0.6350626118067979,
+    "recall_high": 0.6938775510204082,
+    "confusion_matrix": [
+      [
+        355,
+        204
+      ],
+      [
+        180,
+        408
+      ]
+    ],
+    "auc": 0.7237839679700145
+  },
+  "fold_level": {
+    "accuracy": {
+      "n": 10,
+      "mean": 0.6650344256467523,
+      "std_sample": 0.08185638204629213,
+      "sem": 0.02588526082871976,
+      "min": 0.46,
+      "max": 0.7547169811320755
+    },
+    "balanced_accuracy": {
+      "n": 10,
+      "mean": 0.6584015185855319,
+      "std_sample": 0.047095042900846554,
+      "sem": 0.014892760207001848,
+      "min": 0.5896551724137931,
+      "max": 0.7375366568914956
+    },
+    "f1_high": {
+      "n": 10,
+      "mean": 0.6648921354426957,
+      "std_sample": 0.12184316647670197,
+      "sem": 0.03853019233934514,
+      "min": 0.43137254901960786,
+      "max": 0.8152866242038217
+    },
+    "auc": {
+      "n": 10,
+      "mean": 0.7396332621571136,
+      "std_sample": 0.08554355751956544,
+      "sem": 0.027051248091545056,
+      "min": 0.5855799373040753,
+      "max": 0.878299120234604
+    }
+  },
+  "subject_level": {
+    "accuracy": {
+      "n": 30,
+      "mean": 0.6646201959695867,
+      "std_sample": 0.16133452825781813,
+      "sem": 0.02945552014375388,
+      "min": 0.11764705882352941,
+      "max": 0.9019607843137255
+    },
+    "balanced_accuracy": {
+      "n": 30,
+      "mean": 0.6332615600128357,
+      "std_sample": 0.1575838427839693,
+      "sem": 0.028770741797042563,
+      "min": 0.2236842105263158,
+      "max": 0.921875
+    },
+    "f1_high": {
+      "n": 30,
+      "mean": 0.6314741119818226,
+      "std_sample": 0.23227254807223524,
+      "sem": 0.042406971356122106,
+      "min": 0.0,
+      "max": 0.8837209302325582
+    },
+    "auc": {
+      "n": 30,
+      "mean": 0.7082933038696555,
+      "std_sample": 0.23101152121746513,
+      "sem": 0.04217674040479631,
+      "min": 0.109375,
+      "max": 0.9901315789473684
+    }
+  },
+  "inference": {
+    "svm_subject_balanced_accuracy_vs_chance": {
+      "chance": 0.5,
+      "alternative": "greater",
+      "t": 4.631843035292684,
+      "df": 29,
+      "p_t_one_sided": 3.524834519795937e-05,
+      "mean_bootstrap_95_ci": [
+        0.575916665916556,
+        0.6865192010782879
+      ],
+      "p_signflip_one_sided": 8.99991000089999e-05,
+      "num_bootstrap": 100000,
+      "num_signflips": 100000
+    },
+    "cnn_minus_svm_subject_balanced_accuracy": {
+      "contrast": "cnn_minus_svm",
+      "mean_difference": -0.06081525467956106,
+      "std_difference_sample": 0.09297846254659699,
+      "t_cnn_minus_svm": -3.582537925030074,
+      "df": 29,
+      "p_t_cnn_greater_one_sided": 0.9993868748337871,
+      "p_t_svm_greater_one_sided": 0.0006131251662129111,
+      "p_t_two_sided": 0.0012262503324258222,
+      "mean_difference_bootstrap_95_ci": [
+        -0.0931493716885957,
+        -0.028088952346477153
+      ],
+      "p_signflip_cnn_greater_one_sided": 0.999260007399926,
+      "p_signflip_svm_greater_one_sided": 0.0007499925000749992,
+      "p_signflip_two_sided": 0.0014099859001409985,
+      "num_bootstrap": 100000,
+      "num_signflips": 100000
+    }
+  },
+  "cnn_reference": {
+    "subject_balanced_accuracy": {
+      "n": 30,
+      "mean": 0.5724463053332746,
+      "std_sample": 0.10595637367478584,
+      "sem": 0.019344898657708918,
+      "min": 0.2631578947368421,
+      "max": 0.7393092105263157
+    },
+    "subject_balanced_accuracy_vs_chance": {
+      "chance": 0.5,
+      "alternative": "greater",
+      "t": 3.7449824170779413,
+      "df": 29,
+      "p_t_one_sided": 0.0003979087112819302,
+      "mean_bootstrap_95_ci": [
+        0.5339638579542509,
+        0.6083704727494262
+      ],
+      "p_signflip_one_sided": 0.0005899941000589994,
+      "num_bootstrap": 100000,
+      "num_signflips": 100000
+    }
+  }
+}

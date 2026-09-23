@@ -1,0 +1,8 @@
+# Original top-level requirement declarations; ranges are not a historical lock.
+numpy==2.4.3
+matplotlib>=3.10
+nibabel>=5.0
+pandas>=3.0
+scipy>=1.17
+scikit-learn>=1.5
+torch==2.11.0

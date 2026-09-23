@@ -1,0 +1,2599 @@
+{
+  "analysis": "group_randomise_tfce_rating14_from_single_trial_betas",
+  "beta_index_summary": {
+    "beta_index_csv": "sources/trial-beta/beta_index.csv",
+    "min_quality_score": 0.0,
+    "rows_kept": 7292,
+    "subjects_seen": 31,
+    "subjects_kept_any_rating14": 31,
+    "drop_counts": {
+      "non_target_rating": 9627
+    }
+  },
+  "assumptions": {
+    "contrasts": [
+      "1>4",
+      "4>1"
+    ],
+    "subject_level_contrast_rule": "mean over valid session+run unit contrasts; each unit contrast = mean(beta rating1) - mean(beta rating4)",
+    "group_level_inference": "FSL randomise one-sample test with TFCE and FWE correction",
+    "correction_threshold": "FWE p < 0.05",
+    "corrp_interpretation": "FSL corrp images are 1-p, so significance mask uses >= 0.95",
+    "smoothing": "none added in this script"
+  },
+  "paths": {
+    "output_dir": "sources/trial-beta/group_randomise_rating14_no_quality_filter",
+    "subject_summary_csv": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_summary.csv",
+    "group_mask_intersection": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+    "group_1gt4_4d": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_1gt4_4d.nii.gz",
+    "group_4gt1_4d": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_4gt1_4d.nii.gz"
+  },
+  "group_summary": {
+    "n_subjects_included": 31,
+    "included_subject_ids": [
+      "sub-001",
+      "sub-002",
+      "sub-003",
+      "sub-004",
+      "sub-005",
+      "sub-006",
+      "sub-007",
+      "sub-008",
+      "sub-009",
+      "sub-010",
+      "sub-011",
+      "sub-012",
+      "sub-013",
+      "sub-014",
+      "sub-015",
+      "sub-016",
+      "sub-017",
+      "sub-018",
+      "sub-019",
+      "sub-020",
+      "sub-021",
+      "sub-022",
+      "sub-023",
+      "sub-024",
+      "sub-025",
+      "sub-026",
+      "sub-027",
+      "sub-028",
+      "sub-029",
+      "sub-030",
+      "sub-031"
+    ],
+    "subject_min_valid_units": 1,
+    "valid_units_per_subject": {
+      "sub-001": 12,
+      "sub-002": 10,
+      "sub-003": 12,
+      "sub-004": 7,
+      "sub-005": 11,
+      "sub-006": 10,
+      "sub-007": 12,
+      "sub-008": 12,
+      "sub-009": 12,
+      "sub-010": 12,
+      "sub-011": 6,
+      "sub-012": 12,
+      "sub-013": 12,
+      "sub-014": 12,
+      "sub-015": 8,
+      "sub-016": 10,
+      "sub-017": 12,
+      "sub-018": 12,
+      "sub-019": 12,
+      "sub-020": 6,
+      "sub-021": 11,
+      "sub-022": 12,
+      "sub-023": 12,
+      "sub-024": 12,
+      "sub-025": 6,
+      "sub-026": 12,
+      "sub-027": 12,
+      "sub-028": 12,
+      "sub-029": 12,
+      "sub-030": 12,
+      "sub-031": 12
+    },
+    "group_mask_voxels": 222441
+  },
+  "subject_summaries": [
+    {
+      "subject_id": "sub-001",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-001_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 118,
+      "n_rating4_trials": 63,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-001_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-001_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 6
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-002",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-002_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 10,
+      "n_dropped_units_missing_condition": 2,
+      "n_rating1_trials": 27,
+      "n_rating4_trials": 52,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-002_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-002_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 4
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-003",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-003_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 142,
+      "n_rating4_trials": 190,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-003_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-003_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 21
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 22
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 16,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 13
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-004",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-004_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 7,
+      "n_dropped_units_missing_condition": 5,
+      "n_rating1_trials": 113,
+      "n_rating4_trials": 12,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-004_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-004_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 21,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 20,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 22,
+          "n_rating4_trials": 1
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-005",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-005_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 11,
+      "n_dropped_units_missing_condition": 1,
+      "n_rating1_trials": 32,
+      "n_rating4_trials": 185,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-005_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-005_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 27
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 28
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 19
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-006",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-006_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 10,
+      "n_dropped_units_missing_condition": 2,
+      "n_rating1_trials": 256,
+      "n_rating4_trials": 60,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-006_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-006_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 29,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 45,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 30,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 23,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 26,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 22,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 23,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 20,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 17,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 21,
+          "n_rating4_trials": 11
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-007",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-007_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 54,
+      "n_rating4_trials": 107,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-007_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-007_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 7
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-008",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-008_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 100,
+      "n_rating4_trials": 140,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-008_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-008_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 10
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-009",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-009_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 149,
+      "n_rating4_trials": 209,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-009_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-009_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 23
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 19,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 21
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 20
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 19,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 22
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 22
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-010",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-010_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 52,
+      "n_rating4_trials": 94,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-010_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-010_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 5
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-011",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-011_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 6,
+      "n_dropped_units_missing_condition": 6,
+      "n_rating1_trials": 6,
+      "n_rating4_trials": 165,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-011_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-011_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 28
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 26
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 29
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 23
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 27
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 32
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-012",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-012_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 81,
+      "n_rating4_trials": 197,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-012_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-012_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 21
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 22
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-013",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-013_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 72,
+      "n_rating4_trials": 94,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-013_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-013_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 16
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 7
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-014",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-014_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 108,
+      "n_rating4_trials": 117,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-014_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-014_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 10
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-015",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-015_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 8,
+      "n_dropped_units_missing_condition": 4,
+      "n_rating1_trials": 97,
+      "n_rating4_trials": 21,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-015_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-015_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 3
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-016",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-016_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 10,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 36,
+      "n_rating4_trials": 218,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-016_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-016_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 23
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 24
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 23
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 25
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 21
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 20
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 21
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 24
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 20
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-017",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-017_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 41,
+      "n_rating4_trials": 60,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-017_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-017_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 7
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-018",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-018_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 159,
+      "n_rating4_trials": 147,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-018_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-018_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 19,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 13,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 19,
+          "n_rating4_trials": 11
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-019",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-019_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 122,
+      "n_rating4_trials": 131,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-019_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-019_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 19,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 11
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-020",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-020_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 6,
+      "n_dropped_units_missing_condition": 6,
+      "n_rating1_trials": 7,
+      "n_rating4_trials": 120,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-020_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-020_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 20
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 22
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 22
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 23
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-021",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-021_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 11,
+      "n_dropped_units_missing_condition": 1,
+      "n_rating1_trials": 141,
+      "n_rating4_trials": 44,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-021_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-021_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 17,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 23,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 16,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 24,
+          "n_rating4_trials": 1
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-022",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-022_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 197,
+      "n_rating4_trials": 119,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-022_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-022_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 17,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 21,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 16,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 16,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 23,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 22,
+          "n_rating4_trials": 8
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-023",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-023_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 73,
+      "n_rating4_trials": 96,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-023_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-023_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 1,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 9
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-024",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-024_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 172,
+      "n_rating4_trials": 114,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-024_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-024_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 15,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 16,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 21,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 3
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-025",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-025_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 6,
+      "n_dropped_units_missing_condition": 6,
+      "n_rating1_trials": 135,
+      "n_rating4_trials": 8,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-025_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-025_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 23,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 20,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 21,
+          "n_rating4_trials": 1
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 17,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 26,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 28,
+          "n_rating4_trials": 1
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-026",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-026_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 55,
+      "n_rating4_trials": 176,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-026_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-026_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 20
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 18
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 21
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 19
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 19
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-027",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-027_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 81,
+      "n_rating4_trials": 133,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-027_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-027_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 15
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 17
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 13
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-028",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-028_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 110,
+      "n_rating4_trials": 130,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-028_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-028_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 7
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-029",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-029_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 192,
+      "n_rating4_trials": 64,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-029_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-029_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 14,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 17,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 20,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 19,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 21,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 11,
+          "n_rating4_trials": 3
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 17,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 18,
+          "n_rating4_trials": 1
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-030",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-030_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 83,
+      "n_rating4_trials": 116,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-030_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-030_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 10
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 12,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 12
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 9
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 14
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 3,
+          "n_rating4_trials": 11
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 6
+        }
+      ]
+    },
+    {
+      "subject_id": "sub-031",
+      "included_in_group_analysis": true,
+      "mask_path": "sources/trial-beta/cache/masks/sub-031_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+      "n_valid_units": 12,
+      "n_dropped_units_missing_condition": 0,
+      "n_rating1_trials": 75,
+      "n_rating4_trials": 71,
+      "subject_contrast_1gt4": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-031_contrast_1gt4.nii.gz",
+      "subject_contrast_4gt1": "sources/trial-beta/group_randomise_rating14_no_quality_filter/subject_maps/sub-031_contrast_4gt1.nii.gz",
+      "valid_units": [
+        {
+          "session_id": "ses-01",
+          "run_id": "run-01",
+          "n_rating1_trials": 10,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-02",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 13
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-03",
+          "n_rating1_trials": 5,
+          "n_rating4_trials": 7
+        },
+        {
+          "session_id": "ses-01",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 8
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-01",
+          "n_rating1_trials": 9,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-02",
+          "n_rating1_trials": 8,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-03",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 2
+        },
+        {
+          "session_id": "ses-02",
+          "run_id": "run-04",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 5
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-01",
+          "n_rating1_trials": 2,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-02",
+          "n_rating1_trials": 6,
+          "n_rating4_trials": 6
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-03",
+          "n_rating1_trials": 7,
+          "n_rating4_trials": 4
+        },
+        {
+          "session_id": "ses-03",
+          "run_id": "run-04",
+          "n_rating1_trials": 4,
+          "n_rating4_trials": 4
+        }
+      ]
+    }
+  ],
+  "randomise": {
+    "1gt4": {
+      "tstat_path": "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_1gt4_tstat1.nii.gz",
+      "tfce_corrp_path": "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_1gt4_tfce_corrp_tstat1.nii.gz",
+      "tfce_uncorrp_path": null,
+      "significant_mask_path": "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_1gt4_tfce_corrp_tstat1_sigmask_p05.nii.gz",
+      "n_significant_voxels": 0,
+      "n_significant_clusters_6conn": 0,
+      "largest_cluster_size_voxels": 0,
+      "cluster_sizes_voxels_desc": [],
+      "max_tfce_corrp_1minus_p": 0.29260000586509705,
+      "max_tstat": 4.380259990692139,
+      "min_tstat": -5.844831466674805,
+      "command": [
+        "sources/fsl/share/fsl/bin/randomise",
+        "-i",
+        "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_1gt4_4d.nii.gz",
+        "-o",
+        "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_1gt4",
+        "-m",
+        "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+        "-1",
+        "-n",
+        "5000",
+        "-T",
+        "-x",
+        "--seed=42"
+      ]
+    },
+    "4gt1": {
+      "tstat_path": "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_4gt1_tstat1.nii.gz",
+      "tfce_corrp_path": "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_4gt1_tfce_corrp_tstat1.nii.gz",
+      "tfce_uncorrp_path": null,
+      "significant_mask_path": "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_4gt1_tfce_corrp_tstat1_sigmask_p05.nii.gz",
+      "n_significant_voxels": 14,
+      "n_significant_clusters_6conn": 11,
+      "largest_cluster_size_voxels": 2,
+      "cluster_sizes_voxels_desc": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_tfce_corrp_1minus_p": 0.9995999932289124,
+      "max_tstat": 5.844831466674805,
+      "min_tstat": -4.380259990692139,
+      "command": [
+        "sources/fsl/share/fsl/bin/randomise",
+        "-i",
+        "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_4gt1_4d.nii.gz",
+        "-o",
+        "sources/trial-beta/group_randomise_rating14_no_quality_filter/randomise/randomise_4gt1",
+        "-m",
+        "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+        "-1",
+        "-n",
+        "5000",
+        "-T",
+        "-x",
+        "--seed=42"
+      ]
+    }
+  }
+}

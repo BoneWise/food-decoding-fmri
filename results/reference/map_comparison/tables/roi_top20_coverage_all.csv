@@ -1,0 +1,445 @@
+map_condition,roi_name,atlas_group,roi_voxels_within_shared_mask,selected_top20_voxels,roi_top20_coverage,enrichment_vs_global_top20,eligible_for_ranking
+haufe_rating1,Left Frontal Pole,cortical,6740,1593,0.2363501483679525,1.1817507418397626,True
+haufe_rating1,Right Frontal Pole,cortical,7667,1919,0.25029346550149995,1.2514673275074997,True
+haufe_rating1,Left Insular Cortex,cortical,1150,166,0.1443478260869565,0.7217391304347825,True
+haufe_rating1,Right Insular Cortex,cortical,1181,204,0.1727349703640982,0.863674851820491,True
+haufe_rating1,Left Superior Frontal Gyrus,cortical,2384,507,0.21266778523489932,1.0633389261744965,True
+haufe_rating1,Right Superior Frontal Gyrus,cortical,2163,410,0.18955154877484975,0.9477577438742487,True
+haufe_rating1,Left Middle Frontal Gyrus,cortical,2741,708,0.2582998905508938,1.291499452754469,True
+haufe_rating1,Right Middle Frontal Gyrus,cortical,2523,729,0.28894173602853745,1.4447086801426872,True
+haufe_rating1,"Left Inferior Frontal Gyrus, pars triangularis",cortical,607,237,0.3904448105436573,1.9522240527182866,True
+haufe_rating1,"Right Inferior Frontal Gyrus, pars triangularis",cortical,490,167,0.3408163265306122,1.704081632653061,True
+haufe_rating1,"Left Inferior Frontal Gyrus, pars opercularis",cortical,726,321,0.44214876033057854,2.2107438016528924,True
+haufe_rating1,"Right Inferior Frontal Gyrus, pars opercularis",cortical,654,263,0.40214067278287463,2.010703363914373,True
+haufe_rating1,Left Precentral Gyrus,cortical,4147,763,0.18398842536773571,0.9199421268386785,True
+haufe_rating1,Right Precentral Gyrus,cortical,3937,521,0.13233426466852935,0.6616713233426467,True
+haufe_rating1,Left Temporal Pole,cortical,2049,561,0.27379209370424595,1.3689604685212298,True
+haufe_rating1,Right Temporal Pole,cortical,2170,687,0.31658986175115206,1.5829493087557602,True
+haufe_rating1,"Left Superior Temporal Gyrus, anterior division",cortical,253,67,0.2648221343873518,1.324110671936759,True
+haufe_rating1,"Right Superior Temporal Gyrus, anterior division",cortical,268,46,0.17164179104477612,0.8582089552238805,True
+haufe_rating1,"Left Superior Temporal Gyrus, posterior division",cortical,874,240,0.2745995423340961,1.3729977116704806,True
+haufe_rating1,"Right Superior Temporal Gyrus, posterior division",cortical,950,182,0.19157894736842104,0.9578947368421051,True
+haufe_rating1,"Left Middle Temporal Gyrus, anterior division",cortical,446,28,0.06278026905829596,0.3139013452914798,True
+haufe_rating1,"Right Middle Temporal Gyrus, anterior division",cortical,399,39,0.09774436090225563,0.48872180451127817,True
+haufe_rating1,"Left Middle Temporal Gyrus, posterior division",cortical,1263,102,0.08076009501187649,0.40380047505938244,True
+haufe_rating1,"Right Middle Temporal Gyrus, posterior division",cortical,1232,335,0.2719155844155844,1.3595779220779218,True
+haufe_rating1,"Left Middle Temporal Gyrus, temporooccipital part",cortical,851,145,0.17038777908343125,0.8519388954171562,True
+haufe_rating1,"Right Middle Temporal Gyrus, temporooccipital part",cortical,1141,176,0.15425065731814197,0.7712532865907098,True
+haufe_rating1,"Left Inferior Temporal Gyrus, anterior division",cortical,330,49,0.1484848484848485,0.7424242424242424,True
+haufe_rating1,"Right Inferior Temporal Gyrus, anterior division",cortical,315,48,0.1523809523809524,0.761904761904762,True
+haufe_rating1,"Left Inferior Temporal Gyrus, posterior division",cortical,950,79,0.08315789473684211,0.41578947368421054,True
+haufe_rating1,"Right Inferior Temporal Gyrus, posterior division",cortical,892,106,0.11883408071748879,0.5941704035874439,True
+haufe_rating1,"Left Inferior Temporal Gyrus, temporooccipital part",cortical,678,167,0.24631268436578171,1.2315634218289084,True
+haufe_rating1,"Right Inferior Temporal Gyrus, temporooccipital part",cortical,769,198,0.2574772431729519,1.2873862158647593,True
+haufe_rating1,Left Postcentral Gyrus,cortical,3503,632,0.1804167856123323,0.9020839280616614,True
+haufe_rating1,Right Postcentral Gyrus,cortical,3117,344,0.11036252807186397,0.5518126403593199,True
+haufe_rating1,Left Superior Parietal Lobule,cortical,1444,273,0.18905817174515235,0.9452908587257617,True
+haufe_rating1,Right Superior Parietal Lobule,cortical,1452,139,0.09573002754820936,0.4786501377410468,True
+haufe_rating1,"Left Supramarginal Gyrus, anterior division",cortical,944,205,0.21716101694915255,1.0858050847457628,True
+haufe_rating1,"Right Supramarginal Gyrus, anterior division",cortical,796,126,0.15829145728643215,0.7914572864321607,True
+haufe_rating1,"Left Supramarginal Gyrus, posterior division",cortical,1050,321,0.3057142857142857,1.5285714285714285,True
+haufe_rating1,"Right Supramarginal Gyrus, posterior division",cortical,1207,389,0.32228666114333054,1.6114333057166526,True
+haufe_rating1,Left Angular Gyrus,cortical,948,208,0.21940928270042195,1.0970464135021096,True
+haufe_rating1,Right Angular Gyrus,cortical,1457,323,0.22168840082361016,1.1084420041180507,True
+haufe_rating1,"Left Lateral Occipital Cortex, superior division",cortical,4821,1003,0.20804812279610038,1.0402406139805018,True
+haufe_rating1,"Right Lateral Occipital Cortex, superior division",cortical,4709,1241,0.26353790613718414,1.3176895306859207,True
+haufe_rating1,"Left Lateral Occipital Cortex, inferior division",cortical,1962,994,0.5066258919469928,2.533129459734964,True
+haufe_rating1,"Right Lateral Occipital Cortex, inferior division",cortical,2001,973,0.4862568715642179,2.4312843578210894,True
+haufe_rating1,Left Intracalcarine Cortex,cortical,654,443,0.6773700305810397,3.3868501529051986,True
+haufe_rating1,Right Intracalcarine Cortex,cortical,747,305,0.40829986613119146,2.0414993306559572,True
+haufe_rating1,Left Frontal Medial Cortex,cortical,532,28,0.05263157894736842,0.2631578947368421,True
+haufe_rating1,Right Frontal Medial Cortex,cortical,444,33,0.07432432432432433,0.3716216216216216,True
+haufe_rating1,Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,89,0.16952380952380952,0.8476190476190476,True
+haufe_rating1,Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,97,0.18476190476190477,0.9238095238095237,True
+haufe_rating1,Left Subcallosal Cortex,cortical,642,117,0.1822429906542056,0.911214953271028,True
+haufe_rating1,Right Subcallosal Cortex,cortical,491,71,0.1446028513238289,0.7230142566191445,True
+haufe_rating1,Left Paracingulate Gyrus,cortical,1323,146,0.11035525321239607,0.5517762660619804,True
+haufe_rating1,Right Paracingulate Gyrus,cortical,1171,239,0.2040990606319385,1.0204953031596924,True
+haufe_rating1,"Left Cingulate Gyrus, anterior division",cortical,1281,90,0.0702576112412178,0.35128805620608894,True
+haufe_rating1,"Right Cingulate Gyrus, anterior division",cortical,1238,145,0.11712439418416801,0.58562197092084,True
+haufe_rating1,"Left Cingulate Gyrus, posterior division",cortical,1236,41,0.03317152103559871,0.16585760517799353,True
+haufe_rating1,"Right Cingulate Gyrus, posterior division",cortical,1141,96,0.08413672217353199,0.42068361086765993,True
+haufe_rating1,Left Precuneous Cortex,cortical,2720,285,0.10477941176470588,0.5238970588235294,True
+haufe_rating1,Right Precuneous Cortex,cortical,2669,448,0.16785312851255152,0.8392656425627576,True
+haufe_rating1,Left Cuneal Cortex,cortical,576,325,0.5642361111111112,2.821180555555556,True
+haufe_rating1,Right Cuneal Cortex,cortical,635,368,0.5795275590551181,2.8976377952755903,True
+haufe_rating1,Left Frontal Orbital Cortex,cortical,1562,446,0.2855313700384123,1.4276568501920612,True
+haufe_rating1,Right Frontal Orbital Cortex,cortical,1380,331,0.2398550724637681,1.1992753623188406,True
+haufe_rating1,"Left Parahippocampal Gyrus, anterior division",cortical,497,175,0.352112676056338,1.76056338028169,True
+haufe_rating1,"Right Parahippocampal Gyrus, anterior division",cortical,564,221,0.39184397163120566,1.9592198581560283,True
+haufe_rating1,"Left Parahippocampal Gyrus, posterior division",cortical,390,95,0.24358974358974358,1.2179487179487178,True
+haufe_rating1,"Right Parahippocampal Gyrus, posterior division",cortical,310,35,0.11290322580645161,0.564516129032258,True
+haufe_rating1,Left Lingual Gyrus,cortical,1632,658,0.40318627450980393,2.0159313725490193,True
+haufe_rating1,Right Lingual Gyrus,cortical,1739,587,0.3375503162737205,1.6877515813686024,True
+haufe_rating1,"Left Temporal Fusiform Cortex, anterior division",cortical,282,121,0.42907801418439717,2.1453900709219855,True
+haufe_rating1,"Right Temporal Fusiform Cortex, anterior division",cortical,284,101,0.35563380281690143,1.778169014084507,True
+haufe_rating1,"Left Temporal Fusiform Cortex, posterior division",cortical,845,244,0.28875739644970416,1.4437869822485208,True
+haufe_rating1,"Right Temporal Fusiform Cortex, posterior division",cortical,692,182,0.2630057803468208,1.315028901734104,True
+haufe_rating1,Left Temporal Occipital Fusiform Cortex,cortical,648,247,0.38117283950617287,1.9058641975308643,True
+haufe_rating1,Right Temporal Occipital Fusiform Cortex,cortical,821,217,0.26431181485992694,1.3215590742996346,True
+haufe_rating1,Left Occipital Fusiform Gyrus,cortical,926,400,0.4319654427645788,2.159827213822894,True
+haufe_rating1,Right Occipital Fusiform Gyrus,cortical,880,456,0.5181818181818182,2.590909090909091,True
+haufe_rating1,Left Frontal Operculum Cortex,cortical,359,141,0.39275766016713093,1.9637883008356545,True
+haufe_rating1,Right Frontal Operculum Cortex,cortical,320,135,0.421875,2.109375,True
+haufe_rating1,Left Central Opercular Cortex,cortical,984,197,0.20020325203252032,1.0010162601626016,True
+haufe_rating1,Right Central Opercular Cortex,cortical,902,185,0.20509977827050999,1.0254988913525498,True
+haufe_rating1,Left Parietal Operculum Cortex,cortical,576,123,0.21354166666666666,1.0677083333333333,True
+haufe_rating1,Right Parietal Operculum Cortex,cortical,543,58,0.10681399631675875,0.5340699815837937,True
+haufe_rating1,Left Planum Polare,cortical,360,127,0.3527777777777778,1.7638888888888888,True
+haufe_rating1,Right Planum Polare,cortical,389,99,0.2544987146529563,1.2724935732647815,True
+haufe_rating1,Left Heschl's Gyrus (includes H1 and H2),cortical,320,75,0.234375,1.171875,True
+haufe_rating1,Right Heschl's Gyrus (includes H1 and H2),cortical,284,92,0.323943661971831,1.619718309859155,True
+haufe_rating1,Left Planum Temporale,cortical,533,89,0.1669793621013133,0.8348968105065665,True
+haufe_rating1,Right Planum Temporale,cortical,419,79,0.18854415274463007,0.9427207637231503,True
+haufe_rating1,Left Supracalcarine Cortex,cortical,120,51,0.425,2.125,True
+haufe_rating1,Right Supracalcarine Cortex,cortical,141,78,0.5531914893617021,2.7659574468085104,True
+haufe_rating1,Left Occipital Pole,cortical,2466,1332,0.5401459854014599,2.7007299270072993,True
+haufe_rating1,Right Occipital Pole,cortical,2164,1088,0.5027726432532348,2.5138632162661736,True
+haufe_rating1,Left Thalamus,subcortical,1321,144,0.10900832702498107,0.5450416351249053,True
+haufe_rating1,Left Caudate,subcortical,487,22,0.045174537987679675,0.22587268993839837,True
+haufe_rating1,Left Putamen,subcortical,799,62,0.07759699624530664,0.3879849812265332,True
+haufe_rating1,Left Pallidum,subcortical,267,50,0.18726591760299627,0.9363295880149813,True
+haufe_rating1,Brain-Stem,subcortical,4567,1083,0.2371359754762426,1.185679877381213,True
+haufe_rating1,Left Hippocampus,subcortical,691,115,0.16642547033285093,0.8321273516642547,True
+haufe_rating1,Left Amygdala,subcortical,306,97,0.31699346405228757,1.5849673202614378,True
+haufe_rating1,Left Accumbens,subcortical,89,4,0.0449438202247191,0.2247191011235955,False
+haufe_rating1,Right Thalamus,subcortical,1283,164,0.12782540919719407,0.6391270459859703,True
+haufe_rating1,Right Caudate,subcortical,511,17,0.033268101761252444,0.16634050880626222,True
+haufe_rating1,Right Putamen,subcortical,796,50,0.06281407035175879,0.31407035175879394,True
+haufe_rating1,Right Pallidum,subcortical,260,64,0.24615384615384617,1.2307692307692308,True
+haufe_rating1,Right Hippocampus,subcortical,699,124,0.17739628040057226,0.8869814020028612,True
+haufe_rating1,Right Amygdala,subcortical,364,127,0.3489010989010989,1.7445054945054943,True
+haufe_rating1,Right Accumbens,subcortical,84,9,0.10714285714285714,0.5357142857142857,False
+haufe_rating4,Left Frontal Pole,cortical,6740,1245,0.1847181008902077,0.9235905044510385,True
+haufe_rating4,Right Frontal Pole,cortical,7667,1207,0.1574279379157428,0.7871396895787139,True
+haufe_rating4,Left Insular Cortex,cortical,1150,356,0.3095652173913043,1.5478260869565215,True
+haufe_rating4,Right Insular Cortex,cortical,1181,314,0.26587637595258257,1.3293818797629127,True
+haufe_rating4,Left Superior Frontal Gyrus,cortical,2384,310,0.13003355704697986,0.6501677852348993,True
+haufe_rating4,Right Superior Frontal Gyrus,cortical,2163,120,0.05547850208044383,0.27739251040221913,True
+haufe_rating4,Left Middle Frontal Gyrus,cortical,2741,346,0.12623130244436337,0.6311565122218168,True
+haufe_rating4,Right Middle Frontal Gyrus,cortical,2523,223,0.08838684106222751,0.44193420531113753,True
+haufe_rating4,"Left Inferior Frontal Gyrus, pars triangularis",cortical,607,54,0.08896210873146623,0.44481054365733114,True
+haufe_rating4,"Right Inferior Frontal Gyrus, pars triangularis",cortical,490,41,0.0836734693877551,0.41836734693877553,True
+haufe_rating4,"Left Inferior Frontal Gyrus, pars opercularis",cortical,726,55,0.07575757575757576,0.3787878787878788,True
+haufe_rating4,"Right Inferior Frontal Gyrus, pars opercularis",cortical,654,86,0.13149847094801223,0.6574923547400611,True
+haufe_rating4,Left Precentral Gyrus,cortical,4147,639,0.1540872920183265,0.7704364600916325,True
+haufe_rating4,Right Precentral Gyrus,cortical,3937,609,0.15468630937261874,0.7734315468630937,True
+haufe_rating4,Left Temporal Pole,cortical,2049,307,0.1498291849682772,0.749145924841386,True
+haufe_rating4,Right Temporal Pole,cortical,2170,333,0.1534562211981567,0.7672811059907834,True
+haufe_rating4,"Left Superior Temporal Gyrus, anterior division",cortical,253,22,0.08695652173913043,0.43478260869565216,True
+haufe_rating4,"Right Superior Temporal Gyrus, anterior division",cortical,268,10,0.03731343283582089,0.18656716417910446,True
+haufe_rating4,"Left Superior Temporal Gyrus, posterior division",cortical,874,68,0.07780320366132723,0.3890160183066361,True
+haufe_rating4,"Right Superior Temporal Gyrus, posterior division",cortical,950,133,0.14,0.7000000000000001,True
+haufe_rating4,"Left Middle Temporal Gyrus, anterior division",cortical,446,109,0.24439461883408073,1.2219730941704037,True
+haufe_rating4,"Right Middle Temporal Gyrus, anterior division",cortical,399,98,0.24561403508771928,1.2280701754385963,True
+haufe_rating4,"Left Middle Temporal Gyrus, posterior division",cortical,1263,230,0.18210609659540775,0.9105304829770386,True
+haufe_rating4,"Right Middle Temporal Gyrus, posterior division",cortical,1232,62,0.05032467532467533,0.25162337662337664,True
+haufe_rating4,"Left Middle Temporal Gyrus, temporooccipital part",cortical,851,239,0.2808460634547591,1.4042303172737953,True
+haufe_rating4,"Right Middle Temporal Gyrus, temporooccipital part",cortical,1141,191,0.16739702015775634,0.8369851007887816,True
+haufe_rating4,"Left Inferior Temporal Gyrus, anterior division",cortical,330,29,0.08787878787878788,0.43939393939393934,True
+haufe_rating4,"Right Inferior Temporal Gyrus, anterior division",cortical,315,22,0.06984126984126984,0.3492063492063492,True
+haufe_rating4,"Left Inferior Temporal Gyrus, posterior division",cortical,950,36,0.037894736842105266,0.18947368421052632,True
+haufe_rating4,"Right Inferior Temporal Gyrus, posterior division",cortical,892,21,0.023542600896860985,0.11771300448430493,True
+haufe_rating4,"Left Inferior Temporal Gyrus, temporooccipital part",cortical,678,211,0.3112094395280236,1.556047197640118,True
+haufe_rating4,"Right Inferior Temporal Gyrus, temporooccipital part",cortical,769,117,0.15214564369310793,0.7607282184655396,True
+haufe_rating4,Left Postcentral Gyrus,cortical,3503,457,0.13045960605195547,0.6522980302597773,True
+haufe_rating4,Right Postcentral Gyrus,cortical,3117,345,0.11068334937439846,0.5534167468719923,True
+haufe_rating4,Left Superior Parietal Lobule,cortical,1444,290,0.20083102493074792,1.0041551246537395,True
+haufe_rating4,Right Superior Parietal Lobule,cortical,1452,317,0.21831955922865015,1.0915977961432506,True
+haufe_rating4,"Left Supramarginal Gyrus, anterior division",cortical,944,155,0.1641949152542373,0.8209745762711864,True
+haufe_rating4,"Right Supramarginal Gyrus, anterior division",cortical,796,238,0.2989949748743719,1.4949748743718594,True
+haufe_rating4,"Left Supramarginal Gyrus, posterior division",cortical,1050,107,0.1019047619047619,0.5095238095238095,True
+haufe_rating4,"Right Supramarginal Gyrus, posterior division",cortical,1207,116,0.09610604805302403,0.48053024026512015,True
+haufe_rating4,Left Angular Gyrus,cortical,948,140,0.14767932489451477,0.7383966244725738,True
+haufe_rating4,Right Angular Gyrus,cortical,1457,298,0.20452985586822237,1.0226492793411117,True
+haufe_rating4,"Left Lateral Occipital Cortex, superior division",cortical,4821,1642,0.3405932379174445,1.7029661895872223,True
+haufe_rating4,"Right Lateral Occipital Cortex, superior division",cortical,4709,1361,0.28902102357188364,1.445105117859418,True
+haufe_rating4,"Left Lateral Occipital Cortex, inferior division",cortical,1962,419,0.21355759429153925,1.067787971457696,True
+haufe_rating4,"Right Lateral Occipital Cortex, inferior division",cortical,2001,470,0.23488255872063968,1.1744127936031983,True
+haufe_rating4,Left Intracalcarine Cortex,cortical,654,74,0.11314984709480122,0.565749235474006,True
+haufe_rating4,Right Intracalcarine Cortex,cortical,747,295,0.3949129852744311,1.9745649263721554,True
+haufe_rating4,Left Frontal Medial Cortex,cortical,532,149,0.2800751879699248,1.400375939849624,True
+haufe_rating4,Right Frontal Medial Cortex,cortical,444,82,0.18468468468468469,0.9234234234234234,True
+haufe_rating4,Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,89,0.16952380952380952,0.8476190476190476,True
+haufe_rating4,Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,51,0.09714285714285714,0.4857142857142857,True
+haufe_rating4,Left Subcallosal Cortex,cortical,642,205,0.31931464174454827,1.5965732087227413,True
+haufe_rating4,Right Subcallosal Cortex,cortical,491,147,0.29938900203665986,1.4969450101832993,True
+haufe_rating4,Left Paracingulate Gyrus,cortical,1323,501,0.3786848072562358,1.893424036281179,True
+haufe_rating4,Right Paracingulate Gyrus,cortical,1171,360,0.3074295473953886,1.5371477369769428,True
+haufe_rating4,"Left Cingulate Gyrus, anterior division",cortical,1281,569,0.44418423106947696,2.220921155347385,True
+haufe_rating4,"Right Cingulate Gyrus, anterior division",cortical,1238,375,0.30290791599353795,1.5145395799676897,True
+haufe_rating4,"Left Cingulate Gyrus, posterior division",cortical,1236,808,0.6537216828478964,3.2686084142394822,True
+haufe_rating4,"Right Cingulate Gyrus, posterior division",cortical,1141,576,0.5048203330411919,2.524101665205959,True
+haufe_rating4,Left Precuneous Cortex,cortical,2720,1296,0.4764705882352941,2.38235294117647,True
+haufe_rating4,Right Precuneous Cortex,cortical,2669,991,0.37130011240164856,1.8565005620082426,True
+haufe_rating4,Left Cuneal Cortex,cortical,576,80,0.1388888888888889,0.6944444444444444,True
+haufe_rating4,Right Cuneal Cortex,cortical,635,60,0.09448818897637795,0.47244094488188976,True
+haufe_rating4,Left Frontal Orbital Cortex,cortical,1562,354,0.2266325224071703,1.1331626120358513,True
+haufe_rating4,Right Frontal Orbital Cortex,cortical,1380,267,0.1934782608695652,0.967391304347826,True
+haufe_rating4,"Left Parahippocampal Gyrus, anterior division",cortical,497,118,0.23742454728370221,1.187122736418511,True
+haufe_rating4,"Right Parahippocampal Gyrus, anterior division",cortical,564,121,0.21453900709219859,1.0726950354609928,True
+haufe_rating4,"Left Parahippocampal Gyrus, posterior division",cortical,390,162,0.4153846153846154,2.076923076923077,True
+haufe_rating4,"Right Parahippocampal Gyrus, posterior division",cortical,310,175,0.5645161290322581,2.8225806451612905,True
+haufe_rating4,Left Lingual Gyrus,cortical,1632,564,0.34558823529411764,1.727941176470588,True
+haufe_rating4,Right Lingual Gyrus,cortical,1739,657,0.37780333525014376,1.8890166762507188,True
+haufe_rating4,"Left Temporal Fusiform Cortex, anterior division",cortical,282,29,0.10283687943262411,0.5141843971631205,True
+haufe_rating4,"Right Temporal Fusiform Cortex, anterior division",cortical,284,44,0.15492957746478872,0.7746478873239435,True
+haufe_rating4,"Left Temporal Fusiform Cortex, posterior division",cortical,845,200,0.23668639053254437,1.1834319526627217,True
+haufe_rating4,"Right Temporal Fusiform Cortex, posterior division",cortical,692,170,0.24566473988439305,1.2283236994219653,True
+haufe_rating4,Left Temporal Occipital Fusiform Cortex,cortical,648,263,0.4058641975308642,2.029320987654321,True
+haufe_rating4,Right Temporal Occipital Fusiform Cortex,cortical,821,363,0.44214372716199757,2.2107186358099877,True
+haufe_rating4,Left Occipital Fusiform Gyrus,cortical,926,373,0.40280777537796975,2.0140388768898485,True
+haufe_rating4,Right Occipital Fusiform Gyrus,cortical,880,274,0.31136363636363634,1.5568181818181817,True
+haufe_rating4,Left Frontal Operculum Cortex,cortical,359,28,0.07799442896935933,0.38997214484679665,True
+haufe_rating4,Right Frontal Operculum Cortex,cortical,320,31,0.096875,0.484375,True
+haufe_rating4,Left Central Opercular Cortex,cortical,984,186,0.18902439024390244,0.9451219512195121,True
+haufe_rating4,Right Central Opercular Cortex,cortical,902,151,0.1674057649667406,0.8370288248337029,True
+haufe_rating4,Left Parietal Operculum Cortex,cortical,576,107,0.1857638888888889,0.9288194444444444,True
+haufe_rating4,Right Parietal Operculum Cortex,cortical,543,130,0.23941068139963168,1.1970534069981582,True
+haufe_rating4,Left Planum Polare,cortical,360,36,0.1,0.5,True
+haufe_rating4,Right Planum Polare,cortical,389,39,0.10025706940874037,0.5012853470437018,True
+haufe_rating4,Left Heschl's Gyrus (includes H1 and H2),cortical,320,38,0.11875,0.5937499999999999,True
+haufe_rating4,Right Heschl's Gyrus (includes H1 and H2),cortical,284,30,0.1056338028169014,0.528169014084507,True
+haufe_rating4,Left Planum Temporale,cortical,533,36,0.0675422138836773,0.33771106941838647,True
+haufe_rating4,Right Planum Temporale,cortical,419,28,0.06682577565632458,0.3341288782816229,True
+haufe_rating4,Left Supracalcarine Cortex,cortical,120,27,0.225,1.125,True
+haufe_rating4,Right Supracalcarine Cortex,cortical,141,29,0.20567375886524822,1.028368794326241,True
+haufe_rating4,Left Occipital Pole,cortical,2466,672,0.2725060827250608,1.362530413625304,True
+haufe_rating4,Right Occipital Pole,cortical,2164,705,0.3257855822550832,1.6289279112754158,True
+haufe_rating4,Left Thalamus,subcortical,1321,608,0.46025738077214234,2.3012869038607118,True
+haufe_rating4,Left Caudate,subcortical,487,225,0.4620123203285421,2.3100616016427105,True
+haufe_rating4,Left Putamen,subcortical,799,270,0.3379224030037547,1.6896120150187734,True
+haufe_rating4,Left Pallidum,subcortical,267,49,0.18352059925093633,0.9176029962546817,True
+haufe_rating4,Brain-Stem,subcortical,4567,1232,0.2697613312896869,1.3488066564484342,True
+haufe_rating4,Left Hippocampus,subcortical,691,216,0.3125904486251809,1.5629522431259042,True
+haufe_rating4,Left Amygdala,subcortical,306,73,0.238562091503268,1.1928104575163399,True
+haufe_rating4,Left Accumbens,subcortical,89,48,0.5393258426966292,2.696629213483146,False
+haufe_rating4,Right Thalamus,subcortical,1283,499,0.38893219017926733,1.9446609508963366,True
+haufe_rating4,Right Caudate,subcortical,511,208,0.4070450097847358,2.035225048923679,True
+haufe_rating4,Right Putamen,subcortical,796,282,0.3542713567839196,1.7713567839195978,True
+haufe_rating4,Right Pallidum,subcortical,260,49,0.18846153846153846,0.9423076923076923,True
+haufe_rating4,Right Hippocampus,subcortical,699,199,0.28469241773962806,1.4234620886981402,True
+haufe_rating4,Right Amygdala,subcortical,364,75,0.20604395604395603,1.0302197802197801,True
+haufe_rating4,Right Accumbens,subcortical,84,40,0.47619047619047616,2.3809523809523805,False
+layercam_tfce_t_rating1,Left Frontal Pole,cortical,6740,1210,0.1795252225519288,0.8976261127596439,True
+layercam_tfce_t_rating1,Right Frontal Pole,cortical,7667,1688,0.22016434068083995,1.1008217034041996,True
+layercam_tfce_t_rating1,Left Insular Cortex,cortical,1150,46,0.04,0.19999999999999998,True
+layercam_tfce_t_rating1,Right Insular Cortex,cortical,1181,726,0.6147332768839966,3.0736663844199827,True
+layercam_tfce_t_rating1,Left Superior Frontal Gyrus,cortical,2384,1089,0.45679530201342283,2.283976510067114,True
+layercam_tfce_t_rating1,Right Superior Frontal Gyrus,cortical,2163,423,0.1955617198335645,0.9778085991678224,True
+layercam_tfce_t_rating1,Left Middle Frontal Gyrus,cortical,2741,430,0.1568770521707406,0.784385260853703,True
+layercam_tfce_t_rating1,Right Middle Frontal Gyrus,cortical,2523,1036,0.4106222750693619,2.053111375346809,True
+layercam_tfce_t_rating1,"Left Inferior Frontal Gyrus, pars triangularis",cortical,607,187,0.30807248764415157,1.5403624382207577,True
+layercam_tfce_t_rating1,"Right Inferior Frontal Gyrus, pars triangularis",cortical,490,64,0.1306122448979592,0.653061224489796,True
+layercam_tfce_t_rating1,"Left Inferior Frontal Gyrus, pars opercularis",cortical,726,10,0.013774104683195593,0.06887052341597796,True
+layercam_tfce_t_rating1,"Right Inferior Frontal Gyrus, pars opercularis",cortical,654,146,0.22324159021406728,1.1162079510703364,True
+layercam_tfce_t_rating1,Left Precentral Gyrus,cortical,4147,85,0.02049674463467567,0.10248372317337835,True
+layercam_tfce_t_rating1,Right Precentral Gyrus,cortical,3937,308,0.07823215646431293,0.39116078232156465,True
+layercam_tfce_t_rating1,Left Temporal Pole,cortical,2049,98,0.04782820888238165,0.23914104441190825,True
+layercam_tfce_t_rating1,Right Temporal Pole,cortical,2170,897,0.4133640552995392,2.0668202764976957,True
+layercam_tfce_t_rating1,"Left Superior Temporal Gyrus, anterior division",cortical,253,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Superior Temporal Gyrus, anterior division",cortical,268,74,0.27611940298507465,1.3805970149253732,True
+layercam_tfce_t_rating1,"Left Superior Temporal Gyrus, posterior division",cortical,874,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Superior Temporal Gyrus, posterior division",cortical,950,99,0.10421052631578948,0.5210526315789473,True
+layercam_tfce_t_rating1,"Left Middle Temporal Gyrus, anterior division",cortical,446,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Middle Temporal Gyrus, anterior division",cortical,399,360,0.9022556390977443,4.511278195488721,True
+layercam_tfce_t_rating1,"Left Middle Temporal Gyrus, posterior division",cortical,1263,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Middle Temporal Gyrus, posterior division",cortical,1232,139,0.11282467532467533,0.5641233766233766,True
+layercam_tfce_t_rating1,"Left Middle Temporal Gyrus, temporooccipital part",cortical,851,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Middle Temporal Gyrus, temporooccipital part",cortical,1141,183,0.16038562664329536,0.8019281332164768,True
+layercam_tfce_t_rating1,"Left Inferior Temporal Gyrus, anterior division",cortical,330,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Inferior Temporal Gyrus, anterior division",cortical,315,302,0.9587301587301588,4.7936507936507935,True
+layercam_tfce_t_rating1,"Left Inferior Temporal Gyrus, posterior division",cortical,950,32,0.03368421052631579,0.16842105263157894,True
+layercam_tfce_t_rating1,"Right Inferior Temporal Gyrus, posterior division",cortical,892,352,0.39461883408071746,1.9730941704035871,True
+layercam_tfce_t_rating1,"Left Inferior Temporal Gyrus, temporooccipital part",cortical,678,55,0.08112094395280237,0.4056047197640118,True
+layercam_tfce_t_rating1,"Right Inferior Temporal Gyrus, temporooccipital part",cortical,769,37,0.04811443433029909,0.24057217165149544,True
+layercam_tfce_t_rating1,Left Postcentral Gyrus,cortical,3503,233,0.06651441621467313,0.33257208107336567,True
+layercam_tfce_t_rating1,Right Postcentral Gyrus,cortical,3117,348,0.11164581328200192,0.5582290664100096,True
+layercam_tfce_t_rating1,Left Superior Parietal Lobule,cortical,1444,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Superior Parietal Lobule,cortical,1452,623,0.4290633608815427,2.145316804407713,True
+layercam_tfce_t_rating1,"Left Supramarginal Gyrus, anterior division",cortical,944,89,0.09427966101694915,0.47139830508474573,True
+layercam_tfce_t_rating1,"Right Supramarginal Gyrus, anterior division",cortical,796,13,0.016331658291457288,0.08165829145728644,True
+layercam_tfce_t_rating1,"Left Supramarginal Gyrus, posterior division",cortical,1050,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Supramarginal Gyrus, posterior division",cortical,1207,12,0.009942004971002486,0.04971002485501243,True
+layercam_tfce_t_rating1,Left Angular Gyrus,cortical,948,6,0.006329113924050633,0.03164556962025316,True
+layercam_tfce_t_rating1,Right Angular Gyrus,cortical,1457,272,0.18668496911461907,0.9334248455730954,True
+layercam_tfce_t_rating1,"Left Lateral Occipital Cortex, superior division",cortical,4821,3,0.0006222775357809583,0.0031113876789047915,True
+layercam_tfce_t_rating1,"Right Lateral Occipital Cortex, superior division",cortical,4709,148,0.03142917816946273,0.15714589084731365,True
+layercam_tfce_t_rating1,"Left Lateral Occipital Cortex, inferior division",cortical,1962,0,0.0,0.0,True
+layercam_tfce_t_rating1,"Right Lateral Occipital Cortex, inferior division",cortical,2001,77,0.0384807596201899,0.1924037981009495,True
+layercam_tfce_t_rating1,Left Intracalcarine Cortex,cortical,654,75,0.11467889908256881,0.573394495412844,True
+layercam_tfce_t_rating1,Right Intracalcarine Cortex,cortical,747,126,0.1686746987951807,0.8433734939759036,True
+layercam_tfce_t_rating1,Left Frontal Medial Cortex,cortical,532,243,0.4567669172932331,2.2838345864661656,True
+layercam_tfce_t_rating1,Right Frontal Medial Cortex,cortical,444,178,0.4009009009009009,2.0045045045045042,True
+layercam_tfce_t_rating1,Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,1,0.0019047619047619048,0.009523809523809523,True
+layercam_tfce_t_rating1,Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,3,0.005714285714285714,0.02857142857142857,True
+layercam_tfce_t_rating1,Left Subcallosal Cortex,cortical,642,426,0.6635514018691588,3.317757009345794,True
+layercam_tfce_t_rating1,Right Subcallosal Cortex,cortical,491,287,0.5845213849287169,2.922606924643584,True
+layercam_tfce_t_rating1,Left Paracingulate Gyrus,cortical,1323,524,0.3960695389266818,1.9803476946334089,True
+layercam_tfce_t_rating1,Right Paracingulate Gyrus,cortical,1171,518,0.44235695986336465,2.211784799316823,True
+layercam_tfce_t_rating1,"Left Cingulate Gyrus, anterior division",cortical,1281,356,0.2779078844652615,1.3895394223263073,True
+layercam_tfce_t_rating1,"Right Cingulate Gyrus, anterior division",cortical,1238,411,0.33198707592891763,1.6599353796445881,True
+layercam_tfce_t_rating1,"Left Cingulate Gyrus, posterior division",cortical,1236,108,0.08737864077669903,0.4368932038834951,True
+layercam_tfce_t_rating1,"Right Cingulate Gyrus, posterior division",cortical,1141,177,0.1551270815074496,0.775635407537248,True
+layercam_tfce_t_rating1,Left Precuneous Cortex,cortical,2720,315,0.11580882352941177,0.5790441176470588,True
+layercam_tfce_t_rating1,Right Precuneous Cortex,cortical,2669,406,0.15211689771449982,0.760584488572499,True
+layercam_tfce_t_rating1,Left Cuneal Cortex,cortical,576,72,0.125,0.625,True
+layercam_tfce_t_rating1,Right Cuneal Cortex,cortical,635,0,0.0,0.0,True
+layercam_tfce_t_rating1,Left Frontal Orbital Cortex,cortical,1562,422,0.2701664532650448,1.350832266325224,True
+layercam_tfce_t_rating1,Right Frontal Orbital Cortex,cortical,1380,660,0.4782608695652174,2.391304347826087,True
+layercam_tfce_t_rating1,"Left Parahippocampal Gyrus, anterior division",cortical,497,252,0.5070422535211268,2.5352112676056335,True
+layercam_tfce_t_rating1,"Right Parahippocampal Gyrus, anterior division",cortical,564,287,0.5088652482269503,2.5443262411347516,True
+layercam_tfce_t_rating1,"Left Parahippocampal Gyrus, posterior division",cortical,390,128,0.3282051282051282,1.641025641025641,True
+layercam_tfce_t_rating1,"Right Parahippocampal Gyrus, posterior division",cortical,310,273,0.8806451612903226,4.403225806451612,True
+layercam_tfce_t_rating1,Left Lingual Gyrus,cortical,1632,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Lingual Gyrus,cortical,1739,384,0.22081656124209315,1.1040828062104657,True
+layercam_tfce_t_rating1,"Left Temporal Fusiform Cortex, anterior division",cortical,282,13,0.04609929078014184,0.2304964539007092,True
+layercam_tfce_t_rating1,"Right Temporal Fusiform Cortex, anterior division",cortical,284,38,0.13380281690140844,0.6690140845070421,True
+layercam_tfce_t_rating1,"Left Temporal Fusiform Cortex, posterior division",cortical,845,245,0.28994082840236685,1.4497041420118342,True
+layercam_tfce_t_rating1,"Right Temporal Fusiform Cortex, posterior division",cortical,692,498,0.7196531791907514,3.598265895953757,True
+layercam_tfce_t_rating1,Left Temporal Occipital Fusiform Cortex,cortical,648,53,0.08179012345679013,0.4089506172839506,True
+layercam_tfce_t_rating1,Right Temporal Occipital Fusiform Cortex,cortical,821,274,0.3337393422655298,1.668696711327649,True
+layercam_tfce_t_rating1,Left Occipital Fusiform Gyrus,cortical,926,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Occipital Fusiform Gyrus,cortical,880,0,0.0,0.0,True
+layercam_tfce_t_rating1,Left Frontal Operculum Cortex,cortical,359,61,0.16991643454038996,0.8495821727019498,True
+layercam_tfce_t_rating1,Right Frontal Operculum Cortex,cortical,320,320,1.0,5.0,True
+layercam_tfce_t_rating1,Left Central Opercular Cortex,cortical,984,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Central Opercular Cortex,cortical,902,314,0.34811529933481156,1.7405764966740578,True
+layercam_tfce_t_rating1,Left Parietal Operculum Cortex,cortical,576,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Parietal Operculum Cortex,cortical,543,7,0.01289134438305709,0.06445672191528545,True
+layercam_tfce_t_rating1,Left Planum Polare,cortical,360,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Planum Polare,cortical,389,162,0.41645244215938304,2.082262210796915,True
+layercam_tfce_t_rating1,Left Heschl's Gyrus (includes H1 and H2),cortical,320,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Heschl's Gyrus (includes H1 and H2),cortical,284,166,0.5845070422535211,2.9225352112676055,True
+layercam_tfce_t_rating1,Left Planum Temporale,cortical,533,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Planum Temporale,cortical,419,65,0.15513126491646778,0.7756563245823389,True
+layercam_tfce_t_rating1,Left Supracalcarine Cortex,cortical,120,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Supracalcarine Cortex,cortical,141,0,0.0,0.0,True
+layercam_tfce_t_rating1,Left Occipital Pole,cortical,2466,0,0.0,0.0,True
+layercam_tfce_t_rating1,Right Occipital Pole,cortical,2164,0,0.0,0.0,True
+layercam_tfce_t_rating1,Left Thalamus,subcortical,1321,852,0.6449659348978047,3.2248296744890235,True
+layercam_tfce_t_rating1,Left Caudate,subcortical,487,224,0.459958932238193,2.299794661190965,True
+layercam_tfce_t_rating1,Left Putamen,subcortical,799,136,0.1702127659574468,0.8510638297872339,True
+layercam_tfce_t_rating1,Left Pallidum,subcortical,267,178,0.6666666666666666,3.333333333333333,True
+layercam_tfce_t_rating1,Brain-Stem,subcortical,4567,746,0.1633457411867747,0.8167287059338735,True
+layercam_tfce_t_rating1,Left Hippocampus,subcortical,691,95,0.13748191027496381,0.6874095513748191,True
+layercam_tfce_t_rating1,Left Amygdala,subcortical,306,134,0.43790849673202614,2.1895424836601305,True
+layercam_tfce_t_rating1,Left Accumbens,subcortical,89,38,0.42696629213483145,2.134831460674157,False
+layercam_tfce_t_rating1,Right Thalamus,subcortical,1283,1083,0.8441153546375681,4.22057677318784,True
+layercam_tfce_t_rating1,Right Caudate,subcortical,511,427,0.8356164383561644,4.178082191780821,True
+layercam_tfce_t_rating1,Right Putamen,subcortical,796,337,0.42336683417085424,2.116834170854271,True
+layercam_tfce_t_rating1,Right Pallidum,subcortical,260,191,0.7346153846153847,3.6730769230769234,True
+layercam_tfce_t_rating1,Right Hippocampus,subcortical,699,416,0.5951359084406295,2.9756795422031472,True
+layercam_tfce_t_rating1,Right Amygdala,subcortical,364,257,0.7060439560439561,3.53021978021978,True
+layercam_tfce_t_rating1,Right Accumbens,subcortical,84,14,0.16666666666666666,0.8333333333333333,False
+layercam_tfce_t_rating4,Left Frontal Pole,cortical,6740,527,0.07818991097922849,0.3909495548961424,True
+layercam_tfce_t_rating4,Right Frontal Pole,cortical,7667,105,0.013695056736663623,0.06847528368331811,True
+layercam_tfce_t_rating4,Left Insular Cortex,cortical,1150,475,0.41304347826086957,2.0652173913043477,True
+layercam_tfce_t_rating4,Right Insular Cortex,cortical,1181,59,0.04995766299745978,0.2497883149872989,True
+layercam_tfce_t_rating4,Left Superior Frontal Gyrus,cortical,2384,42,0.01761744966442953,0.08808724832214763,True
+layercam_tfce_t_rating4,Right Superior Frontal Gyrus,cortical,2163,5,0.002311604253351826,0.01155802126675913,True
+layercam_tfce_t_rating4,Left Middle Frontal Gyrus,cortical,2741,413,0.15067493615468808,0.7533746807734404,True
+layercam_tfce_t_rating4,Right Middle Frontal Gyrus,cortical,2523,308,0.12207689258818867,0.6103844629409433,True
+layercam_tfce_t_rating4,"Left Inferior Frontal Gyrus, pars triangularis",cortical,607,24,0.039538714991762765,0.19769357495881382,True
+layercam_tfce_t_rating4,"Right Inferior Frontal Gyrus, pars triangularis",cortical,490,3,0.006122448979591836,0.03061224489795918,True
+layercam_tfce_t_rating4,"Left Inferior Frontal Gyrus, pars opercularis",cortical,726,137,0.1887052341597796,0.943526170798898,True
+layercam_tfce_t_rating4,"Right Inferior Frontal Gyrus, pars opercularis",cortical,654,6,0.009174311926605505,0.045871559633027525,True
+layercam_tfce_t_rating4,Left Precentral Gyrus,cortical,4147,852,0.205449722691102,1.0272486134555099,True
+layercam_tfce_t_rating4,Right Precentral Gyrus,cortical,3937,853,0.21666243332486665,1.0833121666243333,True
+layercam_tfce_t_rating4,Left Temporal Pole,cortical,2049,789,0.3850658857979502,1.925329428989751,True
+layercam_tfce_t_rating4,Right Temporal Pole,cortical,2170,0,0.0,0.0,True
+layercam_tfce_t_rating4,"Left Superior Temporal Gyrus, anterior division",cortical,253,2,0.007905138339920948,0.03952569169960474,True
+layercam_tfce_t_rating4,"Right Superior Temporal Gyrus, anterior division",cortical,268,0,0.0,0.0,True
+layercam_tfce_t_rating4,"Left Superior Temporal Gyrus, posterior division",cortical,874,350,0.40045766590389015,2.0022883295194505,True
+layercam_tfce_t_rating4,"Right Superior Temporal Gyrus, posterior division",cortical,950,391,0.41157894736842104,2.057894736842105,True
+layercam_tfce_t_rating4,"Left Middle Temporal Gyrus, anterior division",cortical,446,39,0.08744394618834081,0.437219730941704,True
+layercam_tfce_t_rating4,"Right Middle Temporal Gyrus, anterior division",cortical,399,0,0.0,0.0,True
+layercam_tfce_t_rating4,"Left Middle Temporal Gyrus, posterior division",cortical,1263,245,0.19398258115597783,0.9699129057798891,True
+layercam_tfce_t_rating4,"Right Middle Temporal Gyrus, posterior division",cortical,1232,242,0.19642857142857142,0.9821428571428571,True
+layercam_tfce_t_rating4,"Left Middle Temporal Gyrus, temporooccipital part",cortical,851,415,0.48766157461809634,2.4383078730904817,True
+layercam_tfce_t_rating4,"Right Middle Temporal Gyrus, temporooccipital part",cortical,1141,514,0.4504820333041192,2.252410166520596,True
+layercam_tfce_t_rating4,"Left Inferior Temporal Gyrus, anterior division",cortical,330,162,0.4909090909090909,2.4545454545454546,True
+layercam_tfce_t_rating4,"Right Inferior Temporal Gyrus, anterior division",cortical,315,0,0.0,0.0,True
+layercam_tfce_t_rating4,"Left Inferior Temporal Gyrus, posterior division",cortical,950,165,0.1736842105263158,0.868421052631579,True
+layercam_tfce_t_rating4,"Right Inferior Temporal Gyrus, posterior division",cortical,892,477,0.5347533632286996,2.6737668161434978,True
+layercam_tfce_t_rating4,"Left Inferior Temporal Gyrus, temporooccipital part",cortical,678,59,0.08702064896755163,0.43510324483775814,True
+layercam_tfce_t_rating4,"Right Inferior Temporal Gyrus, temporooccipital part",cortical,769,337,0.43823146944083224,2.191157347204161,True
+layercam_tfce_t_rating4,Left Postcentral Gyrus,cortical,3503,1084,0.3094490436768484,1.5472452183842418,True
+layercam_tfce_t_rating4,Right Postcentral Gyrus,cortical,3117,44,0.014116137311517485,0.07058068655758742,True
+layercam_tfce_t_rating4,Left Superior Parietal Lobule,cortical,1444,807,0.5588642659279779,2.794321329639889,True
+layercam_tfce_t_rating4,Right Superior Parietal Lobule,cortical,1452,102,0.07024793388429752,0.3512396694214876,True
+layercam_tfce_t_rating4,"Left Supramarginal Gyrus, anterior division",cortical,944,142,0.1504237288135593,0.7521186440677965,True
+layercam_tfce_t_rating4,"Right Supramarginal Gyrus, anterior division",cortical,796,8,0.010050251256281407,0.05025125628140703,True
+layercam_tfce_t_rating4,"Left Supramarginal Gyrus, posterior division",cortical,1050,59,0.05619047619047619,0.28095238095238095,True
+layercam_tfce_t_rating4,"Right Supramarginal Gyrus, posterior division",cortical,1207,29,0.024026512013256007,0.12013256006628004,True
+layercam_tfce_t_rating4,Left Angular Gyrus,cortical,948,29,0.03059071729957806,0.1529535864978903,True
+layercam_tfce_t_rating4,Right Angular Gyrus,cortical,1457,0,0.0,0.0,True
+layercam_tfce_t_rating4,"Left Lateral Occipital Cortex, superior division",cortical,4821,362,0.07508815598423564,0.3754407799211782,True
+layercam_tfce_t_rating4,"Right Lateral Occipital Cortex, superior division",cortical,4709,94,0.01996177532384795,0.09980887661923975,True
+layercam_tfce_t_rating4,"Left Lateral Occipital Cortex, inferior division",cortical,1962,0,0.0,0.0,True
+layercam_tfce_t_rating4,"Right Lateral Occipital Cortex, inferior division",cortical,2001,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Intracalcarine Cortex,cortical,654,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Intracalcarine Cortex,cortical,747,72,0.0963855421686747,0.4819277108433735,True
+layercam_tfce_t_rating4,Left Frontal Medial Cortex,cortical,532,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Frontal Medial Cortex,cortical,444,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,30,0.05714285714285714,0.2857142857142857,True
+layercam_tfce_t_rating4,Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,525,3,0.005714285714285714,0.02857142857142857,True
+layercam_tfce_t_rating4,Left Subcallosal Cortex,cortical,642,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Subcallosal Cortex,cortical,491,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Paracingulate Gyrus,cortical,1323,346,0.2615268329554044,1.307634164777022,True
+layercam_tfce_t_rating4,Right Paracingulate Gyrus,cortical,1171,212,0.18104184457728437,0.9052092228864218,True
+layercam_tfce_t_rating4,"Left Cingulate Gyrus, anterior division",cortical,1281,280,0.2185792349726776,1.0928961748633879,True
+layercam_tfce_t_rating4,"Right Cingulate Gyrus, anterior division",cortical,1238,218,0.17609046849757673,0.8804523424878836,True
+layercam_tfce_t_rating4,"Left Cingulate Gyrus, posterior division",cortical,1236,443,0.35841423948220064,1.792071197411003,True
+layercam_tfce_t_rating4,"Right Cingulate Gyrus, posterior division",cortical,1141,482,0.4224364592462752,2.112182296231376,True
+layercam_tfce_t_rating4,Left Precuneous Cortex,cortical,2720,380,0.13970588235294118,0.6985294117647058,True
+layercam_tfce_t_rating4,Right Precuneous Cortex,cortical,2669,326,0.1221431247658299,0.6107156238291495,True
+layercam_tfce_t_rating4,Left Cuneal Cortex,cortical,576,44,0.0763888888888889,0.3819444444444445,True
+layercam_tfce_t_rating4,Right Cuneal Cortex,cortical,635,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Frontal Orbital Cortex,cortical,1562,21,0.013444302176696543,0.06722151088348272,True
+layercam_tfce_t_rating4,Right Frontal Orbital Cortex,cortical,1380,46,0.03333333333333333,0.16666666666666666,True
+layercam_tfce_t_rating4,"Left Parahippocampal Gyrus, anterior division",cortical,497,240,0.482897384305835,2.414486921529175,True
+layercam_tfce_t_rating4,"Right Parahippocampal Gyrus, anterior division",cortical,564,137,0.2429078014184397,1.2145390070921984,True
+layercam_tfce_t_rating4,"Left Parahippocampal Gyrus, posterior division",cortical,390,110,0.28205128205128205,1.4102564102564101,True
+layercam_tfce_t_rating4,"Right Parahippocampal Gyrus, posterior division",cortical,310,214,0.6903225806451613,3.451612903225806,True
+layercam_tfce_t_rating4,Left Lingual Gyrus,cortical,1632,1,0.0006127450980392157,0.0030637254901960784,True
+layercam_tfce_t_rating4,Right Lingual Gyrus,cortical,1739,74,0.0425531914893617,0.21276595744680848,True
+layercam_tfce_t_rating4,"Left Temporal Fusiform Cortex, anterior division",cortical,282,119,0.4219858156028369,2.109929078014184,True
+layercam_tfce_t_rating4,"Right Temporal Fusiform Cortex, anterior division",cortical,284,2,0.007042253521126761,0.035211267605633804,True
+layercam_tfce_t_rating4,"Left Temporal Fusiform Cortex, posterior division",cortical,845,219,0.2591715976331361,1.2958579881656802,True
+layercam_tfce_t_rating4,"Right Temporal Fusiform Cortex, posterior division",cortical,692,420,0.6069364161849711,3.0346820809248554,True
+layercam_tfce_t_rating4,Left Temporal Occipital Fusiform Cortex,cortical,648,27,0.041666666666666664,0.20833333333333331,True
+layercam_tfce_t_rating4,Right Temporal Occipital Fusiform Cortex,cortical,821,348,0.4238733252131547,2.1193666260657733,True
+layercam_tfce_t_rating4,Left Occipital Fusiform Gyrus,cortical,926,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Occipital Fusiform Gyrus,cortical,880,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Frontal Operculum Cortex,cortical,359,255,0.7103064066852368,3.551532033426184,True
+layercam_tfce_t_rating4,Right Frontal Operculum Cortex,cortical,320,84,0.2625,1.3125,True
+layercam_tfce_t_rating4,Left Central Opercular Cortex,cortical,984,489,0.4969512195121951,2.4847560975609753,True
+layercam_tfce_t_rating4,Right Central Opercular Cortex,cortical,902,2,0.0022172949002217295,0.011086474501108647,True
+layercam_tfce_t_rating4,Left Parietal Operculum Cortex,cortical,576,228,0.3958333333333333,1.9791666666666665,True
+layercam_tfce_t_rating4,Right Parietal Operculum Cortex,cortical,543,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Planum Polare,cortical,360,113,0.3138888888888889,1.5694444444444444,True
+layercam_tfce_t_rating4,Right Planum Polare,cortical,389,14,0.03598971722365039,0.17994858611825193,True
+layercam_tfce_t_rating4,Left Heschl's Gyrus (includes H1 and H2),cortical,320,287,0.896875,4.484375,True
+layercam_tfce_t_rating4,Right Heschl's Gyrus (includes H1 and H2),cortical,284,111,0.3908450704225352,1.9542253521126758,True
+layercam_tfce_t_rating4,Left Planum Temporale,cortical,533,220,0.41275797373358347,2.063789868667917,True
+layercam_tfce_t_rating4,Right Planum Temporale,cortical,419,50,0.11933174224343675,0.5966587112171837,True
+layercam_tfce_t_rating4,Left Supracalcarine Cortex,cortical,120,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Supracalcarine Cortex,cortical,141,0,0.0,0.0,True
+layercam_tfce_t_rating4,Left Occipital Pole,cortical,2466,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Occipital Pole,cortical,2164,10,0.0046210720887245845,0.02310536044362292,True
+layercam_tfce_t_rating4,Left Thalamus,subcortical,1321,584,0.4420893262679788,2.210446631339894,True
+layercam_tfce_t_rating4,Left Caudate,subcortical,487,145,0.29774127310061604,1.48870636550308,True
+layercam_tfce_t_rating4,Left Putamen,subcortical,799,182,0.22778473091364204,1.1389236545682102,True
+layercam_tfce_t_rating4,Left Pallidum,subcortical,267,99,0.3707865168539326,1.853932584269663,True
+layercam_tfce_t_rating4,Brain-Stem,subcortical,4567,2253,0.4933216553536238,2.466608276768119,True
+layercam_tfce_t_rating4,Left Hippocampus,subcortical,691,278,0.402315484804631,2.0115774240231548,True
+layercam_tfce_t_rating4,Left Amygdala,subcortical,306,62,0.20261437908496732,1.0130718954248366,True
+layercam_tfce_t_rating4,Left Accumbens,subcortical,89,0,0.0,0.0,False
+layercam_tfce_t_rating4,Right Thalamus,subcortical,1283,863,0.6726422447388932,3.363211223694466,True
+layercam_tfce_t_rating4,Right Caudate,subcortical,511,111,0.2172211350293542,1.0861056751467708,True
+layercam_tfce_t_rating4,Right Putamen,subcortical,796,0,0.0,0.0,True
+layercam_tfce_t_rating4,Right Pallidum,subcortical,260,35,0.1346153846153846,0.673076923076923,True
+layercam_tfce_t_rating4,Right Hippocampus,subcortical,699,228,0.3261802575107296,1.630901287553648,True
+layercam_tfce_t_rating4,Right Amygdala,subcortical,364,56,0.15384615384615385,0.7692307692307693,True
+layercam_tfce_t_rating4,Right Accumbens,subcortical,84,0,0.0,0.0,False

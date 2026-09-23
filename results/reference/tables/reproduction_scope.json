@@ -1,0 +1,23 @@
+{
+  "computed": "participant/fold BA, participant paired differences and t tests; group-first regional normalization and voxel-weighted macroregions; session-holdout means; input-replacement participant and group BA",
+  "frozen": "bootstrap confidence intervals, replacement sign-flip/Holm inference, Haufe/Layer-CAM overlap and correlation tables",
+  "not_run": "training, model inference, TFCE/randomise, bootstrap/sign-flip resampling, surface plotting",
+  "tables": [
+    "decoding_folds.csv",
+    "decoding_paired.csv",
+    "decoding_participants.csv",
+    "decoding_performance.csv",
+    "haufe_layercam_correlation_frozen.csv",
+    "haufe_layercam_overlap_frozen.csv",
+    "input_replacement_inference_frozen.csv",
+    "input_replacement_participants.csv",
+    "input_replacement_summary.csv",
+    "layercam_all_rois.csv",
+    "layercam_macroregions.csv",
+    "layercam_top5_rois.csv",
+    "layercam_whole_brain_means.csv",
+    "session_holdout_folds.csv",
+    "session_holdout_participants.csv",
+    "session_holdout_summary.csv"
+  ]
+}

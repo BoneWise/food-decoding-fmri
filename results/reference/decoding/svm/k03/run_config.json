@@ -1,0 +1,42 @@
+{
+  "beta_index_csv": "sources/trial-beta/merged_rating14_within_subject/k03_seed42/beta_index.csv",
+  "models_root": "sources/trial-beta/merged_rating14_within_subject/k03_seed42/models",
+  "brain_mask_root": "sources/trial-beta/cache/masks",
+  "path_prefix_from": "",
+  "path_prefix_to": "",
+  "feature_mask": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+  "fold_assignments": "sources/workspace/runs/20260503_194056_fmri_rating14_mergedk03_seed42_fixed5/fold_assignments.json",
+  "cnn_predictions": null,
+  "output_dir": "sources/workspace/runs/20260719_matched_cross_subject_svm_k03_cnnfolds",
+  "svm_c": 1.0,
+  "preprocessing": "cnn_samplewise_brainmask_zscore_then_commonmask_flatten",
+  "class_weight": "balanced",
+  "max_iter": 50000,
+  "tol": 0.0001,
+  "seed": 42,
+  "only_fold": null,
+  "log_every": 100,
+  "max_invalid_brain_fraction": 0.05,
+  "rebuild_features": false,
+  "resume": true,
+  "dataset_summary": {
+    "source_csv": "sources/trial-beta/merged_rating14_within_subject/k03_seed42/beta_index.csv",
+    "models_root": "sources/trial-beta/merged_rating14_within_subject/k03_seed42/models",
+    "brain_mask_root": "sources/trial-beta/cache/masks",
+    "rows_total": 2326,
+    "samples_kept": 2326,
+    "subjects_kept": 30,
+    "ratings_kept": [
+      1,
+      4
+    ],
+    "drop_counts": {
+      "missing_rating": 0,
+      "non_target_rating": 0,
+      "missing_beta_file": 0,
+      "missing_mask_file": 0
+    }
+  },
+  "num_features": 222441,
+  "fold_assignments_sha256": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0"
+}

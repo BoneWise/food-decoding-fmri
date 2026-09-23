@@ -1,0 +1,17 @@
+{
+  "beta_index_csv": "sources/workspace/same_image_diff_rating_control_20260707/cnn_k01_unmerged_model_pairs/cnn_k01_unmerged_reconstructed_beta_index.csv",
+  "beta_index_sha256": "61b591f3188edb2f868035e9019d5b43889c673a0a42410d8be0a907e29d3c31",
+  "feature_mask": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+  "feature_mask_sha256": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5",
+  "preprocessing": "cnn_samplewise_brainmask_zscore_then_commonmask_flatten",
+  "num_samples": 7038,
+  "num_subjects": 30,
+  "num_features": 222441,
+  "ratings": {
+    "1": 3426,
+    "4": 3612
+  },
+  "dtype": "float32",
+  "created_at": "2026-07-19T14:20:16+0800",
+  "matrix_path": "sources/workspace/runs/20260719_matched_cross_subject_svm_k01_cnnfolds/features_cnn_zscore_commonmask.npy"
+}

@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "root": "repository",
+  "source_files": 157,
+  "derived_snapshots": 17,
+  "reference_bytes": 6994805,
+  "authored": [
+    "scripts/reproduce_results.py",
+    "scripts/reproduce_figures.py",
+    "scripts/validate_reference.py",
+    "tests/test_reference_results.py",
+    "docs/results.md",
+    "results/reference/README.md"
+  ],
+  "commands": [
+    "python scripts/reproduce_results.py",
+    "python scripts/validate_reference.py",
+    "python scripts/reproduce_figures.py",
+    "python -m pytest tests/test_reference_results.py -q"
+  ],
+  "checks": 1786,
+  "pytest": "7 passed",
+  "table_outputs": [
+    "outputs/reproduced/tables/decoding_folds.csv",
+    "outputs/reproduced/tables/decoding_paired.csv",
+    "outputs/reproduced/tables/decoding_participants.csv",
+    "outputs/reproduced/tables/decoding_performance.csv",
+    "outputs/reproduced/tables/haufe_layercam_correlation_frozen.csv",
+    "outputs/reproduced/tables/haufe_layercam_overlap_frozen.csv",
+    "outputs/reproduced/tables/input_replacement_inference_frozen.csv",
+    "outputs/reproduced/tables/input_replacement_participants.csv",
+    "outputs/reproduced/tables/input_replacement_summary.csv",
+    "outputs/reproduced/tables/layercam_all_rois.csv",
+    "outputs/reproduced/tables/layercam_macroregions.csv",
+    "outputs/reproduced/tables/layercam_top5_rois.csv",
+    "outputs/reproduced/tables/layercam_whole_brain_means.csv",
+    "outputs/reproduced/tables/reproduction_scope.json",
+    "outputs/reproduced/tables/session_holdout_folds.csv",
+    "outputs/reproduced/tables/session_holdout_participants.csv",
+    "outputs/reproduced/tables/session_holdout_summary.csv"
+  ],
+  "figure_previews": [
+    "repository/outputs/figures/decoding_performance.png",
+    "repository/outputs/figures/haufe_layercam_comparison.png",
+    "repository/outputs/figures/input_replacement.png",
+    "repository/outputs/figures/layercam_macroregions.png",
+    "repository/outputs/figures/layercam_selected_rois.png",
+    "repository/outputs/figures/layercam_top5_rating1.png",
+    "repository/outputs/figures/layercam_top5_rating4.png"
+  ],
+  "visually_inspected_by_agent": [
+    "layercam_selected_rois.png",
+    "layercam_top5_rating1.png",
+    "input_replacement.png"
+  ],
+  "visually_inspected_by_root": [
+    "decoding_performance.png",
+    "layercam_macroregions.png",
+    "haufe_layercam_comparison.png"
+  ],
+  "important_scope": [
+    "Predictions are archived; no model training or inference rerun.",
+    "Group-first ROI normalization and voxel-weighted macroregions are recomputed.",
+    "95% bootstrap CIs and replacement sign-flip/Holm inference are frozen archived results.",
+    "Session summary preserves population SD (ddof=0); sample SD separately output.",
+    "GLM/searchlight exact manuscript source alignment remains unresolved; background candidate summaries are excluded from paper table reproduction."
+  ]
+}

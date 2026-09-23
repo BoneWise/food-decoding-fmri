@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.m text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.png binary
+*.nii.gz binary
+# Preserve frozen evidence and source hashes byte for byte on every platform.
+results/reference/** -text
+configs/decoding/fold_assignments*.json -text

@@ -1,0 +1,32 @@
+{
+  "source_run": "20260719_matched_cross_subject_svm_k03_cnnfolds",
+  "source_config_sha256": "37c2f429a0e95fb510f3e4edeef697f0890115df88bff0eb9b00d93ad113e383",
+  "protocol": {
+    "feature_count": 222441,
+    "fold_assignments_sha256": "26d6b4c343200cbee50ee0493f80afdedd0560438d40f47f7c0bfdb589dfa1c0",
+    "cnn_predictions": "optional CLI argument for comparison; archived k6 comparison used matching held-out CNN predictions",
+    "feature_mask_sha256": "d4b41ff2616feb348a72c178731baf5b47acef13c3161dae922972e02f9a43e5"
+  },
+  "arguments": {
+    "svm_c": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 50000,
+    "tol": 0.0001,
+    "seed": 42,
+    "only_fold": null,
+    "log_every": 100,
+    "max_invalid_brain_fraction": 0.05,
+    "rebuild_features": false,
+    "resume": true,
+    "beta_index_csv": "data/derived/merged/k03_seed42/beta_index.csv",
+    "models_root": "data/derived/merged/k03_seed42/models",
+    "brain_mask_root": "data/derived/cache/masks",
+    "path_prefix_from": "",
+    "path_prefix_to": "",
+    "feature_mask": "results/reference/decoding/masks/svm_common_mask.nii.gz",
+    "fold_assignments": "configs/decoding/fold_assignments_k03.json",
+    "cnn_predictions": null,
+    "output_dir": "outputs/svm/k03",
+    "preprocessing": "cnn_zscore"
+  }
+}

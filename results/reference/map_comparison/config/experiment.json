@@ -1,0 +1,45 @@
+{
+  "experiment_id": "rq3_haufe_layercam_top20_comparison_20260729",
+  "analysis": "descriptive_top20_spatial_comparison_of_existing_k1_haufe_and_k6_layercam_maps",
+  "purpose": "Describe rating-1/rating-4 oriented top-20% spatial patterns and compare them with the already generated k=6 Layer-CAM group maps. No new model fitting or formal spatial inference.",
+  "sources": {
+    "haufe_mean_map": "sources/workspace/rq3_svm_haufe_k01_20260729/outputs/maps/mean_haufe_pattern_rating4_minus_rating1.nii.gz",
+    "haufe_feature_mask": "sources/trial-beta/group_randomise_rating14_no_quality_filter/group_inputs/group_mask_intersection.nii.gz",
+    "layercam_rating1_map": "sources/workspace/runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_group_mean_layercam.nii.gz",
+    "layercam_rating4_map": "sources/workspace/runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_group_mean_layercam.nii.gz",
+    "layercam_rating1_tfce_masked_t": "sources/workspace/runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_tfce_fwe05_masked_t.nii.gz",
+    "layercam_rating4_tfce_masked_t": "sources/workspace/runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_tfce_fwe05_masked_t.nii.gz",
+    "layercam_common_mask": "sources/workspace/runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/common_brain_mask.nii.gz",
+    "layercam_analysis_summary": "sources/workspace/runs/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/analysis_summary.json",
+    "harvard_oxford_atlas_root": "sources/fsl/data/atlases"
+  },
+  "selection": {
+    "fraction": 0.2,
+    "count_rule": "ceil(fraction * shared_mask_voxels); deterministic stable value-rank tie breaking",
+    "haufe_rating4_direction": "largest positive values of the signed rating4-minus-rating1 Haufe map",
+    "haufe_rating1_direction": "largest values of the sign-reversed Haufe map, equivalent to the most negative values of the signed Haufe map",
+    "layercam_direction": "largest values of the existing manuscript Layer-CAM TFCE-FWE-masked subject-level t map; this exactly matches the existing Layer-CAM top-20% visualization convention",
+    "layercam_continuous_map": "the separately reported continuous correlation uses the frozen non-negative class-specific group-mean Layer-CAM attribution map"
+  },
+  "comparison": {
+    "spatial_domain": "intersection of frozen Haufe and Layer-CAM common masks",
+    "continuous_metrics": [
+      "Pearson r",
+      "Spearman rho"
+    ],
+    "binary_metrics": [
+      "intersection count",
+      "intersection fraction of shared mask",
+      "Dice",
+      "Jaccard",
+      "ratio to independent-random expected intersection"
+    ],
+    "formal_inference": false,
+    "interpretation_boundary": "Haufe maps are signed linear-SVM input-pattern mappings from k=1 trial-level data. Layer-CAM maps are non-negative model-attribution maps from correctly classified k=6 condition-average inputs. Their comparison is descriptive and does not establish activation, causal regional contribution, or condition-specific neural differences."
+  },
+  "roi_description": {
+    "atlas": "Harvard-Oxford maximum-probability atlas, 25% threshold, 2 mm",
+    "minimum_roi_voxels_for_ranking": 100,
+    "role": "descriptive atlas labeling of selected voxels only; no ROI inferential test"
+  }
+}
