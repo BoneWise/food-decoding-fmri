@@ -20,7 +20,7 @@ plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize'
 def save(fig, output, name):
     fig.savefig(output / f'{name}.png', dpi=220, bbox_inches='tight')
     fig.savefig(output / f'{name}.pdf', bbox_inches='tight',
-                metadata={'Creator':'food-preference-fmri table reproduction', 'CreationDate':None, 'ModDate':None})
+                metadata={'Creator':'food-subjective-value-fmri table reproduction', 'CreationDate':None, 'ModDate':None})
     plt.close(fig)
 
 
@@ -45,7 +45,7 @@ def performance(tables, output):
     ax.axhline(50,color='#8A9298',ls='--',lw=1)
     ax.set(xticks=range(3),xticklabels=['k = 1','k = 3','k = 6'],ylim=(48,72),
         ylabel='Participant balanced accuracy (%)',xlabel='Number of beta maps per input',
-        title='Cross-participant food-preference decoding')
+        title='Cross-participant decoding of\nsubjective food value')
     ax.legend(frameon=False,loc='upper left');ax.grid(axis='y',alpha=.15)
     save(fig,output,'decoding_performance')
 
@@ -57,11 +57,11 @@ def regional(tables,output):
         data={r['division']:r for r in rows if r['rating']==rating}
         vals=[data[d]['mean_layercam_whole_brain_1'] for d in DIVISIONS]
         ax.barh(np.arange(5)+(i-.5)*.34,vals,height=.31,color=COLORS[i],
-                label='Low preference' if rating==1 else 'High preference')
+                label='Low subjective food value' if rating==1 else 'High subjective food value')
     ax.axvline(1,color='#77838B',ls='--',lw=1)
     ax.set(yticks=range(5),yticklabels=[d if d!='Subcortical' else 'Insular/subcortical' for d in DIVISIONS],xlim=(0,1.7),
         xlabel='Mean Layer-CAM value (whole-brain mean = 1)',title='Regional distribution of CNN spatial evidence')
-    ax.invert_yaxis();ax.legend(frameon=False,loc='lower right',fontsize=8)
+    ax.invert_yaxis();ax.legend(frameon=False,loc='upper center',bbox_to_anchor=(.5,-.20),fontsize=8)
     save(fig,output,'layercam_macroregions')
     selected=[('Right Parahippocampal Gyrus, posterior division','R posterior parahippocampal gyrus'),
         ('Right Right Hippocampus','R hippocampus'),('Right Precuneous Cortex','R precuneus'),
@@ -74,7 +74,7 @@ def regional(tables,output):
     for i,rating in enumerate([1,4]):
         vals=[all_rois[(rating,name)]['mean_layercam_whole_brain_1'] for name,_ in selected]
         ax.plot(vals,np.arange(len(selected))+(i-.5)*.2,'o',color=COLORS[i],ms=6,
-                label='Low preference' if rating==1 else 'High preference')
+                label='Low subjective food value' if rating==1 else 'High subjective food value')
         for j,value in enumerate(vals):
             ax.annotate(f'{value:.3f}',(value,j+(i-.5)*.2),xytext=(6,0),
                         textcoords='offset points',va='center',fontsize=7,color=COLORS[i])
@@ -94,7 +94,7 @@ def regional(tables,output):
             ax.set(yticks=range(5),yticklabels=names,title=division if division!='Subcortical' else 'Insular/subcortical',xlim=(0,2.6))
             ax.invert_yaxis();ax.axvline(1,color='#77838B',ls='--',lw=1);ax.tick_params(axis='y',labelsize=8)
         axes[-1].set_xlabel('Mean Layer-CAM value (whole-brain mean = 1)')
-        fig.suptitle(('Low' if rating==1 else 'High')+' preference: five highest-valued ROIs per macroregion',fontsize=14)
+        fig.suptitle(('Low' if rating==1 else 'High')+' subjective food value:\nfive highest-valued ROIs per macroregion',fontsize=14)
         save(fig,output,f'layercam_top5_rating{rating}')
 
 
@@ -153,8 +153,8 @@ def main():
         'decoding_performance':'OOF participant BA; frozen participant-bootstrap 95% intervals',
         'layercam_macroregions':'Group-first regional means, voxel-weighted macroregions, whole-brain mean=1',
         'layercam_selected_rois':'Ten selected rows of the complete group-first ROI table; display names cleaned only',
-        'layercam_top5_rating1':'Top five complete-table ROI values in each original macroregion (low preference)',
-        'layercam_top5_rating4':'Top five complete-table ROI values in each original macroregion (high preference)',
+        'layercam_top5_rating1':'Top five complete-table ROI values in each original macroregion (low subjective food value)',
+        'layercam_top5_rating4':'Top five complete-table ROI values in each original macroregion (high subjective food value)',
         'input_replacement':'Recomputed BA; frozen bootstrap intervals and Holm-adjusted inference',
         'haufe_layercam_comparison':'Frozen Dice from ranked TFCE-masked t maps; frozen correlation from continuous group CAM maps'
     },indent=2)+'\n')
@@ -165,8 +165,8 @@ CAPTIONS = """# Table-driven figure captions
 
 - **decoding_performance:** Participant-average balanced accuracy for CNN and matched linear SVM at k = 1, 3, and 6 (30 participants). Error bars are archived participant-bootstrap 95% confidence intervals; points are recomputed from saved OOF predictions. Dashed line: 50% chance.
 - **layercam_macroregions:** Voxel-weighted mean Layer-CAM values in the five original macroregion groups, divided by the whole-brain mean of the same category's k = 6 group map. The dashed line marks 1. The display label Insular/subcortical corresponds to the archived Subcortical group; the archived grouping is preserved.
-- **layercam_selected_rois:** Selected k = 6 regional values, computed after participant/category maps were averaged within each category. Low and high preference correspond to ratings 1 and 4. R/L denote right/left.
-- **layercam_top5_rating1 / layercam_top5_rating4:** Five ROIs with the highest normalized mean Layer-CAM value in each original macroregion, ranked separately for low and high preference. Values use the complete ROI table; label cleanup changes display text only.
+- **layercam_selected_rois:** Selected k = 6 regional values, computed after participant/category maps were averaged within each category. Low and high subjective food value correspond to ratings 1 and 4. R/L denote right/left.
+- **layercam_top5_rating1 / layercam_top5_rating4:** Five ROIs with the highest normalized mean Layer-CAM value in each original macroregion, ranked separately for low and high subjective food value. Values use the complete ROI table; label cleanup changes display text only.
 - **input_replacement:** A: Participant-average BA after fixed k = 6 input replacements. Random-mask performance is averaged across 100 replicates within each participant before the group mean. B: The four prespecified paired contrasts with archived 95% bootstrap intervals and Holm-adjusted sign-flip p values. All confidence intervals and inferential p values are frozen archived estimates.
 - **haufe_layercam_comparison:** Archived pairwise comparisons of k = 1 SVM Haufe patterns and k = 6 Layer-CAM maps. A: Dice overlap between top-20% selections; Layer-CAM selection uses the existing TFCE-masked t maps. B: Pearson correlation of continuous maps; Layer-CAM uses class-specific group mean attribution maps.
 

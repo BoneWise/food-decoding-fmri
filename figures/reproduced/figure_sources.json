@@ -3,8 +3,8 @@
   "decoding_performance": "OOF participant BA; frozen participant-bootstrap 95% intervals",
   "layercam_macroregions": "Group-first regional means, voxel-weighted macroregions, whole-brain mean=1",
   "layercam_selected_rois": "Ten selected rows of the complete group-first ROI table; display names cleaned only",
-  "layercam_top5_rating1": "Top five complete-table ROI values in each original macroregion (low preference)",
-  "layercam_top5_rating4": "Top five complete-table ROI values in each original macroregion (high preference)",
+  "layercam_top5_rating1": "Top five complete-table ROI values in each original macroregion (low subjective food value)",
+  "layercam_top5_rating4": "Top five complete-table ROI values in each original macroregion (high subjective food value)",
   "input_replacement": "Recomputed BA; frozen bootstrap intervals and Holm-adjusted inference",
   "haufe_layercam_comparison": "Frozen Dice from ranked TFCE-masked t maps; frozen correlation from continuous group CAM maps"
 }
