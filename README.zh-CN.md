@@ -1,8 +1,19 @@
-# 食物偏好的 fMRI 解码与脑区分析
+# 主观食物价值的跨被试 fMRI 解码
 
-本仓库对应论文：**Decoding Food Preferences from fMRI with Deep Learning: What Drives Prediction Across Individuals?**
+**Deep Learning-Based Cross-Participant Decoding of Subjective Food Value**  
+*论文准备中（Manuscript in preparation）*
 
-主要内容是跨参与者偏好解码，以及 CNN 判断所使用的脑区分布。包含 CNN、匹配的线性 SVM、GLM、Searchlight、k=6 Layer-CAM、脑区平均值和既有补充分析。
+全脑 fMRI 中与主观食物价值相关的信息能够泛化到未参与训练的被试。线性 SVM 和 3D-CNN 均能在按被试留出的交叉验证中，以高于机会水平的表现区分高、低即时食用意愿。
+
+本仓库提供跨被试解码与空间分析的代码及固定结果。Layer-CAM 刻画 CNN 的空间归因，显示高、低价值预测均具有突出的枕叶和岛叶—皮层下区域侧重。GLM 和 Searchlight 分析分别考察平均反应差异与局部可解码信息。
+
+[English](README.md) · [结果与来源](docs/results.md) · [分析入口](docs/analysis-entrypoints.md) · [数据准备](docs/data.md)
+
+## 主要结果
+
+- **跨被试泛化：** 30 名被试采用十折交叉验证，每折留出三名被试；标签为即时食用意愿评分的最低端和最高端（1 和 4）。
+- **预测表现：** 单试次输入下，SVM 和 CNN 的被试平均平衡准确率分别为 57.87% 和 53.71%；同一被试、同一评分的六试次平均输入下，分别为 63.33% 和 57.24%。两种模型在 k=1、3、6 三种设置下均高于机会水平，SVM 的平均表现均高于 CNN。
+- **空间归因：** 基于 k=6 CNN 的 Layer-CAM 显示，两类预测共有枕叶和岛叶—皮层下区域侧重，并在后内侧、内侧颞叶等区域呈现不同的相对侧重。
 
 ## 最快使用方式
 
