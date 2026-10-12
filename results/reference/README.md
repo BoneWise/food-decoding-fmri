@@ -1,7 +1,7 @@
 # Compact reference results
 
-See [results documentation](../../docs/results.md) for computation definitions,
-commands and provenance. `tables/` contains readable snapshots of the reproducible
+See [decoding results](../../docs/results.md) for metrics and performance, and
+[figure reproduction](../../docs/README.md) for plotting commands. `tables/` contains readable snapshots of the reproducible
 paper tables. Source data and statistics are retained in the named analysis
 subdirectories. `background/` contains explicitly unresolved source candidates;
 it is excluded from paper result reproduction.

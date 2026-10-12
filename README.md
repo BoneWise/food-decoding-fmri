@@ -6,7 +6,7 @@ Subjective food value can be decoded from whole-brain fMRI in unseen participant
 
 This repository provides code and frozen results for cross-participant decoding and spatial analysis. Layer-CAM characterizes CNN spatial attributions, with prominent occipital and insular–subcortical patterns across high- and low-value predictions. Complementary GLM and Searchlight analyses examine mean response differences and local decodable information.
 
-[中文说明](README.zh-CN.md) · [Results and provenance](docs/results.md) · [Analysis entrypoints](docs/analysis-entrypoints.md) · [Data preparation](docs/data.md)
+[中文说明](README.zh-CN.md) · [Reproduce figures](docs/README.md) · [Decoding results](docs/results.md)
 
 ## Reproduce tables and figures
 
@@ -33,7 +33,7 @@ Ten-fold cross-validation holds out three participants per fold, covering 30 par
 | k=3 | 2,326 | 54.58 ± 8.43 | 63.80 ± 10.33 |
 | k=6 | 1,147 | 57.24 ± 10.60 | 63.33 ± 15.76 |
 
-Both models performed above chance in all three input settings; the matched linear SVM achieved higher mean balanced accuracy than the CNN in each setting.
+Both models performed above chance in all three input settings.
 
 Layer-CAM uses the k=6 CNN. The regional summaries show shared occipital and insular/subcortical emphasis, with posterior-medial, medial-temporal, and specific subcortical regional patterns. Regional values are reported as **mean Layer-CAM value (whole-brain mean = 1)**. Correct held-out inputs are averaged within participant and class, then across participants; regional normalization uses the resulting class group map. The original five-group atlas mapping is recorded with the reference results.
 
@@ -50,7 +50,7 @@ Layer-CAM uses the k=6 CNN. The regional summaries show shared occipital and ins
 | `results/reference/` | Frozen predictions, compact tables, selected maps, and source hashes |
 | `scripts/` | Table reproduction, validation, and plotting entrypoints |
 | `figures/original/` | Preserved manuscript figure assets |
-| `docs/` | Data, analysis, figure, and migration documentation |
+| `docs/` | Figure reproduction and decoding results |
 | `tests/` | Lightweight protocol and numerical consistency checks |
 
 ## Run the models and spatial analyses
@@ -63,10 +63,8 @@ python -m foodpref.merge_betas --help
 python -m pytest -q
 ```
 
-Prepare the beta maps and masks described in [data preparation](docs/data.md), then use the recorded configurations in [configs/decoding](configs/decoding/README.md). The [analysis guide](docs/analysis-entrypoints.md) gives the ordered spatial-analysis commands and external software requirements. Full analyses require local imaging data and, for post-hoc analyses of existing models, the corresponding checkpoints. Large weights and feature matrices are not distributed in this initial repository version.
+For model execution, prepare local beta maps and masks from the [source data](data/README.md), then follow the [decoding configurations](configs/decoding/README.md). The [environment guide](environments/README.md) lists dependencies for training and spatial analyses.
 
-## Reproducibility and versioning
+## Data and citation
 
-The initial organization preserves the current manuscript's audited decoding and regional result definitions. The exact historical GLM/Searchlight sources behind the manuscript counts remain to be aligned; those background candidates are explicitly excluded from the validated reproduction tables. See [migration notes](docs/migration.md) and [validation](docs/validation.md) for the exact scope of checks. Moving code or changing paths does not reuse historical validation as evidence for new execution. Original source hashes and relocated-file hashes are recorded separately.
-
-The writing workflow is maintained separately. A manuscript version can cite a fixed repository commit or tag; rerun outputs belong in `outputs/`. The original dataset and its analysis resource are linked in [docs/data.md](docs/data.md). Software citation metadata is in `CITATION.cff`; author-selected open-source licensing is pending as described in `LICENSE`.
+The [data guide](data/README.md) links to the source dataset and its analysis resource. Software citation metadata is in `CITATION.cff`; licensing information is in `LICENSE`.
