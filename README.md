@@ -1,8 +1,10 @@
-# Food preference fMRI
+# Deep Learning-Based Cross-Participant Decoding of Subjective Food Value
 
-Code and frozen results for **Decoding Food Preferences from fMRI with Deep Learning: What Drives Prediction Across Individuals?**
+*Manuscript in preparation*
 
-This repository connects cross-participant prediction to the spatial information used by a 3D CNN to distinguish low and high food preference. It includes matched linear SVM decoding, GLM and Searchlight analyses, Layer-CAM, atlas-based regional summaries, and existing supplementary analyses.
+Subjective food value can be decoded from whole-brain fMRI in unseen participants. Linear SVM and 3D-CNN models distinguish high from low current desire to eat above chance under participant-held-out cross-validation.
+
+This repository provides code and frozen results for cross-participant decoding and spatial analysis. Layer-CAM characterizes CNN spatial attributions, with prominent occipital and insular–subcortical patterns across high- and low-value predictions. Complementary GLM and Searchlight analyses examine mean response differences and local decodable information.
 
 [中文说明](README.zh-CN.md) · [Results and provenance](docs/results.md) · [Analysis entrypoints](docs/analysis-entrypoints.md) · [Data preparation](docs/data.md)
 
@@ -23,13 +25,15 @@ These commands use the small reference bundle included in the repository. They w
 
 ## Results represented here
 
-Balanced accuracy is summarized across 30 held-out participants.
+Ten-fold cross-validation holds out three participants per fold, covering 30 participants in total. Labels are the lowest and highest ratings of current desire to eat (1 and 4). Balanced accuracy is calculated for each held-out participant and summarized below. For k=3 and k=6, inputs average non-overlapping groups of trials with the same rating within each participant.
 
 | Input averaging | Inputs | CNN BA, mean ± SD (%) | Matched SVM BA, mean ± SD (%) |
 |---|---:|---:|---:|
 | k=1 | 7,038 | 53.71 ± 6.56 | 57.87 ± 5.96 |
 | k=3 | 2,326 | 54.58 ± 8.43 | 63.80 ± 10.33 |
 | k=6 | 1,147 | 57.24 ± 10.60 | 63.33 ± 15.76 |
+
+Both models performed above chance in all three input settings; the matched linear SVM achieved higher mean balanced accuracy than the CNN in each setting.
 
 Layer-CAM uses the k=6 CNN. The regional summaries show shared occipital and insular/subcortical emphasis, with posterior-medial, medial-temporal, and specific subcortical regional patterns. Regional values are reported as **mean Layer-CAM value (whole-brain mean = 1)**. Correct held-out inputs are averaged within participant and class, then across participants; regional normalization uses the resulting class group map. The original five-group atlas mapping is recorded with the reference results.
 
