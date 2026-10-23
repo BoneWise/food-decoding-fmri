@@ -1,31 +1,24 @@
-# Deep Learning-Based Cross-Participant Decoding of Subjective Food Value
+# Whole-brain fMRI decoding of subjective food value
 
-*Manuscript in preparation*
+Code, compact reference results and manuscript for
 
-Subjective food value can be decoded from whole-brain fMRI in unseen participants. Linear SVM and 3D-CNN models distinguish high from low current desire to eat above chance under participant-held-out cross-validation.
+> **Whole-Brain fMRI Decoding of Subjective Food Value: Cross-Participant Generalization and Spatial Attribution.** Preprint, 2026.
 
-This repository provides code and frozen results for cross-participant decoding and spatial analysis. Layer-CAM characterizes CNN spatial attributions, with prominent occipital and insular–subcortical patterns across high- and low-value predictions. Complementary GLM and Searchlight analyses examine mean response differences and local decodable information.
+The manuscript is [`paper/main.pdf`](paper/main.pdf). The analyses use the public dataset of Sugawara et al. (2026, *Scientific Data*), [OpenNeuro ds007267](https://openneuro.org/datasets/ds007267); imaging data are not redistributed here.
 
-[中文说明](README.zh-CN.md) · [Reproduce figures](docs/README.md) · [Decoding results](docs/results.md)
+## Reproduce the manuscript numbers and figures
 
-## Reproduce tables and figures
-
-Run from the repository root with Python 3.11 or newer. The preparation checks used Python 3.13 on macOS; the exact tested packages are recorded in `environments/tested-python313-macos.txt`.
+The reference bundle in `results/reference/` contains the saved predictions and summary tables behind the manuscript, so tables, statistics and data figures can be rebuilt without imaging data.
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e .
-python scripts/reproduce_results.py
-python scripts/validate_reference.py
-python scripts/reproduce_figures.py
+python -m venv .venv && source .venv/bin/activate
+python -m pip install -e '.[train,spatial,dev]'
+make tables validate stats   # tables, hash/arithmetic checks, k comparisons
+make fonts figures           # Figure 2 and Figure 4C-D (needs TeX Live + fonttools)
+make test
 ```
 
-These commands use the small reference bundle included in the repository. They write new files under ignored `outputs/`, leaving the reference results unchanged. Recomputed statistics and inherited confidence intervals are explicitly distinguished in the results documentation. Surface-rendered figures and task/model diagrams are supplied as original assets; the quick-start plotting command rebuilds the table-based charts.
-
-## Results represented here
-
-Ten-fold cross-validation holds out three participants per fold, covering 30 participants in total. Labels are the lowest and highest ratings of current desire to eat (1 and 4). Balanced accuracy is calculated for each held-out participant and summarized below. For k=3 and k=6, inputs average non-overlapping groups of trials with the same rating within each participant.
+Outputs are written to the ignored `outputs/` directory; the reference bundle is never overwritten. See [docs/results.md](docs/results.md) for what is recomputed and what is distributed as saved.
 
 | Input averaging | Inputs | CNN BA, mean ± SD (%) | Matched SVM BA, mean ± SD (%) |
 |---|---:|---:|---:|
@@ -33,38 +26,36 @@ Ten-fold cross-validation holds out three participants per fold, covering 30 par
 | k=3 | 2,326 | 54.58 ± 8.43 | 63.80 ± 10.33 |
 | k=6 | 1,147 | 57.24 ± 10.60 | 63.33 ± 15.76 |
 
-Both models performed above chance in all three input settings.
+Balanced accuracy over 30 held-out participants (ten-fold participant-held-out cross-validation).
 
-Layer-CAM uses the k=6 CNN. The regional summaries show shared occipital and insular/subcortical emphasis, with posterior-medial, medial-temporal, and specific subcortical regional patterns. Regional values are reported as **mean Layer-CAM value (whole-brain mean = 1)**. Correct held-out inputs are averaged within participant and class, then across participants; regional normalization uses the resulting class group map. The original five-group atlas mapping is recorded with the reference results.
+## Run the full analyses
 
-![Regional Layer-CAM values](figures/reproduced/layercam_macroregions.png)
+Starting from the fMRIPrep derivatives of ds007267:
 
-## Repository layout
+1. Single-trial and session-wise betas: `preprocessing/` (MATLAB, SPM25); see [docs/data.md](docs/data.md).
+2. Same-rating averaging, CNN and matched SVM: `src/foodpref/` with the frozen folds in `configs/decoding/`.
+3. Averaging granularity (SVM, k = 1-6, five groupings): `analyses/granularity/`.
+4. GLM, searchlight and within-participant decoding: `analyses/glm/`, `analyses/searchlight/`, `analyses/decoding/`.
+5. Layer-CAM, input replacement and SVM forward patterns: `analyses/layercam/`, `analyses/input_replacement/`, `analyses/haufe/`, `analyses/haufe_comparison/`.
+6. Remaining manuscript statistics and data figures: `analyses/paper_stats/`, `analyses/figures/`.
+
+The ordered commands, environment variables and external software (SPM25, FSL, Harvard-Oxford atlases) are in [docs/analysis-entrypoints.md](docs/analysis-entrypoints.md). Trained weights, feature matrices and beta images are not distributed.
+
+## Layout
 
 | Directory | Contents |
 |---|---|
-| `src/foodpref/` | Data handling, CNN, training, frozen folds, matched SVM, beta averaging |
-| `preprocessing/` | MATLAB/SPM single-trial and sessionwise beta estimation |
-| `analyses/` | Spatial analyses, session-held-out decoding, input replacement, Haufe comparisons |
-| `configs/` | Recorded experiment settings and portable path configuration |
-| `results/reference/` | Frozen predictions, compact tables, selected maps, and source hashes |
-| `scripts/` | Table reproduction, validation, and plotting entrypoints |
-| `figures/original/` | Preserved manuscript figure assets |
-| `docs/` | Figure reproduction and decoding results |
-| `tests/` | Lightweight protocol and numerical consistency checks |
+| `paper/` | Manuscript PDF |
+| `src/foodpref/` | Data handling, CNN, training, matched SVM, same-rating averaging |
+| `preprocessing/` | Single-trial (LSA) and session-wise beta estimation |
+| `analyses/` | All post-hoc analyses, manuscript statistics and data figures |
+| `configs/` | Frozen participant folds and analysis settings |
+| `results/reference/` | Saved predictions, summary tables and provenance hashes |
+| `scripts/`, `tests/` | Table reproduction, validation and tests |
+| `docs/` | Data preparation, analysis entry points, result definitions |
 
-## Run the models and spatial analyses
+## Citation and license
 
-```bash
-python -m pip install -e '.[train,spatial,dev]'
-python -m foodpref.train --help
-python -m foodpref.matched_svm --help
-python -m foodpref.merge_betas --help
-python -m pytest -q
-```
+Please cite the manuscript and the original dataset (Sugawara et al., 2026, doi:[10.1038/s41597-026-07323-y](https://doi.org/10.1038/s41597-026-07323-y)).
 
-For model execution, prepare local beta maps and masks from the [source data](data/README.md), then follow the [decoding configurations](configs/decoding/README.md). The [environment guide](environments/README.md) lists dependencies for training and spatial analyses.
-
-## Data and citation
-
-The [data guide](data/README.md) links to the source dataset and its analysis resource. Software citation metadata is in `CITATION.cff`; licensing information is in `LICENSE`.
+The code and the reference results in `results/reference/` are released under the [MIT License](LICENSE). The manuscript `paper/main.pdf` is not covered by this license; its copyright remains with the authors. The source dataset (OpenNeuro ds007267) is released under CC0; FSL, SPM, the Harvard-Oxford atlases and other third-party resources keep their own licenses.

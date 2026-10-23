@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "food-subjective-value-fmri"
-version = "0.1.0"
-description = "Cross-participant decoding of subjective food value from fMRI"
+name = "food-decoding-fmri"
+version = "0.2.0"
+description = "Whole-brain fMRI decoding of subjective food value"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

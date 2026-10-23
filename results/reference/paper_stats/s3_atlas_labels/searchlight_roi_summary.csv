@@ -1,0 +1,112 @@
+roi_name,atlas_group,macro_group,roi_center_voxels,significant_voxels,coverage,mean_local_ba_significant,mean_local_ba_roi
+Left Paracingulate Gyrus,cortical,Frontal,1323,933,0.7052,0.6024,0.5897
+Left Frontal Pole,cortical,Frontal,6740,4439,0.6586,0.6054,0.5898
+"Right Inferior Frontal Gyrus, pars opercularis",cortical,Frontal,654,386,0.5902,0.592,0.5807
+Right Paracingulate Gyrus,cortical,Frontal,1171,659,0.5628,0.5932,0.582
+"Left Inferior Frontal Gyrus, pars triangularis",cortical,Frontal,607,341,0.5618,0.5977,0.5848
+"Left Inferior Frontal Gyrus, pars opercularis",cortical,Frontal,726,375,0.5165,0.5944,0.578
+"Right Inferior Frontal Gyrus, pars triangularis",cortical,Frontal,490,250,0.5102,0.5853,0.5765
+Left Superior Frontal Gyrus,cortical,Frontal,2384,1106,0.4639,0.5944,0.5767
+Right Frontal Pole,cortical,Frontal,7667,3538,0.4615,0.5949,0.5759
+Right Middle Frontal Gyrus,cortical,Frontal,2523,906,0.3591,0.5879,0.5725
+"Left Supramarginal Gyrus, posterior division",cortical,Parietal,1050,368,0.3505,0.5887,0.5713
+Left Middle Frontal Gyrus,cortical,Frontal,2741,942,0.3437,0.5929,0.5716
+Right Occipital Pole,cortical,Occipital,2164,728,0.3364,0.5901,0.5726
+"Left Cingulate Gyrus, anterior division",cortical,Frontal,1281,419,0.3271,0.5885,0.5624
+Left Angular Gyrus,cortical,Parietal,948,302,0.3186,0.5892,0.5697
+"Left Supramarginal Gyrus, anterior division",cortical,Parietal,944,297,0.3146,0.5848,0.5693
+"Right Cingulate Gyrus, anterior division",cortical,Frontal,1238,386,0.3118,0.5863,0.5633
+Left Occipital Pole,cortical,Occipital,2466,751,0.3045,0.5916,0.5724
+"Left Cingulate Gyrus, posterior division",cortical,Frontal,1236,358,0.2896,0.5848,0.5637
+Left Precuneous Cortex,cortical,Parietal,2720,786,0.289,0.5853,0.5647
+Left Frontal Operculum Cortex,cortical,Frontal,359,98,0.273,0.5896,0.5679
+"Left Lateral Occipital Cortex, superior division",cortical,Occipital,4821,1307,0.2711,0.5851,0.5649
+Left Frontal Medial Cortex,cortical,Frontal,532,142,0.2669,0.5931,0.5539
+Right Superior Frontal Gyrus,cortical,Frontal,2163,568,0.2626,0.5903,0.5673
+"Right Lateral Occipital Cortex, superior division",cortical,Occipital,4709,1224,0.2599,0.5864,0.5652
+Left Supracalcarine Cortex,cortical,Occipital,120,30,0.25,0.5779,0.563
+Right Supracalcarine Cortex,cortical,Occipital,141,33,0.234,0.5779,0.5644
+Left Intracalcarine Cortex,cortical,Occipital,654,151,0.2309,0.5755,0.5574
+Right Angular Gyrus,cortical,Parietal,1457,334,0.2292,0.5896,0.5678
+Left Frontal Orbital Cortex,cortical,Frontal,1562,338,0.2164,0.5844,0.5579
+"Right Supramarginal Gyrus, anterior division",cortical,Parietal,796,158,0.1985,0.5814,0.5613
+"Right Supramarginal Gyrus, posterior division",cortical,Parietal,1207,234,0.1939,0.5858,0.562
+Right Precuneous Cortex,cortical,Parietal,2669,514,0.1926,0.5823,0.5569
+Right Intracalcarine Cortex,cortical,Occipital,747,142,0.1901,0.5857,0.564
+Left Cuneal Cortex,cortical,Occipital,576,103,0.1788,0.5798,0.5603
+"Left Middle Temporal Gyrus, posterior division",cortical,Temporal,1263,217,0.1718,0.5787,0.5568
+"Right Middle Temporal Gyrus, temporooccipital part",cortical,Temporal,1141,194,0.17,0.577,0.554
+Right Frontal Operculum Cortex,cortical,Frontal,320,52,0.1625,0.5885,0.5644
+Left Insular Cortex,cortical,Subcortical,1150,185,0.1609,0.5832,0.5551
+Left Central Opercular Cortex,cortical,Parietal,984,157,0.1596,0.5796,0.5549
+"Right Lateral Occipital Cortex, inferior division",cortical,Occipital,2001,302,0.1509,0.5855,0.5569
+"Left Lateral Occipital Cortex, inferior division",cortical,Occipital,1962,295,0.1504,0.5854,0.5608
+Right Frontal Medial Cortex,cortical,Frontal,444,66,0.1486,0.5835,0.5478
+Left Occipital Fusiform Gyrus,cortical,Occipital,926,131,0.1415,0.5835,0.5647
+Right Cuneal Cortex,cortical,Occipital,635,83,0.1307,0.5778,0.556
+Right Occipital Fusiform Gyrus,cortical,Occipital,880,115,0.1307,0.5847,0.5635
+"Right Middle Temporal Gyrus, posterior division",cortical,Temporal,1232,158,0.1282,0.5742,0.5508
+Right Frontal Orbital Cortex,cortical,Frontal,1380,176,0.1275,0.5884,0.5517
+Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,Frontal,525,66,0.1257,0.5841,0.5495
+Right Superior Parietal Lobule,cortical,Parietal,1452,177,0.1219,0.5844,0.5525
+Right Precentral Gyrus,cortical,Frontal,3937,471,0.1196,0.5867,0.5485
+"Left Inferior Temporal Gyrus, temporooccipital part",cortical,Temporal,678,79,0.1165,0.5789,0.5499
+Right Planum Polare,cortical,Temporal,389,43,0.1105,0.5688,0.5451
+Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),cortical,Frontal,525,56,0.1067,0.5876,0.5471
+"Right Cingulate Gyrus, posterior division",cortical,Frontal,1141,119,0.1043,0.5781,0.5536
+Right Insular Cortex,cortical,Subcortical,1181,122,0.1033,0.5776,0.5522
+"Left Superior Temporal Gyrus, posterior division",cortical,Temporal,874,81,0.0927,0.5792,0.5534
+"Right Superior Temporal Gyrus, posterior division",cortical,Temporal,950,88,0.0926,0.574,0.5518
+Left Parietal Operculum Cortex,cortical,Parietal,576,52,0.0903,0.5774,0.541
+Left Temporal Pole,cortical,Temporal,2049,171,0.0835,0.5773,0.5437
+Right Temporal Occipital Fusiform Cortex,cortical,Occipital,821,67,0.0816,0.5776,0.553
+Left Temporal Occipital Fusiform Cortex,cortical,Occipital,648,47,0.0725,0.5721,0.5545
+Left Precentral Gyrus,cortical,Frontal,4147,292,0.0704,0.5862,0.5503
+"Left Middle Temporal Gyrus, temporooccipital part",cortical,Temporal,851,59,0.0693,0.5778,0.557
+"Right Inferior Temporal Gyrus, temporooccipital part",cortical,Temporal,769,46,0.0598,0.5806,0.5511
+Left Planum Polare,cortical,Temporal,360,21,0.0583,0.5711,0.5474
+Left Heschl's Gyrus (includes H1 and H2),cortical,Temporal,320,16,0.05,0.5753,0.5409
+Left Lingual Gyrus,cortical,Occipital,1632,80,0.049,0.5743,0.5482
+Right Postcentral Gyrus,cortical,Parietal,3117,134,0.043,0.5772,0.5439
+Right Heschl's Gyrus (includes H1 and H2),cortical,Temporal,284,11,0.0387,0.5793,0.5464
+Left Planum Temporale,cortical,Temporal,533,20,0.0375,0.5756,0.5403
+"Right Superior Temporal Gyrus, anterior division",cortical,Temporal,268,10,0.0373,0.5704,0.5424
+Left Superior Parietal Lobule,cortical,Parietal,1444,43,0.0298,0.5817,0.5468
+Right Temporal Pole,cortical,Temporal,2170,64,0.0295,0.5707,0.539
+"Right Inferior Temporal Gyrus, anterior division",cortical,Temporal,315,9,0.0286,0.5679,0.5405
+Left Postcentral Gyrus,cortical,Parietal,3503,97,0.0277,0.5802,0.544
+Right Central Opercular Cortex,cortical,Parietal,902,19,0.0211,0.5661,0.547
+"Left Inferior Temporal Gyrus, posterior division",cortical,Temporal,950,18,0.0189,0.5819,0.5323
+"Left Middle Temporal Gyrus, anterior division",cortical,Temporal,446,8,0.0179,0.5707,0.55
+Right Lingual Gyrus,cortical,Occipital,1739,21,0.0121,0.5784,0.5496
+"Left Superior Temporal Gyrus, anterior division",cortical,Temporal,253,2,0.0079,0.5734,0.5486
+"Left Parahippocampal Gyrus, posterior division",cortical,Temporal,390,3,0.0077,0.5676,0.5393
+Right Parietal Operculum Cortex,cortical,Parietal,543,3,0.0055,0.585,0.5439
+"Right Middle Temporal Gyrus, anterior division",cortical,Temporal,399,2,0.005,0.5683,0.5396
+Right Subcallosal Cortex,cortical,Subcortical,491,2,0.0041,0.5762,0.5326
+"Left Temporal Fusiform Cortex, posterior division",cortical,Temporal,845,1,0.0012,0.5671,0.5362
+"Left Inferior Temporal Gyrus, anterior division",cortical,Temporal,330,0,0.0,,0.5319
+"Right Inferior Temporal Gyrus, posterior division",cortical,Temporal,892,0,0.0,,0.5282
+Left Subcallosal Cortex,cortical,Subcortical,642,0,0.0,,0.5343
+"Left Parahippocampal Gyrus, anterior division",cortical,Temporal,497,0,0.0,,0.5269
+"Right Parahippocampal Gyrus, anterior division",cortical,Temporal,564,0,0.0,,0.5289
+"Right Parahippocampal Gyrus, posterior division",cortical,Temporal,310,0,0.0,,0.5365
+"Left Temporal Fusiform Cortex, anterior division",cortical,Temporal,282,0,0.0,,0.5259
+"Right Temporal Fusiform Cortex, anterior division",cortical,Temporal,284,0,0.0,,0.536
+"Right Temporal Fusiform Cortex, posterior division",cortical,Temporal,692,0,0.0,,0.536
+Right Planum Temporale,cortical,Temporal,419,0,0.0,,0.5418
+Left Thalamus,subcortical,Subcortical,1321,0,0.0,,0.5256
+Left Caudate,subcortical,Subcortical,487,0,0.0,,0.5345
+Left Putamen,subcortical,Subcortical,799,0,0.0,,0.5275
+Left Pallidum,subcortical,Subcortical,267,0,0.0,,0.5228
+Brain-Stem,subcortical,Subcortical,4567,0,0.0,,0.5298
+Left Hippocampus,subcortical,Subcortical,691,0,0.0,,0.531
+Left Amygdala,subcortical,Subcortical,306,0,0.0,,0.5216
+Left Accumbens,subcortical,Subcortical,89,0,0.0,,0.5329
+Right Thalamus,subcortical,Subcortical,1283,0,0.0,,0.5314
+Right Caudate,subcortical,Subcortical,511,0,0.0,,0.5434
+Right Putamen,subcortical,Subcortical,796,0,0.0,,0.5308
+Right Pallidum,subcortical,Subcortical,260,0,0.0,,0.5275
+Right Hippocampus,subcortical,Subcortical,699,0,0.0,,0.5384
+Right Amygdala,subcortical,Subcortical,364,0,0.0,,0.5326
+Right Accumbens,subcortical,Subcortical,84,0,0.0,,0.5309

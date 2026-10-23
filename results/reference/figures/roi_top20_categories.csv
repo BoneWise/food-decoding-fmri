@@ -1,0 +1,113 @@
+roi,group,rank_svm,rank_cam,category
+Left Cuneal Cortex,Occipital,17,8,both
+Left Intracalcarine Cortex,Occipital,4,9,both
+Left Lingual Gyrus,Occipital,11,13,both
+Left Supracalcarine Cortex,Occipital,16,5,both
+Right Cuneal Cortex,Occipital,13,4,both
+Right Intracalcarine Cortex,Occipital,6,3,both
+"Right Lateral Occipital Cortex, inferior division",Occipital,10,10,both
+Right Lingual Gyrus,Occipital,9,7,both
+Right Occipital Fusiform Gyrus,Occipital,1,6,both
+Right Occipital Pole,Occipital,2,2,both
+"Right Parahippocampal Gyrus, posterior division",Temporal,15,12,both
+Right Supracalcarine Cortex,Occipital,7,1,both
+Right Temporal Occipital Fusiform Cortex,Occipital,14,17,both
+Left Left Accumbens,Subcortical,34,19,cnn_only
+Right Right Accumbens,Subcortical,28,16,cnn_only
+Right Right Amygdala,Subcortical,37,20,cnn_only
+Right Right Hippocampus,Subcortical,48,14,cnn_only
+Right Right Pallidum,Subcortical,76,11,cnn_only
+Right Right Putamen,Subcortical,68,18,cnn_only
+Right Right Thalamus,Subcortical,43,15,cnn_only
+Left Angular Gyrus,Parietal,89,92,none
+Left Brain-Stem,Subcortical,30,34,none
+Left Central Opercular Cortex,Parietal,80,82,none
+"Left Cingulate Gyrus, anterior division",Frontal,35,52,none
+Left Frontal Medial Cortex,Frontal,67,78,none
+Left Frontal Operculum Cortex,Frontal,58,69,none
+Left Frontal Orbital Cortex,Frontal,45,54,none
+Left Frontal Pole,Frontal,63,88,none
+Left Heschl's Gyrus (includes H1 and H2),Temporal,96,80,none
+"Left Inferior Frontal Gyrus, pars opercularis",Frontal,50,96,none
+"Left Inferior Frontal Gyrus, pars triangularis",Frontal,33,99,none
+"Left Inferior Temporal Gyrus, anterior division",Temporal,108,112,none
+"Left Inferior Temporal Gyrus, posterior division",Temporal,112,110,none
+"Left Inferior Temporal Gyrus, temporooccipital part",Temporal,24,93,none
+Left Insular Cortex,Subcortical,59,56,none
+Left Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),Frontal,73,74,none
+"Left Lateral Occipital Cortex, superior division",Occipital,21,68,none
+Left Left Amygdala,Subcortical,31,39,none
+Left Left Caudate,Subcortical,39,36,none
+Left Left Hippocampus,Subcortical,46,49,none
+Left Left Pallidum,Subcortical,88,30,none
+Left Left Putamen,Subcortical,74,38,none
+Left Left Thalamus,Subcortical,29,26,none
+Left Middle Frontal Gyrus,Frontal,66,100,none
+"Left Middle Temporal Gyrus, anterior division",Temporal,98,111,none
+"Left Middle Temporal Gyrus, posterior division",Temporal,101,109,none
+"Left Middle Temporal Gyrus, temporooccipital part",Temporal,56,102,none
+Left Paracingulate Gyrus,Frontal,42,61,none
+"Left Parahippocampal Gyrus, anterior division",Temporal,26,60,none
+Left Parietal Operculum Cortex,Parietal,81,87,none
+Left Planum Polare,Temporal,62,81,none
+Left Planum Temporale,Temporal,104,94,none
+Left Postcentral Gyrus,Parietal,97,103,none
+Left Precentral Gyrus,Frontal,90,101,none
+Left Subcallosal Cortex,Subcortical,47,43,none
+Left Superior Frontal Gyrus,Frontal,86,97,none
+Left Superior Parietal Lobule,Parietal,61,95,none
+"Left Superior Temporal Gyrus, anterior division",Temporal,100,107,none
+"Left Superior Temporal Gyrus, posterior division",Temporal,94,108,none
+"Left Supramarginal Gyrus, anterior division",Parietal,79,106,none
+"Left Supramarginal Gyrus, posterior division",Parietal,75,104,none
+"Left Temporal Fusiform Cortex, anterior division",Temporal,38,105,none
+"Left Temporal Fusiform Cortex, posterior division",Temporal,36,76,none
+Left Temporal Pole,Temporal,55,98,none
+Right Angular Gyrus,Parietal,64,58,none
+Right Brain-Stem,Subcortical,40,23,none
+Right Central Opercular Cortex,Parietal,85,50,none
+"Right Cingulate Gyrus, anterior division",Frontal,69,51,none
+"Right Cingulate Gyrus, posterior division",Frontal,23,28,none
+Right Frontal Medial Cortex,Frontal,102,84,none
+Right Frontal Operculum Cortex,Frontal,53,47,none
+Right Frontal Orbital Cortex,Frontal,71,53,none
+Right Frontal Pole,Frontal,72,83,none
+Right Heschl's Gyrus (includes H1 and H2),Temporal,84,46,none
+"Right Inferior Frontal Gyrus, pars opercularis",Frontal,41,59,none
+"Right Inferior Frontal Gyrus, pars triangularis",Frontal,54,65,none
+"Right Inferior Temporal Gyrus, anterior division",Temporal,105,90,none
+"Right Inferior Temporal Gyrus, posterior division",Temporal,111,72,none
+"Right Inferior Temporal Gyrus, temporooccipital part",Temporal,60,35,none
+Right Insular Cortex,Subcortical,65,29,none
+Right Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex),Frontal,103,73,none
+"Right Lateral Occipital Cortex, superior division",Occipital,22,24,none
+Right Middle Frontal Gyrus,Frontal,78,77,none
+"Right Middle Temporal Gyrus, anterior division",Temporal,92,64,none
+"Right Middle Temporal Gyrus, posterior division",Temporal,99,67,none
+"Right Middle Temporal Gyrus, temporooccipital part",Temporal,95,40,none
+Right Paracingulate Gyrus,Frontal,44,63,none
+"Right Parahippocampal Gyrus, anterior division",Temporal,25,41,none
+Right Parietal Operculum Cortex,Parietal,87,55,none
+Right Planum Polare,Temporal,82,32,none
+Right Planum Temporale,Temporal,110,57,none
+Right Postcentral Gyrus,Parietal,109,86,none
+Right Precentral Gyrus,Frontal,93,79,none
+Right Precuneous Cortex,Parietal,27,21,none
+Right Right Caudate,Subcortical,52,31,none
+Right Subcallosal Cortex,Subcortical,70,45,none
+Right Superior Frontal Gyrus,Frontal,106,89,none
+Right Superior Parietal Lobule,Parietal,83,71,none
+"Right Superior Temporal Gyrus, anterior division",Temporal,107,48,none
+"Right Superior Temporal Gyrus, posterior division",Temporal,91,62,none
+"Right Supramarginal Gyrus, anterior division",Parietal,57,91,none
+"Right Supramarginal Gyrus, posterior division",Parietal,77,75,none
+"Right Temporal Fusiform Cortex, anterior division",Temporal,51,85,none
+"Right Temporal Fusiform Cortex, posterior division",Temporal,32,37,none
+Right Temporal Pole,Temporal,49,70,none
+"Left Cingulate Gyrus, posterior division",Frontal,19,33,svm_only
+"Left Lateral Occipital Cortex, inferior division",Occipital,12,66,svm_only
+Left Occipital Fusiform Gyrus,Occipital,5,25,svm_only
+Left Occipital Pole,Occipital,3,22,svm_only
+"Left Parahippocampal Gyrus, posterior division",Temporal,18,44,svm_only
+Left Precuneous Cortex,Parietal,20,27,svm_only
+Left Temporal Occipital Fusiform Cortex,Occipital,8,42,svm_only

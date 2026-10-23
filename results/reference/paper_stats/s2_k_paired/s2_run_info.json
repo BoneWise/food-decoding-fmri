@@ -1,0 +1,10 @@
+{
+  "input": "results/reference/tables/decoding_participants.csv",
+  "seed": 20261019,
+  "n_resample": 100000,
+  "holm_family": "3 comparisons within each decoder",
+  "primary": "two-sided paired t",
+  "python": "3.10.12",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3"
+}

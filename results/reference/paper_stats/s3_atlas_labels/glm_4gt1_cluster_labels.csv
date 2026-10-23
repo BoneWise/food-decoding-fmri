@@ -1,0 +1,10 @@
+cluster_id,size_voxels,peak_t,peak_mni,peak_label,peak_label_distance_mm,macro_group,component_voxels,composition_top3
+8,120,4.75,"(25.5, -44.5, -20.5)",Right Temporal Occipital Fusiform Cortex,0.0,Occipital,120,Right Temporal Occipital Fusiform Cortex (55); unlabeled (54); Right Lingual Gyrus (11)
+2,119,5.38,"(-2.5, 43.5, -0.5)",Left Paracingulate Gyrus,0.0,Frontal,119,"Left Paracingulate Gyrus (60); Left Cingulate Gyrus, anterior division (35); Left Frontal Medial Cortex (21)"
+4,105,5.45,"(17.5, -66.5, -46.5)",unlabeled,,,105,unlabeled (105)
+6,37,4.62,"(17.5, -64.5, -24.5)",unlabeled,,,38,unlabeled (38)
+1,32,4.74,"(-12.5, 37.5, -14.5)",Left Frontal Medial Cortex,2.0,Frontal,32,Left Paracingulate Gyrus (15); Left Frontal Medial Cortex (11); unlabeled (6)
+3,29,5.47,"(-6.5, -52.5, 21.5)","Left Cingulate Gyrus, posterior division",0.0,Frontal,29,"Left Cingulate Gyrus, posterior division (18); Left Precuneous Cortex (9); unlabeled (2)"
+5,25,4.73,"(19.5, -84.5, -6.5)",Right Occipital Fusiform Gyrus,0.0,Occipital,25,Right Occipital Fusiform Gyrus (17); unlabeled (8)
+9,5,4.85,"(31.5, -88.5, 15.5)","Right Lateral Occipital Cortex, superior division",0.0,Occipital,5,"Right Lateral Occipital Cortex, superior division (5)"
+7,1,3.67,"(23.5, -58.5, -26.5)",Right Temporal Occipital Fusiform Cortex,9.38083151964686,Occipital,38,unlabeled (38)

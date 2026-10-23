@@ -1,0 +1,10 @@
+{
+  "seed": 20261020,
+  "n_flip": 100000,
+  "n_boot": 100000,
+  "n_low": 27,
+  "n_high": 29,
+  "n_both": 26,
+  "roi_validation_max_abs_diff": 0.0001239154789240995,
+  "atlas_root": "{atlas}"
+}

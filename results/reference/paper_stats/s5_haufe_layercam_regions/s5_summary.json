@@ -1,0 +1,9 @@
+{
+  "n_shared_voxels": 222441,
+  "n_roi_ge100": 110,
+  "voxel_spearman_direction_haufe_vs_lc_high_minus_low": -0.019621942434486297,
+  "voxel_spearman_magnitude_abs_haufe_vs_lc_mean": 0.19549957879905538,
+  "roi_spearman_direction": -0.01598178662398846,
+  "roi_spearman_magnitude": 0.6297905912584811,
+  "roi_sign_agreement_fraction": 0.4727272727272727
+}

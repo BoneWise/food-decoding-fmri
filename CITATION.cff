@@ -1,14 +1,23 @@
 cff-version: 1.2.0
-message: "Please cite this software version and the original dataset when using this repository."
+message: "Please cite the manuscript and the original dataset when using this repository."
 type: software
-title: "Subjective food value fMRI: cross-participant decoding and spatial attribution"
+title: "Whole-brain fMRI decoding of subjective food value: code and reference results"
 authors:
   - name: "BoneWise"
-version: 0.1.0
-date-released: 2026-09-23
-repository-code: "https://github.com/BoneWise/food-subjective-value-fmri"
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/BoneWise/food-decoding-fmri"
 keywords:
   - fMRI
-  - subjective food value
+  - food value
   - decoding
   - Layer-CAM
+  - forward model
+references:
+  - type: dataset
+    title: "A Densely Sampled fMRI Dataset for Investigating Food Valuation"
+    authors:
+      - family-names: "Sugawara"
+        given-names: "Michiyo"
+    doi: "10.1038/s41597-026-07323-y"
+    year: 2026

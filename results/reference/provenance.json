@@ -326,20 +326,6 @@
       "transformation": "absolute paths changed to source-relative references; serialization normalized"
     },
     {
-      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/results_summary.json",
-      "destination": "results/reference/input_replacement/archived/results_summary.json",
-      "original_sha256": "9892d87185e7f5764d4ef1522b07c965891780c229854d29f4bffbba8f45743d",
-      "distributed_sha256": "cd18ada2739097883a46ff9e2ea0404c55df46ede7b2272bd52df083cf36d575",
-      "transformation": "absolute paths changed to source-relative references; serialization normalized"
-    },
-    {
-      "source": "ccn-workflow/evidence/results/rq3_cam_voxel20_global_mean_replacement_20260729/outputs/validation/validation_report.json",
-      "destination": "results/reference/input_replacement/archived/validation/validation_report.json",
-      "original_sha256": "67933594fe0c13b122f63a12a646216a9d06c1d116f364c87f234e7ffe8e15c3",
-      "distributed_sha256": "9769c401cc5a6bbc100c87ff13da3ce75514a5529b31099a9dcfbb9f1d7c33ea",
-      "transformation": "absolute paths changed to source-relative references; serialization normalized"
-    },
-    {
       "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/tables/fold_haufe_summary.csv",
       "destination": "results/reference/svm_haufe/tables/fold_haufe_summary.csv",
       "original_sha256": "aeb24dcdd533ad7523b11a2c37bdcc7aedb016be68cd351232347b7f8a908a2a",
@@ -359,20 +345,6 @@
       "original_sha256": "bd8d3cf92c571fdf21f22925e74ce139e1dab41a2b1d582b4ee9f11788947e9c",
       "distributed_sha256": "eef1b12372166baf67fe8be79c69d65779d4b140062a42b56be13754a820b1be",
       "transformation": "absolute paths changed to source-relative references; serialization normalized"
-    },
-    {
-      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/results_summary.json",
-      "destination": "results/reference/svm_haufe/archived/results_summary.json",
-      "original_sha256": "4b322905d84975ea261122c636db162ec237420298b3c6cfcdead496a47bc97e",
-      "distributed_sha256": "0d23b8717306240e450269b1e3a02d6368d211866f57f9947d1754946ed3904b",
-      "transformation": "absolute paths changed to source-relative references; serialization normalized"
-    },
-    {
-      "source": "ccn-workflow/evidence/results/rq3_svm_haufe_k01_20260729/outputs/validation/validation_report.json",
-      "destination": "results/reference/svm_haufe/archived/validation/validation_report.json",
-      "original_sha256": "eabc88f4b0ffd547e0e128117ddd143cf4496ef55547d0bf6fd59d591766466c",
-      "distributed_sha256": "eabc88f4b0ffd547e0e128117ddd143cf4496ef55547d0bf6fd59d591766466c",
-      "transformation": "byte-identical"
     },
     {
       "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/tables/roi_top20_enrichment_top20.csv",
@@ -415,20 +387,6 @@
       "original_sha256": "30e4468750c4635d7cc339e553d730e0864db2c003130b0e7b7d503cf251cd6b",
       "distributed_sha256": "a0157a86cc3d09dfbd9e4fcc7a0370c41576253974b88643fed900594764984e",
       "transformation": "absolute paths changed to source-relative references; serialization normalized"
-    },
-    {
-      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/results_summary.json",
-      "destination": "results/reference/map_comparison/archived/results_summary.json",
-      "original_sha256": "e74c3b6dcf0aa81799d00d87cfe4ebabc47bb54ae65f0566d787488cbcf70bc2",
-      "distributed_sha256": "288d9c7444ec7370b4e9c954fe65af05a6420b4a6ce898a21008b839e2ee0a10",
-      "transformation": "absolute paths changed to source-relative references; serialization normalized"
-    },
-    {
-      "source": "ccn-workflow/evidence/results/rq3_haufe_layercam_top20_comparison_20260729/outputs/validation/validation_report.json",
-      "destination": "results/reference/map_comparison/archived/validation/validation_report.json",
-      "original_sha256": "93c403b52e7d787cc7fa4e8f8389ffc96b0603c8e555530959251d448ad95cd8",
-      "distributed_sha256": "93c403b52e7d787cc7fa4e8f8389ffc96b0603c8e555530959251d448ad95cd8",
-      "transformation": "byte-identical"
     },
     {
       "source": "ccn-workflow/evidence/results/leave_session_out_mvpa_rating14_20260504/results/20260504_195736_rating14_wholebrain_linear_svm_leave_session_out/group_summary.json",
@@ -1089,20 +1047,256 @@
       "transformation": "absolute paths changed to source-relative references; serialization normalized"
     },
     {
-      "source": "trial-beta/group_randomise_rating14_no_quality_filter/analysis_summary.json",
-      "destination": "results/reference/background/glm_candidate_summary.json",
-      "original_sha256": "b653ece1b442c6d6fba41415113a8e659efbc437deeb065992410a80aa0f224c",
-      "distributed_sha256": "918a4e3fe8ecd9f2ab7132492556e8ba50e469bc735d0af6dd14534e3ca30b03",
-      "transformation": "absolute machine paths changed to source-relative references",
-      "status": "candidate only; not verified as the paper figure source"
+      "source": "outputs/averaging-granularity-20261020/results_summary/svm_k_curve.csv",
+      "destination": "results/reference/granularity/svm_k_curve.csv",
+      "original_sha256": "ec7e7b43dda22d34b82fcdd4ad88d62c6183f2cb2a7e26cfcbecc859f4fd1e81",
+      "distributed_sha256": "ec7e7b43dda22d34b82fcdd4ad88d62c6183f2cb2a7e26cfcbecc859f4fd1e81",
+      "transformation": "copied unchanged"
     },
     {
-      "source": "sessionwise-beta/mvpa_searchlight_session3fold/20260425_075751_rating4_vs_rating1_libsvmLinearSVC_ses3fold_radius6mm_fastindex/randomise_cluster_p001_5000/balancedAccMinusChance_clusterP001_clusterFWE05_summary.json",
-      "destination": "results/reference/background/searchlight_candidate_summary.json",
-      "original_sha256": "3e528cd8d2b2f7bf8014e65b4cf6a24332dac41f4265a998ea399c2bb21fd8eb",
-      "distributed_sha256": "ae1654b018b92b19fc680fdb41c1cb3ebe4c79b78ed65228ecd6a25b2ee683ef",
-      "transformation": "absolute machine paths changed to source-relative references",
-      "status": "candidate only; not verified as the paper figure source"
+      "source": "outputs/averaging-granularity-20261020/results_summary/svm_k_paired.csv",
+      "destination": "results/reference/granularity/svm_k_paired.csv",
+      "original_sha256": "12f2872343277ee62760ade78757f6590c7619c5d6820d14ca6349864f66301a",
+      "distributed_sha256": "12f2872343277ee62760ade78757f6590c7619c5d6820d14ca6349864f66301a",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/svm_k_by_seed.csv",
+      "destination": "results/reference/granularity/svm_k_by_seed.csv",
+      "original_sha256": "aed16ae79bcdb203db2738574690d6a8fc068c8e49c2d8372cff9646c94df365",
+      "distributed_sha256": "aed16ae79bcdb203db2738574690d6a8fc068c8e49c2d8372cff9646c94df365",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/svm_k_summary.json",
+      "destination": "results/reference/granularity/svm_k_summary.json",
+      "original_sha256": "5a870109be6db39c930a1c92c8e9516582395c1e7811338587394529347f7fed",
+      "distributed_sha256": "5a870109be6db39c930a1c92c8e9516582395c1e7811338587394529347f7fed",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/svm_participant_ba.csv",
+      "destination": "results/reference/granularity/svm_participant_ba.csv",
+      "original_sha256": "380a7b88f85667eb053672e6b3a604f09013d8a4a9a762c9b8238d8d6e9d7cdc",
+      "distributed_sha256": "380a7b88f85667eb053672e6b3a604f09013d8a4a9a762c9b8238d8d6e9d7cdc",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/cross_granularity_curves.csv",
+      "destination": "results/reference/granularity/cross_granularity_curves.csv",
+      "original_sha256": "cabea2a4496d76d35f89c1313b992ccb15de38a082568891b065e59e661be87b",
+      "distributed_sha256": "cabea2a4496d76d35f89c1313b992ccb15de38a082568891b065e59e661be87b",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/cross_granularity_matrix.csv",
+      "destination": "results/reference/granularity/cross_granularity_matrix.csv",
+      "original_sha256": "e19bde969af6ab56ece2514622de659a8676a07bb9ab323eaf38f738e8606dd8",
+      "distributed_sha256": "e19bde969af6ab56ece2514622de659a8676a07bb9ab323eaf38f738e8606dd8",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/cross_granularity_tests.csv",
+      "destination": "results/reference/granularity/cross_granularity_tests.csv",
+      "original_sha256": "619757d82d469fa531a0c6904b9d51e326aff6d5b6a237948185fbc397c12157",
+      "distributed_sha256": "619757d82d469fa531a0c6904b9d51e326aff6d5b6a237948185fbc397c12157",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/cross_granularity_train1_adjacent.csv",
+      "destination": "results/reference/granularity/cross_granularity_train1_adjacent.csv",
+      "original_sha256": "72659821e7ef653ef4a6bb9a088397fbd271c682d76bc71c552036acd0efcf2c",
+      "distributed_sha256": "72659821e7ef653ef4a6bb9a088397fbd271c682d76bc71c552036acd0efcf2c",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/cross_granularity_weights.json",
+      "destination": "results/reference/granularity/cross_granularity_weights.json",
+      "original_sha256": "03284f424ce95cbf94bc61128fa1c2bdc30c0ba95719968f50090f3ad4fd34f3",
+      "distributed_sha256": "03284f424ce95cbf94bc61128fa1c2bdc30c0ba95719968f50090f3ad4fd34f3",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/haufe_by_k_groups.csv",
+      "destination": "results/reference/granularity/haufe_by_k_groups.csv",
+      "original_sha256": "e89b3e3363f8944fd85208c0d4c7017342b06c530c5c9d44f94c10a3eed1bf49",
+      "distributed_sha256": "e89b3e3363f8944fd85208c0d4c7017342b06c530c5c9d44f94c10a3eed1bf49",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/haufe_by_k_rois.csv",
+      "destination": "results/reference/granularity/haufe_by_k_rois.csv",
+      "original_sha256": "cdfd7c271aa0916a9afc9ad47018a4d008946d80e5028c55ec9eb7acaeb3c95a",
+      "distributed_sha256": "cdfd7c271aa0916a9afc9ad47018a4d008946d80e5028c55ec9eb7acaeb3c95a",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/haufe_by_k_summary.json",
+      "destination": "results/reference/granularity/haufe_by_k_summary.json",
+      "original_sha256": "507498b8d8cba3edd23a928a9b17cf3b6dba1120fa11ff1d1f393f0555f74b0e",
+      "distributed_sha256": "507498b8d8cba3edd23a928a9b17cf3b6dba1120fa11ff1d1f393f0555f74b0e",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/regions_match_k6.csv",
+      "destination": "results/reference/granularity/regions_match_k6.csv",
+      "original_sha256": "545e3e0a54c40a58d16be78c35406c78f69e35f8db950aa85f0bcaf68bcfd5cf",
+      "distributed_sha256": "545e3e0a54c40a58d16be78c35406c78f69e35f8db950aa85f0bcaf68bcfd5cf",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/averaging-granularity-20261020/results_summary/regions_match_k6.json",
+      "destination": "results/reference/granularity/regions_match_k6.json",
+      "original_sha256": "d53ed3abf32fbb7d4e9a2f54883f34cddc4b8485d3be017237699f4b94213670",
+      "distributed_sha256": "d53ed3abf32fbb7d4e9a2f54883f34cddc4b8485d3be017237699f4b94213670",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s2_k_paired/s2_k_paired_tests.csv",
+      "destination": "results/reference/paper_stats/s2_k_paired/s2_k_paired_tests.csv",
+      "original_sha256": "014f0d50bc2862f547a67517f15c6eebbc237e2e63d9d9a0411020299529c507",
+      "distributed_sha256": "014f0d50bc2862f547a67517f15c6eebbc237e2e63d9d9a0411020299529c507",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s2_k_paired/s2_k_summary.csv",
+      "destination": "results/reference/paper_stats/s2_k_paired/s2_k_summary.csv",
+      "original_sha256": "0ce908232802a7fbe751848ace08a645f806290c3024c8ee35a82d579a481c61",
+      "distributed_sha256": "0ce908232802a7fbe751848ace08a645f806290c3024c8ee35a82d579a481c61",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s2_k_paired/s2_run_info.json",
+      "destination": "results/reference/paper_stats/s2_k_paired/s2_run_info.json",
+      "original_sha256": "4b8b5f4dc67ea58fad8a33fbbed9ec5857ae8d5e61e957c950edbba301f3a68b",
+      "distributed_sha256": "4b8b5f4dc67ea58fad8a33fbbed9ec5857ae8d5e61e957c950edbba301f3a68b",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s3_atlas_labels/glm_4gt1_cluster_labels.csv",
+      "destination": "results/reference/paper_stats/s3_atlas_labels/glm_4gt1_cluster_labels.csv",
+      "original_sha256": "b18679efed28ec2c7cca390da739f1dba458349b5321b15bd308709e46b65c16",
+      "distributed_sha256": "b18679efed28ec2c7cca390da739f1dba458349b5321b15bd308709e46b65c16",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s3_atlas_labels/s3_run_info.json",
+      "destination": "results/reference/paper_stats/s3_atlas_labels/s3_run_info.json",
+      "original_sha256": "5ccd01de520e985a73abc9d7788223b3d24c025265fd7743c7f6d2ac761ad378",
+      "distributed_sha256": "7f2c09c1268dcd336561e7392963d8002b27df54c5ef06323590157a2688fe71",
+      "transformation": "absolute paths changed to placeholders ({data}, {runs}, {fsl}, {atlas}, {fmriprep}, {repo})"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s3_atlas_labels/searchlight_component_labels.csv",
+      "destination": "results/reference/paper_stats/s3_atlas_labels/searchlight_component_labels.csv",
+      "original_sha256": "47b2174051ff476e68d79996a1442b0389c7c33307180c575d10bbbef59323c6",
+      "distributed_sha256": "47b2174051ff476e68d79996a1442b0389c7c33307180c575d10bbbef59323c6",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s3_atlas_labels/searchlight_group_summary.csv",
+      "destination": "results/reference/paper_stats/s3_atlas_labels/searchlight_group_summary.csv",
+      "original_sha256": "06a6e7dcd6ad5317c484891e3179ebb53827c7f830ed594455243089423da1d4",
+      "distributed_sha256": "06a6e7dcd6ad5317c484891e3179ebb53827c7f830ed594455243089423da1d4",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s3_atlas_labels/searchlight_roi_summary.csv",
+      "destination": "results/reference/paper_stats/s3_atlas_labels/searchlight_roi_summary.csv",
+      "original_sha256": "6c506cc99fc4cfaac79e8251b936eb4b637239dccf06e50783980c99145d2db9",
+      "distributed_sha256": "6c506cc99fc4cfaac79e8251b936eb4b637239dccf06e50783980c99145d2db9",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s4_layercam_participant_tests/s4_high_minus_low.csv",
+      "destination": "results/reference/paper_stats/s4_layercam_participant_tests/s4_high_minus_low.csv",
+      "original_sha256": "b823e6e991ba2c880db231971837b818ce68ddf41423ed2a4de5d3d6eb9e111f",
+      "distributed_sha256": "b823e6e991ba2c880db231971837b818ce68ddf41423ed2a4de5d3d6eb9e111f",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s4_layercam_participant_tests/s4_run_info.json",
+      "destination": "results/reference/paper_stats/s4_layercam_participant_tests/s4_run_info.json",
+      "original_sha256": "82c04ae49fe2a31f0934f20d57297e6b9b42f16207f0256d3f5a891594a7cf16",
+      "distributed_sha256": "8330a7b5e8cb00160fd6eeb03d29fa3470a268a4e26ac9e161e9a7a6a2e7dc4c",
+      "transformation": "absolute paths changed to placeholders ({data}, {runs}, {fsl}, {atlas}, {fmriprep}, {repo})"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s4_layercam_participant_tests/s4_vs_whole_brain_mean.csv",
+      "destination": "results/reference/paper_stats/s4_layercam_participant_tests/s4_vs_whole_brain_mean.csv",
+      "original_sha256": "1ec5c34ebfdb138eb9f3de803e7c5b320474c85355f6a3071fa0522218e53ec6",
+      "distributed_sha256": "1ec5c34ebfdb138eb9f3de803e7c5b320474c85355f6a3071fa0522218e53ec6",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s5_haufe_layercam_regions/s5_group_values.csv",
+      "destination": "results/reference/paper_stats/s5_haufe_layercam_regions/s5_group_values.csv",
+      "original_sha256": "afbe032365b039c4ebd6cade980100d9d5c09e0643a9edbd776aba90c0c19160",
+      "distributed_sha256": "afbe032365b039c4ebd6cade980100d9d5c09e0643a9edbd776aba90c0c19160",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s5_haufe_layercam_regions/s5_roi_values.csv",
+      "destination": "results/reference/paper_stats/s5_haufe_layercam_regions/s5_roi_values.csv",
+      "original_sha256": "6c792dc75dbec5b0055c977118f10e05c46bfff9df999767255f0dea62b85352",
+      "distributed_sha256": "6c792dc75dbec5b0055c977118f10e05c46bfff9df999767255f0dea62b85352",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s5_haufe_layercam_regions/s5_s4_regions.csv",
+      "destination": "results/reference/paper_stats/s5_haufe_layercam_regions/s5_s4_regions.csv",
+      "original_sha256": "3e5af88e308dbf3443de01eaa41df75ceeaaebd4a3c77c3aa2d9174bec42e68f",
+      "distributed_sha256": "3e5af88e308dbf3443de01eaa41df75ceeaaebd4a3c77c3aa2d9174bec42e68f",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/story-plan-20261019/s5_haufe_layercam_regions/s5_summary.json",
+      "destination": "results/reference/paper_stats/s5_haufe_layercam_regions/s5_summary.json",
+      "original_sha256": "36d5d8fbb0dc84439eb4e6a109e2cb7b408ae85656bc11c70017fe672307c45e",
+      "distributed_sha256": "36d5d8fbb0dc84439eb4e6a109e2cb7b408ae85656bc11c70017fe672307c45e",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/fig5-redraw-20261023/roi_level/roi_top20_categories.csv",
+      "destination": "results/reference/figures/roi_top20_categories.csv",
+      "original_sha256": "fe07abb593143f114f26c2951c0771b35949cb34948e911cf363fc9a83c36f78",
+      "distributed_sha256": "fe07abb593143f114f26c2951c0771b35949cb34948e911cf363fc9a83c36f78",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "outputs/fig5-redraw-20261023/roi_level/roi_top20_categories.nii.gz",
+      "destination": "results/reference/figures/roi_top20_categories.nii.gz",
+      "original_sha256": "2f1a4b36706f26e0b0282929e480a1dccabe3f165f13cb17c7ec2cec075c050f",
+      "distributed_sha256": "2f1a4b36706f26e0b0282929e480a1dccabe3f165f13cb17c7ec2cec075c050f",
+      "transformation": "copied unchanged"
+    },
+    {
+      "source": "experiments/glm_ua1/RESULTS/smoothed_s6_wmcsf_condition_glm_tfce_fwe/analysis_summary.json",
+      "destination": "results/reference/glm/analysis_summary.json",
+      "original_sha256": "94fd238a1bc5890b04a6d9f4888fb30579d51b9d9416ce97ee376e957f0523bc",
+      "distributed_sha256": "dd7f23f95694f7da9163cb77ab76a906795d404807a7ac782e45520ad3eedbdf",
+      "transformation": "absolute paths changed to placeholders ({data}, {runs}, {fsl}, {atlas}, {fmriprep}, {repo})"
+    },
+    {
+      "source": "experiments/searchlight_mvpa1/RESULTS/searchlight_rating4_vs_rating1_ses3fold_n30_cluster_p001_cluster_fwe/analysis_summary.json",
+      "destination": "results/reference/searchlight/analysis_summary.json",
+      "original_sha256": "b914284230a4069d94df5a3dbb2c4b646dfbe0c0834cd87e349eb4f5e8c7a1b7",
+      "distributed_sha256": "402d2048768735c9f1ee1726d2bb009e42dc51d86b5b5adc62c65705a45a09a4",
+      "transformation": "absolute paths changed to placeholders ({data}, {runs}, {fsl}, {atlas}, {fmriprep}, {repo})"
+    },
+    {
+      "source": "experiments/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/analysis_summary.json",
+      "destination": "results/reference/layercam/analysis_summary.json",
+      "original_sha256": "fb3754ff3d87e6d08a77ec9df30606c10ff35a4077b0f7d55b5c1b01270f2d05",
+      "distributed_sha256": "c209a56c481d872e61646c080c6207d32b4baa10250470502989eee8b8e51448",
+      "transformation": "absolute paths changed to placeholders ({data}, {runs}, {fsl}, {atlas}, {fmriprep}, {repo})"
+    },
+    {
+      "source": "experiments/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/run_config.json",
+      "destination": "results/reference/decoding/cnn/run_config_k06.json",
+      "original_sha256": "b28e35c3b90c98a38304adc79d45cb5c27dbbe64da2bdfcd26305e5fa0e44b9a",
+      "distributed_sha256": "1516559a9cb87efa734a8116bc646348ddd35eeabac33fd2dea5ef1eec6b8687",
+      "transformation": "absolute paths changed to placeholders ({data}, {runs}, {fsl}, {atlas}, {fmriprep}, {repo})"
     }
   ],
   "derived_files": [

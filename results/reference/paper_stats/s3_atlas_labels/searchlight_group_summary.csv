@@ -1,0 +1,7 @@
+macro_group,roi_center_voxels,significant_voxels,coverage
+Frontal,47816,17482,0.3656
+Occipital,27642,5610,0.203
+Parietal,24312,3675,0.1512
+Subcortical,15988,309,0.0193
+Temporal,21999,1321,0.06
+unlabeled (outside atlas ROIs),84747,3034,0.0358

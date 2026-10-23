@@ -1,0 +1,32 @@
+{
+  "trend_slope_per_doubling_pp": 2.1326498380272234,
+  "trend_ci": [
+    0.6933777618726782,
+    3.4481130090278445
+  ],
+  "trend_p_t": 0.005694387691118684,
+  "trend_p_signflip": 0.006489935100648993,
+  "trend_n_positive": 25,
+  "partition_check": {
+    "k4": {
+      "fixed_partition": 63.18548838554432,
+      "cnn_partition": 63.18744941450336
+    },
+    "k5": {
+      "fixed_partition": 62.247610889482985,
+      "cnn_partition": 62.50519444785747
+    },
+    "k6": {
+      "fixed_partition": 63.76649310030202,
+      "cnn_partition": 63.32615600128357
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n_participants": 30
+}

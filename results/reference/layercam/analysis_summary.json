@@ -1,0 +1,575 @@
+{
+  "run_dir": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5",
+  "output_dir": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce",
+  "device": "cuda",
+  "batch_size": 16,
+  "checkpoint_name": "final.pt",
+  "only_fold": null,
+  "method": {
+    "saliency": "Layer-CAM-style positive class-discriminative CAM from the final convolutional feature block; no global average pooling; trilinear upsampling to input fMRI space.",
+    "cam_sign": "non-negative positive attribution maps after ReLU; not signed evidence.",
+    "model_selection": "per-fold fixed final.pt checkpoints; no best-fold selection.",
+    "evaluation_split": "correctly classified held-out trials generated out-of-fold.",
+    "group_unit": "subject-level mean CAM per rating condition.",
+    "inference": "one-sample subject-level test against zero with FSL randomise TFCE-FWE correction when --skip-randomise is not used.",
+    "roi_unit": "subject-level ROI mean CAM; Wilcoxon signed-rank against zero with BH-FDR."
+  },
+  "resolved_paths": {
+    "beta_index_csv": "{data}/derived/merged/k06_seed42/beta_index.csv",
+    "models_root": "{data}/derived/models",
+    "brain_mask_root": "{data}/derived/cache/masks",
+    "path_prefix_from": "",
+    "path_prefix_to": "",
+    "resolution_mode": "run_config_paths_exist"
+  },
+  "dataset_summary": {
+    "source_csv": "{data}/derived/merged/k06_seed42/beta_index.csv",
+    "models_root": "{data}/derived/models",
+    "brain_mask_root": "{data}/derived/cache/masks",
+    "rows_total": 1147,
+    "samples_kept": 1147,
+    "subjects_kept": 30,
+    "ratings_kept": [
+      1,
+      4
+    ],
+    "drop_counts": {
+      "missing_rating": 0,
+      "non_target_rating": 0,
+      "missing_beta_file": 0,
+      "missing_mask_file": 0
+    }
+  },
+  "common_mask": {
+    "mode": "intersection_of_unique_record_masks",
+    "num_unique_masks": 30,
+    "reference_mask": "{data}/derived/cache/masks/sub-001_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii",
+    "reference_shape": [
+      97,
+      115,
+      97
+    ],
+    "voxels_common_mask": 222479,
+    "voxels_first_mask": 232336
+  },
+  "roi_inventory": {
+    "atlas_root": "{atlas}",
+    "num_rois": 112,
+    "num_cortical_rois": 96,
+    "num_subcortical_rois": 16,
+    "division_counts": {
+      "Occipital": 18,
+      "Parietal": 16,
+      "Temporal": 32,
+      "Frontal": 26,
+      "Subcortical": 20
+    }
+  },
+  "fold_summary": [
+    {
+      "fold_index": 1,
+      "num_val_trials": 179,
+      "num_correct_trials": 102,
+      "correct_fraction": 0.5698324022346368,
+      "num_correct_rating_1": 19,
+      "num_correct_rating_4": 83,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_01/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 2,
+      "num_val_trials": 163,
+      "num_correct_trials": 99,
+      "correct_fraction": 0.6073619631901841,
+      "num_correct_rating_1": 30,
+      "num_correct_rating_4": 69,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_02/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 3,
+      "num_val_trials": 142,
+      "num_correct_trials": 103,
+      "correct_fraction": 0.7253521126760564,
+      "num_correct_rating_1": 70,
+      "num_correct_rating_4": 33,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_03/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 4,
+      "num_val_trials": 123,
+      "num_correct_trials": 57,
+      "correct_fraction": 0.4634146341463415,
+      "num_correct_rating_1": 18,
+      "num_correct_rating_4": 39,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_04/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 5,
+      "num_val_trials": 117,
+      "num_correct_trials": 69,
+      "correct_fraction": 0.5897435897435898,
+      "num_correct_rating_1": 17,
+      "num_correct_rating_4": 52,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_05/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 6,
+      "num_val_trials": 110,
+      "num_correct_trials": 68,
+      "correct_fraction": 0.6181818181818182,
+      "num_correct_rating_1": 25,
+      "num_correct_rating_4": 43,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_06/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 7,
+      "num_val_trials": 100,
+      "num_correct_trials": 47,
+      "correct_fraction": 0.47,
+      "num_correct_rating_1": 22,
+      "num_correct_rating_4": 25,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_07/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 8,
+      "num_val_trials": 84,
+      "num_correct_trials": 52,
+      "correct_fraction": 0.6190476190476191,
+      "num_correct_rating_1": 40,
+      "num_correct_rating_4": 12,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_08/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 9,
+      "num_val_trials": 76,
+      "num_correct_trials": 45,
+      "correct_fraction": 0.5921052631578947,
+      "num_correct_rating_1": 19,
+      "num_correct_rating_4": 26,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_09/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    },
+    {
+      "fold_index": 10,
+      "num_val_trials": 53,
+      "num_correct_trials": 32,
+      "correct_fraction": 0.6037735849056604,
+      "num_correct_rating_1": 7,
+      "num_correct_rating_4": 25,
+      "checkpoint_name": "final.pt",
+      "checkpoint_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/fold_10/final.pt",
+      "reported_epoch": 5,
+      "selection_policy": "fixed_final_epoch_no_outer_fold_checkpoint_selection"
+    }
+  ],
+  "num_prediction_rows": 1147,
+  "classes": {
+    "0": {
+      "rating": 1,
+      "subject_ids": [
+        "sub-001",
+        "sub-002",
+        "sub-003",
+        "sub-004",
+        "sub-005",
+        "sub-006",
+        "sub-007",
+        "sub-008",
+        "sub-009",
+        "sub-010",
+        "sub-012",
+        "sub-013",
+        "sub-014",
+        "sub-015",
+        "sub-018",
+        "sub-019",
+        "sub-021",
+        "sub-022",
+        "sub-023",
+        "sub-024",
+        "sub-025",
+        "sub-026",
+        "sub-027",
+        "sub-028",
+        "sub-029",
+        "sub-030",
+        "sub-031"
+      ],
+      "num_subjects": 27,
+      "num_correct_trials": 267,
+      "min_correct_trials_per_subject": 1,
+      "max_correct_trials_per_subject": 42,
+      "correct_trials_by_subject": {
+        "sub-001": 11,
+        "sub-002": 2,
+        "sub-003": 11,
+        "sub-004": 10,
+        "sub-005": 5,
+        "sub-006": 6,
+        "sub-007": 1,
+        "sub-008": 11,
+        "sub-009": 2,
+        "sub-010": 8,
+        "sub-012": 7,
+        "sub-013": 10,
+        "sub-014": 13,
+        "sub-015": 19,
+        "sub-018": 21,
+        "sub-019": 7,
+        "sub-021": 8,
+        "sub-022": 17,
+        "sub-023": 10,
+        "sub-024": 13,
+        "sub-025": 42,
+        "sub-026": 6,
+        "sub-027": 6,
+        "sub-028": 6,
+        "sub-029": 6,
+        "sub-030": 4,
+        "sub-031": 5
+      },
+      "subject_4d_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_subject_4d.nii.gz",
+      "group_mean_map": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_group_mean_layercam.nii.gz",
+      "subject_t_map": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_subject_t_map.nii.gz",
+      "roi_subject_stats_csv": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_roi_subject_stats.csv",
+      "top_rois_by_subject_mean": [
+        {
+          "roi_name": "Right Supracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.1139756581849522,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Cuneal Cortex",
+          "division": "Occipital",
+          "mean_value": 0.11185244967540105,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Intracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.10524832429709258,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Supracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.10457702919288918,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Cuneal Cortex",
+          "division": "Occipital",
+          "mean_value": 0.09973701696704936,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Occipital Pole",
+          "division": "Occipital",
+          "mean_value": 0.09413072660013481,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Intracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.08905625991799214,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Precuneous Cortex",
+          "division": "Parietal",
+          "mean_value": 0.08900294535689884,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Right Accumbens",
+          "division": "Subcortical",
+          "mean_value": 0.08531584300928646,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Left Accumbens",
+          "division": "Subcortical",
+          "mean_value": 0.08265012626846631,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Occipital Fusiform Gyrus",
+          "division": "Occipital",
+          "mean_value": 0.08258319135617327,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Right Pallidum",
+          "division": "Subcortical",
+          "mean_value": 0.08146167104994809,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Precuneous Cortex",
+          "division": "Parietal",
+          "mean_value": 0.08136272306243579,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Lateral Occipital Cortex, superior division",
+          "division": "Occipital",
+          "mean_value": 0.0809171442632322,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Lingual Gyrus",
+          "division": "Occipital",
+          "mean_value": 0.08009113978456568,
+          "q_value": 7.450580596923828e-09,
+          "significant_fdr_0_05": true
+        }
+      ],
+      "randomise": {
+        "command": "{fsl}/bin/randomise -i {runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_subject_4d.nii.gz -o {runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_randomise -1 -m {runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/common_brain_mask.nii.gz -n 5000 -T -R --seed=42",
+        "tfce_corrp": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_randomise_tfce_corrp_tstat1.nii.gz",
+        "tfce_p": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_randomise_tfce_p_tstat1.nii.gz",
+        "raw_tstat": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_randomise_tstat1.nii.gz",
+        "tfce_corrp_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_randomise_tfce_corrp_tstat1.nii.gz",
+        "raw_tstat_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_randomise_tstat1.nii.gz",
+        "fwe05_mask_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_tfce_fwe05_mask.nii.gz",
+        "fwe05_masked_t_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_tfce_fwe05_masked_t.nii.gz",
+        "num_fwe05_voxels": 222479,
+        "num_fwe05_clusters": 1,
+        "clusters_csv": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_1_tfce_fwe05_clusters.csv"
+      }
+    },
+    "1": {
+      "rating": 4,
+      "subject_ids": [
+        "sub-001",
+        "sub-002",
+        "sub-003",
+        "sub-004",
+        "sub-005",
+        "sub-006",
+        "sub-007",
+        "sub-008",
+        "sub-009",
+        "sub-010",
+        "sub-011",
+        "sub-012",
+        "sub-013",
+        "sub-014",
+        "sub-015",
+        "sub-017",
+        "sub-018",
+        "sub-019",
+        "sub-020",
+        "sub-021",
+        "sub-022",
+        "sub-023",
+        "sub-024",
+        "sub-026",
+        "sub-027",
+        "sub-028",
+        "sub-029",
+        "sub-030",
+        "sub-031"
+      ],
+      "num_subjects": 29,
+      "num_correct_trials": 407,
+      "min_correct_trials_per_subject": 1,
+      "max_correct_trials_per_subject": 59,
+      "correct_trials_by_subject": {
+        "sub-001": 8,
+        "sub-002": 4,
+        "sub-003": 18,
+        "sub-004": 1,
+        "sub-005": 13,
+        "sub-006": 10,
+        "sub-007": 13,
+        "sub-008": 14,
+        "sub-009": 33,
+        "sub-010": 4,
+        "sub-011": 59,
+        "sub-012": 20,
+        "sub-013": 9,
+        "sub-014": 10,
+        "sub-015": 1,
+        "sub-017": 10,
+        "sub-018": 13,
+        "sub-019": 16,
+        "sub-020": 20,
+        "sub-021": 7,
+        "sub-022": 18,
+        "sub-023": 3,
+        "sub-024": 14,
+        "sub-026": 16,
+        "sub-027": 17,
+        "sub-028": 18,
+        "sub-029": 10,
+        "sub-030": 17,
+        "sub-031": 11
+      },
+      "subject_4d_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_subject_4d.nii.gz",
+      "group_mean_map": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_group_mean_layercam.nii.gz",
+      "subject_t_map": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_subject_t_map.nii.gz",
+      "roi_subject_stats_csv": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_roi_subject_stats.csv",
+      "top_rois_by_subject_mean": [
+        {
+          "roi_name": "Right Occipital Pole",
+          "division": "Occipital",
+          "mean_value": 0.10355870708309371,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Occipital Fusiform Gyrus",
+          "division": "Occipital",
+          "mean_value": 0.09765894351334407,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Lingual Gyrus",
+          "division": "Occipital",
+          "mean_value": 0.09746600738887129,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Lingual Gyrus",
+          "division": "Occipital",
+          "mean_value": 0.0949303253457464,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Occipital Fusiform Gyrus",
+          "division": "Occipital",
+          "mean_value": 0.09253233722571669,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Intracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.09199919911294148,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Lateral Occipital Cortex, inferior division",
+          "division": "Occipital",
+          "mean_value": 0.091476793946891,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Temporal Occipital Fusiform Cortex",
+          "division": "Occipital",
+          "mean_value": 0.09111336695736852,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Parahippocampal Gyrus, posterior division",
+          "division": "Temporal",
+          "mean_value": 0.09086350531413637,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Right Thalamus",
+          "division": "Subcortical",
+          "mean_value": 0.08793058015149215,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Supracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.08776897654451173,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Intracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.08687321199425335,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Right Hippocampus",
+          "division": "Subcortical",
+          "mean_value": 0.08560537803789665,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Right Right Pallidum",
+          "division": "Subcortical",
+          "mean_value": 0.08524700356968518,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        },
+        {
+          "roi_name": "Left Supracalcarine Cortex",
+          "division": "Occipital",
+          "mean_value": 0.08229839467796786,
+          "q_value": 1.862645149230957e-09,
+          "significant_fdr_0_05": true
+        }
+      ],
+      "randomise": {
+        "command": "{fsl}/bin/randomise -i {runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_subject_4d.nii.gz -o {runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_randomise -1 -m {runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/common_brain_mask.nii.gz -n 5000 -T -R --seed=42",
+        "tfce_corrp": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_randomise_tfce_corrp_tstat1.nii.gz",
+        "tfce_p": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_randomise_tfce_p_tstat1.nii.gz",
+        "raw_tstat": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_randomise_tstat1.nii.gz",
+        "tfce_corrp_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_randomise_tfce_corrp_tstat1.nii.gz",
+        "raw_tstat_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_randomise_tstat1.nii.gz",
+        "fwe05_mask_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_tfce_fwe05_mask.nii.gz",
+        "fwe05_masked_t_path": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_tfce_fwe05_masked_t.nii.gz",
+        "num_fwe05_voxels": 222479,
+        "num_fwe05_clusters": 1,
+        "clusters_csv": "{runs}/20260503_200532_fmri_rating14_mergedk06_seed42_fixed5/gradcam_subject_tfce/rating_4_tfce_fwe05_clusters.csv"
+      }
+    }
+  }
+}

@@ -16,7 +16,7 @@ External tools/data for complete analyses:
 - MATLAB and SPM25 for `preprocessing/*.m`.
 - fMRIPrep derivatives in the structure expected by the original beta-estimation scripts; acquisition/preprocessing details follow the source dataset and saved study configuration.
 - FSL `randomise` for the GLM and Layer-CAM group-inference commands; configure `FSLDIR`.
-- Harvard–Oxford cortical/subcortical 25% 2-mm atlases for the original regional summaries; set `FSLDIR` or `FOODPREF_ATLAS_ROOT` to the local atlas installation.
+- Harvard–Oxford cortical/subcortical 25% 2-mm atlases for the original regional summaries; configure the atlas root as documented by the analysis entrypoints.
 - Surface templates and Connectome Workbench when reconstructing the original surface renderings. Those rendering assets are preserved here as figure PDFs.
 
 The quick-start table/plot route does not need MATLAB, FSL, Workbench, raw BOLD images, or a GPU.

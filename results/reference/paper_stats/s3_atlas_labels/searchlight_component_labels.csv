@@ -1,0 +1,8 @@
+component_id,size_voxels,peak_t,peak_mni,peak_label,peak_label_distance_mm,macro_group,composition_top3
+1,30907,9.49,"(-24.5, 43.5, 35.5)",Left Frontal Pole,0.0,Frontal,Left Frontal Pole (4439); Right Frontal Pole (3538); unlabeled (2850)
+2,175,5.86,"(-40.5, 7.5, -38.5)",Left Temporal Pole,0.0,Temporal,Left Temporal Pole (170); unlabeled (5)
+5,122,5.35,"(31.5, -70.5, -38.5)",unlabeled,,,unlabeled (122)
+4,87,4.69,"(25.5, -50.5, -16.5)",Right Temporal Occipital Fusiform Cortex,0.0,Occipital,Right Temporal Occipital Fusiform Cortex (59); unlabeled (19); Right Occipital Fusiform Gyrus (9)
+6,52,4.41,"(47.5, 7.5, -40.5)",Right Temporal Pole,0.0,Temporal,"Right Temporal Pole (39); Right Inferior Temporal Gyrus, anterior division (9); unlabeled (4)"
+3,44,4.79,"(-22.5, -10.5, 55.5)",Left Superior Frontal Gyrus,0.0,Frontal,unlabeled (26); Left Superior Frontal Gyrus (10); Left Precentral Gyrus (7)
+7,44,4.3,"(49.5, -30.5, 1.5)","Right Superior Temporal Gyrus, posterior division",0.0,Temporal,"Right Superior Temporal Gyrus, posterior division (32); unlabeled (8); Right Middle Temporal Gyrus, posterior division (4)"

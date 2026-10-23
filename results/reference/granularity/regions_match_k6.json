@@ -1,0 +1,75 @@
+{
+ "n_rois": 112,
+ "spearman_magnitude": 0.6486657327365292,
+ "top20_overlap": 13,
+ "top20_chance": 3.5714285714285716,
+ "median_absz": 0.5948775568566753,
+ "median_cam": 0.9789384245101268,
+ "top20_both": [
+  [
+   "Right Occipital Pole",
+   2,
+   2
+  ],
+  [
+   "Right Occipital Fusiform Gyrus",
+   1,
+   6
+  ],
+  [
+   "Right Supracalcarine Cortex",
+   7,
+   1
+  ],
+  [
+   "Right Intracalcarine Cortex",
+   6,
+   3
+  ],
+  [
+   "Left Intracalcarine Cortex",
+   4,
+   9
+  ],
+  [
+   "Right Lingual Gyrus",
+   9,
+   7
+  ],
+  [
+   "Right Cuneal Cortex",
+   13,
+   4
+  ],
+  [
+   "Right Lateral Occipital Cortex, inferior division",
+   10,
+   10
+  ],
+  [
+   "Left Supracalcarine Cortex",
+   16,
+   5
+  ],
+  [
+   "Left Lingual Gyrus",
+   11,
+   13
+  ],
+  [
+   "Left Cuneal Cortex",
+   17,
+   8
+  ],
+  [
+   "Right Parahippocampal Gyrus, posterior division",
+   15,
+   12
+  ],
+  [
+   "Right Temporal Occipital Fusiform Cortex",
+   14,
+   17
+  ]
+ ]
+}

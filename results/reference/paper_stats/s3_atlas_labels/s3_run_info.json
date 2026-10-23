@@ -1,0 +1,7 @@
+{
+  "atlas": "FSL Harvard-Oxford maxprob thr25 2mm",
+  "atlas_root": "{atlas}",
+  "glm_sig_voxels": 473,
+  "searchlight_sig_voxels": 31431,
+  "searchlight_center_voxels": 222441
+}

@@ -77,4 +77,4 @@ CNN; it does not accept a `--cnn-run-dir` option. Its outputs are written to
 for input replacement or Haufe, set its CNN/SVM run paths to these actual outputs
 and its Layer-CAM paths to `outputs/analyses/layercam_k06`. The distributed RQ3
 configs retain archived run identifiers for restoring the original artifacts;
-local experiment configurations select the required inputs and output paths.
+the analysis guide explains the required local overrides and input checks.
