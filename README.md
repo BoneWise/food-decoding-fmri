@@ -4,11 +4,11 @@ Code, compact reference results and manuscript for
 
 > **Whole-Brain fMRI Decoding of Subjective Food Value: Cross-Participant Generalization and Spatial Attribution.** Preprint, 2026.
 
-The manuscript is [`paper/main.pdf`](paper/main.pdf). The analyses use the public dataset of Sugawara et al. (2026, *Scientific Data*), [OpenNeuro ds007267](https://openneuro.org/datasets/ds007267); imaging data are not redistributed here.
+The latest author-supplied [draft manuscript (15 November 2026)](paper/whole_brain_food_value_draft_2026-11-15.pdf) is available alongside the [original preprint](paper/main.pdf). The analyses use the public dataset of Sugawara et al. (2026, *Scientific Data*), [OpenNeuro ds007267](https://openneuro.org/datasets/ds007267); imaging data are not redistributed here.
 
-## Reproduce the manuscript numbers and figures
+## Reproduce the original preprint numbers and figures
 
-The reference bundle in `results/reference/` contains the saved predictions and summary tables behind the manuscript, so tables, statistics and data figures can be rebuilt without imaging data.
+The reference bundle in `results/reference/` contains the saved predictions and summary tables behind the original preprint, so tables, statistics and data figures can be rebuilt without imaging data. Uploading the newer draft does not add the external zero-shot analysis code or results to this bundle.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
@@ -58,4 +58,4 @@ The ordered commands, environment variables and external software (SPM25, FSL, H
 
 Please cite the manuscript and the original dataset (Sugawara et al., 2026, doi:[10.1038/s41597-026-07323-y](https://doi.org/10.1038/s41597-026-07323-y)).
 
-The code and the reference results in `results/reference/` are released under the [MIT License](LICENSE). The manuscript `paper/main.pdf` is not covered by this license; its copyright remains with the authors. The source dataset (OpenNeuro ds007267) is released under CC0; FSL, SPM, the Harvard-Oxford atlases and other third-party resources keep their own licenses.
+The code and the reference results in `results/reference/` are released under the [MIT License](LICENSE). The manuscripts in `paper/` are not covered by this license; their copyright remains with the authors. The source dataset (OpenNeuro ds007267) is released under CC0; FSL, SPM, the Harvard-Oxford atlases and other third-party resources keep their own licenses.

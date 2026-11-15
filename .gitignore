@@ -23,6 +23,7 @@
 
 /paper/*
 !/paper/main.pdf
+!/paper/whole_brain_food_value_draft_2026-11-15.pdf
 /preprocessing/*
 !/preprocessing/run_minimal_lsa.m
 !/preprocessing/run_rating14_sessionwise_glm.m
